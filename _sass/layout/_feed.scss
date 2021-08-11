@@ -1,0 +1,133 @@
+// Primary css for anything feed related (featured post, feed items, etc)
+// Any other "_feed" css is to modify this primary file.
+// Generic list of all items in a feed. The calling HTML page will
+// determine whether the user is looking at a list of blog, podcast, or other types.
+.feed-section {
+    // container for the feed items
+    display: grid;
+    margin-top: 10px;
+    margin-left: $gridMarginLeft; // indent the podcast list.
+    margin-right: $gridMarginRight; // indent the podcast list.
+    row-gap: 15px;
+
+    // reduce the side border on the grid if mobile
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-right: 5px;
+        align-items: start;
+        column-gap: 0px;
+    }
+}
+
+// *** FEATURED IMAGE ***
+// the "card" represents all the content to display for a given post in the feed.
+.feed-section .feed-card {
+    // display a 2-column, single-row grid that repeats vertically.
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: 110px;
+    column-gap: 20px; // space between the image and the title.
+    border-top: lightgrey;
+    border-width: 1px;
+    border-top-style: solid;
+    .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-glyph { grid-area: 1 / 1 / 2 / 2; }
+
+    @include for-size(phone-only){
+        column-gap: 10px;
+    }
+}
+
+.feed-section .feed-card-image {
+    grid-area: feed-card-image;
+}
+
+
+.feed-section .feed-card-gradient-overlay {
+    display: none; // no overlay used for a feed item
+    grid-area: feed-card-gradient-overlay;
+}
+
+.feed-section .feed-card-glyph {
+    width: 15px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.feed-section .feed-item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+// *** CONTENT ***
+// display three rows to the right of the feed item's image.
+.feed-section .feed-card-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content auto min-content;
+    grid-template-areas: 
+        "feed-card-title" 
+        "feed-card-excerpt"
+        "feed-card-author";
+}
+
+// row to display the title of the item
+.feed-section .feed-card-title {
+    grid-area: feed-card-title;
+    margin-top: 5px;
+    @include for-size(phone-only){
+        margin-top: 2px;
+    }
+}
+
+// row to display the excerpt of the item
+.feed-section .feed-card-excerpt {
+    grid-area: feed-card-excerpt;
+    margin-top: 5px;
+    @include for-size(phone-only){
+        margin-top: 0px;
+        display: none;
+    }
+}
+
+// row to display the author of the item
+.feed-section .feed-card-author {
+    grid-area: feed-card-author;
+    align-content: flex-end;
+    margin-bottom: 5px;
+    @include for-size(phone-only){
+        margin-bottom: 2px;
+    }
+}
+
+// typography
+.feed-section .feed-item-title {
+    @include fluid-type(11px, 18px);
+}
+
+.feed-section .feed-item-link {
+    text-decoration: none;
+    color: $cambermastPrimary;
+    &:link { color: $cambermastPrimary; }
+    &:visited { color: $cambermastPrimary; }
+    &:hover { color: $cambermastAltDarkBlue; }
+}
+
+.feed-section .feed-item-excerpt {
+    @include fluid-type(11px, 16px);
+    color: grey;
+}
+
+.feed-section .feed-item-author {
+    @include fluid-type(11px, 14px);
+    text-transform: uppercase;
+    color: grey;
+
+    @include for-size(phone-only){
+        text-transform: lowercase;
+    }
+}

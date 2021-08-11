@@ -1,0 +1,38 @@
+// site-wide typography
+// IMPORTANT: scss files will contain 'local' typography.
+//            this is for h1, h2, etc.
+
+// body
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+input {
+    outline: none;
+}
+
+p {
+    margin: 0;
+}
+
+// h1 styles
+h1 {
+  text-align: center;
+  font-size: 28px ;
+  font-weight: bold ;
+  text-transform: uppercase;
+  margin: 40px 0 ;
+  @include for-size(desktop-up){
+      font-size: 24px;
+      margin: 30px 0 ;
+    }
+  @include for-size(tablet-only){
+    margin-bottom: 0;
+  }
+  @include for-size(phone-only){
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}

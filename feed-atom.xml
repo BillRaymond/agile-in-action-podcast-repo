@@ -1,0 +1,88 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ATOM Feed -->
+<!-- All site posts (blog podcast or others) -->
+<!-- https://validator.w3.org/feed/docs/atom.html -->
+<!-- Test with https://validator.w3.org/feed/ -->
+
+<!-- get all static feed data -->
+{%- assign feedMetaData = site.data.feed-atom-main -%}
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <!-- Required -->
+    <id>{{- feedMetaData.id -}}</id>
+    <title>{{- feedMetaData.title -}}</title>
+    <updated>{{- site.time | date_to_xmlschema -}}</updated>
+    <!-- Recommended -->
+    <author>
+        <name>
+            {{- feedMetaData.author -}}
+        </name>
+    </author> 
+    <link href="{{- feedMetaData.link_rel | absolute_url -}}" rel="self" type="application/atom+xml"/>
+    <link href="{{- "" | absolute_url -}}" rel="alternate" type="text/html" />
+    <!-- Optional -->
+    <category term="{{- feedMetaData.category -}}" />
+    <contributor>
+        <name>{{feedMetaData.contributor}}</name>
+    </contributor>
+    <generator uri="{{- feedMetaData.generator_uri -}}" version="{{- feedMetaData.generator_version -}}">
+        {{- feedMetaData.generator_name -}}
+    </generator>
+    <icon>
+        {{- feedMetaData.icon | absolute_url -}}
+    </icon>
+    <logo>
+        {{- feedMetaData.logo | absolute_url -}}
+    </logo>
+    <rights>
+        {{- feedMetaData.rights -}}
+    </rights>
+    <subtitle>
+        {{- feedMetaData.subtitle | strip_html | lstrip | rstrip -}}
+    </subtitle>
+    <!-- Entries -->
+    {%- for post in site.posts limit: 20 -%}
+    <entry>
+        <id>{{- post.url | absolute_url -}}</id>
+        <title>{{- post.title -}}</title>
+        <updated>{{- post.date | date_to_xmlschema -}}</updated>
+        <author>
+            <name>
+                {%- if post.author -%}
+                    {{- post.author -}}
+                {%- else -%}
+                    {{- feedMetaData.author -}}
+                {%- endif -%}
+            </name>
+        </author>
+        <content>{{- post.content | strip_html | lstrip | rstrip -}}</content>
+        <link href="{{- post.url | absolute_url -}}"/>
+        <summary>
+            {%- if post.excerpt -%}
+                {{- post.excerpt | strip_html | lstrip | rstrip -}}
+            {%- endif -%}
+        </summary>
+        <!-- a single category like "Jekyll Update" is actually two categories. Right now, taking the first word. -->
+        <category term="{{- post.categories[0] -}}" />
+        <!-- there is no post.contribur(s) by default, so just show the author. If you add that, modify the code. -->
+        <contributor>
+            <name>
+                {%- if post.author -%}
+                    {{- post.author -}}
+                {%- else -%}
+                    {{- feedMetaData.author -}}
+                {%- endif -%}
+            </name>
+        </contributor>
+        <!-- there is no published date, so just use the default post date. -->
+        <published>{{- post.date | date_to_xmlschema -}}</published>
+        <!-- there are no rights for a post by default, so use the default for the site. -->
+        <rights>
+            {{- feedMetaData.rights -}}
+        </rights>
+        <!-- If you have a <source>, add it below. -->
+    </entry>
+    {%- endfor- %}
+</feed>

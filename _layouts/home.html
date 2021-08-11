@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="home-container">
+  {% comment %} Display text if the browser is not supported {% endcomment %}
+    {%- include browser-not-supported.html -%}
+  {% comment %} Display the navigation section {% endcomment %}
+    {%- include nav.html -%}
+  {% comment %} Display the play podcast section {% endcomment %}
+    {%- include playpod.html -%}
+  {% comment %} Display the page title from the calling page {% endcomment %}
+    {%- include page-content.html -%}
+  {% comment %} Display the latest posts on the site {% endcomment %}
+    {%- include feed-latest-posts.html -%}
+  {% comment %} Display the services section {% endcomment %}
+    {%- include services-home.html -%}
+  {% comment %} Display the footer section {% endcomment %}
+    {%- include footer.html -%}
+</div>

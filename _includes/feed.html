@@ -1,0 +1,113 @@
+
+{% comment %}
+    Feed listing for blogs, podcasts, or other post types
+    This page uses the following parameters via include variables:
+
+    *** REQUIRED:
+    feed-type:      The "category" of post to use, which is found on the post itself
+                    agile-blog and agile-in-action-podcast are two common categories
+
+    fi-default:     Fallback for posts with no featured image.
+                    The image MUST be square
+                    or it will not display properly (ex 200px by 200px)
+    fi-type:        Display the proper featured image. Valid values:
+                        post-fi: use the featured image defined in the post
+                        post-photo: use the first phone guest photo in the post
+                        default: use the default image passed to this page
+
+    feed-glyph:     Default glyph (small icon) to display on top
+                    of the feed's featured image.
+                    examples: paper icon for a blog, volume for a podcast
+
+    css-style:          The <main> style that will be used to display the feed
+                    The feed can be used to display one or many posts,
+                    so you might want a different layout.
+    
+    *** OPTIONAL:
+    title-filter:   Tells the feed to search for a specific post title.
+                    Useful for displaying a very specific featured post.
+                    The title is found on the referring page's
+                    yml front matter.
+                    Important: when using this option, set the
+                    display-offset to 0 or null and display-limit to 1.
+                    Only displays the first matching post.
+
+    display-offset: Tells the feed how many posts to skip.
+                    Default is 0 (zero)
+                    If 0, then start by displaying the first blog post.
+                    If 1, then start by displaying the second blog post.
+                    Must be a positive integer.
+
+    display-limit:  determines how many posts to display.
+                    Default is null (display all posts based on the offset)
+                    1 displays a single post.
+                    5 displays 5 posts.
+                    Must be a positive integer.
+{% endcomment %}
+
+{%- comment -%} Add relative paths to urls {%- endcomment -%}
+{%- assign feed-glyph = feed-glyph | relative_url -%}
+
+<section class="{{css-style}}">
+    {%- assign feedPosts = site.posts | where: 'categories', feed-type -%}
+    {% if title-filter %}
+        {%- assign feedPosts = feedPosts | where: 'title', title-filter -%}
+    {% endif %}
+    {%- for post in feedPosts offset: display-offset limit: display-limit -%}
+        <div class="feed-card">
+            <div class="feed-card-image">
+                {%- if fi-type -%}
+                    {% comment %} Assume there is an fi-type. If not, use the default (see else statement below) {% endcomment %}
+                    {%- if fi-type == "post-fi" -%}
+                        {% comment %} Use the post's featured image {% endcomment %}
+                        {%- assign featured-image = post.featuredImage | relative_url -%}
+                        <img class="feed-item-image" src="{{- featured-image -}}" alt="{{- post.title -}}">
+                    {%- endif -%}
+
+                    {%- if fi-type == "post-photo" -%}
+                        {% comment %} Use the guest's photo as a featured image {% endcomment %}
+                        {%- assign featured-image = post.guestPhotos | first | relative_url -%}
+                        <img class="feed-item-image" src="{{- featured-image -}}" alt="{{- post.title -}}">
+                    {%- endif -%}
+
+                    {%- if fi-type == "default" or fi-type == nil or fi-type == "" -%}
+                        {% comment %} Use a default featured image, passed by the calling file {% endcomment %}
+                        {%- assign featured-image = fi-default | relative_url -%}
+                        <img class="feed-item-image" src="{{- featured-image -}}" alt="{{- post.title -}}">
+                    {%- endif -%}
+                    {%- else -%}
+                        {% comment %} In the event there is no fi-type defined, fallback to the default {% endcomment %}
+                        {%- assign featured-image = fi-default | relative_url -%}
+                        <img class="feed-item-image" src="{{- featured-image -}}" alt="{{- post.title -}}">
+                {%- endif -%}
+            </div>
+
+            {% comment %} If defined in the CSS, add a gradient over the image {% endcomment %}
+            <div class="feed-card-gradient-overlay"></div>
+            <div class="feed-card-glyph">
+                <img class="feed-item-glyph" src="{{- feed-glyph -}}" alt="{{feed-type}}" >
+            </div>
+
+            {% comment %} Display a card that represents the content for the post, like title, author, date, etc. {% endcomment %}
+            <div class="feed-card-content">
+                {%- comment -%}Display the post's title{%- endcomment -%}
+                <div class="feed-card-title">
+                    <span class="feed-item-title"><a class="feed-item-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></span>
+                </div>
+                {%- comment -%}display the post's excerpt text{%- endcomment -%}
+                <div class="feed-card-excerpt">
+                    {% comment %} Excerpt text should be plain text {% endcomment %}
+                    {%- assign miniExcerpt = post.excerpt -%}
+                    {%- assign miniExcerpt = miniExcerpt | strip_html -| escape | lstrip | rstrip -%}
+                    {%- assign miniExcerpt = miniExcerpt | split: "." | first -%}
+                    {%- assign miniExcerpt = miniExcerpt | append: "." -%}
+                    <span class="feed-item-excerpt">{{- miniExcerpt -}}</span>
+                </div>
+                {% comment %} display the post's author. Use default if necessary. {% endcomment %}
+                <div class="feed-card-author">
+                    <span class= "feed-item-author">{{ site.author }} - {{ post.date | date: "%A, %B %d, %Y"}}</span>
+                </div>
+            </div>
+        </div>
+    {%- endfor -%}
+</section>

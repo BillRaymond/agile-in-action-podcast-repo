@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
-  <body>
-    {{ content }}
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- include head.html -%}
+<body>
+    {% comment %} Calendly badge widget begin {% endcomment %}
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/billraymond/meet', text: 'Contact us to learn how we can help you increase team productivity', color: '#002aff', textColor: '#ffffff', branding: false });</script>
+    {% comment %} Calendly badge widget end {% endcomment %}
+    <div class="site-container">
+      {% comment %} display content from home.html {% endcomment %}
+      {{ content }}
+    </div>
+    {% comment %} Browser not supported test {% endcomment %}
+    <script type="text/javascript" src="{{site.data.configs.browser-not-supported-script | relative_url }}"></script>
   </body>
 </html>

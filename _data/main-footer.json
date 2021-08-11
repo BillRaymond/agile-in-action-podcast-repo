@@ -1,0 +1,50 @@
+{
+    "attribute": "List of primary services the company offers",
+    "items": [
+        {
+            "title": "About us",
+            "url": "/pages/about-us",
+            "type": "text",
+            "content": null,
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 1
+        },
+        {
+            "title": "Email",
+            "url": "mailto:info@cambermast.com",
+            "type": "text",
+            "content": "Email us",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 2
+        },
+        {
+            "title": "Phone",
+            "url": "tel:+14152940165",
+            "type": "text",
+            "content": "+1 (415) 294-0165",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 3
+        },
+        {
+            "title": "Privacy Policy",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/privacy",
+            "display": false,
+            "orderby": 4
+        },
+        {
+            "title": "Repo",
+            "url": "https://github.com/BillRaymond/cambermast-website",
+            "type": "url",
+            "content": "Repo",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 5
+        }
+    ]
+}

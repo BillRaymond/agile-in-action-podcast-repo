@@ -1,0 +1,24 @@
+{% comment %} Footer section {% endcomment %}
+<div class="footer-section">
+     {% comment %} Display footer information from the data file  {% endcomment %}
+    <div class="footer-data">
+    {%- assign items = site.data.main-footer.items | sort: "orderby" -%}
+     {% comment %} Cycle through each footer item  {% endcomment %}
+    {%- for item in items -%}
+         {% comment %} Display must be true  {% endcomment %}
+        {%- if item.display -%}
+             {% comment %} If there is content, display it  {% endcomment %}
+            {%- if item.content == true -%}   
+                <a class="footer-item" href="{{- item.url -}}">{{- item.content -}}</a>
+             {% comment %} Otherwise, just display the title  {% endcomment %}
+            {%- else -%}
+                <a class="footer-item" href="{{- item.url | relative_url -}}">{{- item.title -}}</a>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+    </div>
+    <div class="footer-copyright">
+        <div class="footer-item">&copy; {{ 'now' | date: '%Y' }}, Cambermast LLC</div>
+    </div>
+</div>
+

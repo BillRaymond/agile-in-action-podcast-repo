@@ -1,0 +1,18 @@
+{% comment %} site navigation {% endcomment %}
+<div class="nav-section">
+    <nav class="nav-wrapper">
+        <a href="{{- '/' | relative_url -}}" class="nav-logo"><img class="nav-logo-image" alt="Cambermast logo" src="{{- '/assets/logos/cambermast-logo-full.png' | relative_url -}}" alt="Cambermast logo is a link to the home page." /></a>
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="burger-menu">
+            &#9776;
+        </label>
+        <div class="nav-items">
+        {%- assign navs = site.data.main-nav.items | sort: "orderby" -%}
+        {%- for item in navs -%}
+            {%- if item.display -%}
+                <a class="nav-item" href="{{- item.url | relative_url -}}">{{-item.title-}}</a>
+            {%- endif -%}
+        {%- endfor -%}
+        </div>
+    </nav>
+</div>

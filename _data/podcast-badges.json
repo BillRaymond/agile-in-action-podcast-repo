@@ -1,0 +1,32 @@
+{
+    "attribute": "Podcast badges.",
+    "items": [
+        {
+            "title": "Apple Podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/agile-in-action-with-bill-raymond/id1516008955",
+            "alt": "Listen to the Agile in Action Podcast with Bill Raymond on Apple Podcasts.",
+            "type": "svg",
+            "imageUrl": "/assets/logos/badge-apple-podcasts.png",
+            "display": true,
+            "orderby": 1
+        },
+        {
+            "title": "Spotify Podcasts",
+            "url": "https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq?si=raBf7B-ESSuD2jqhdRs9FA",
+            "alt": "Listen to the Agile in Action Podcast with Bill Raymond on Spotify Podcasts.",
+            "type": "svg",
+            "imageUrl": "/assets/logos/badge-spotify-podcasts.png",
+            "display": true,
+            "orderby": 2
+        },
+        {
+            "title": "Google Podcasts",
+            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hZ2lsZWluYWN0aW9uLmxpYnN5bi5jb20vcnNz",
+            "alt": "Listen to the Agile in Action Podcast with Bill Raymond on Google Podcasts.",
+            "type": "svg",
+            "imageUrl": "/assets/logos/badge-google-podcasts.png",
+            "display": true,
+            "orderby": 3
+        }
+    ]
+}

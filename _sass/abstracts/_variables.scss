@@ -1,0 +1,66 @@
+// Site variables
+
+// Use debug:true to add background colors to the grid.
+// Useful for debugging the grid layout.
+$debugLogoArea: lightblue;
+$debugNavArea: darkblue;
+$debugTopBannerArea: orange;
+$debugTitleArea: cyan;
+$debugServicesArea: green;
+$debugPlayPodArea: fuchsia;
+$debugPodcastArea: purple;
+$debugDownloadArea: red;
+$debugSubtitleArea: brown;
+$debugSignupArea: cadetBlue;
+$debugFooterArea: darkslategrey;
+$debugInputBorder: #979797;
+$debugblueBtn:  #035b96;
+$debugSocialBtns: #6497b1;
+$debugSlideDot:  #d4d4d4;
+$debugSliderHover: #035b96;
+$debugCopyright: #c3c3c3;
+$debugPostInputBckg: #eeeeee;
+$debugPostText: #808080;
+$debugEventBorder: #e3e3e3;
+$debug: false;
+
+// Cambermast branding
+$cambermastPrimary: #0037Be;
+$cambermastBlack: #0e0c0c;
+$cambermastWhite: #ffffff;
+$cambermastAltLightBlue: #0063f2;
+$cambermastAltDarkBlue: #012072;
+$cambermastAltGreen: #8bd88d;
+$cambermastAltOrange: #f49f1c;
+$cambermastAltSand: #e5a16e;
+
+// Navigation area
+$navBackground: wite;
+$navDefaultColor: $cambermastPrimary;
+$navHoverColor: $cambermastPrimary;
+$navSelectedColor: $cambermastPrimary;
+$navHeight: 30px;
+
+// Left and right border, usually for the primary content for the website (under a page banner, for example)
+$gridMarginLeft: 25px;
+$gridMarginRight: 25px;
+$gridMarginTop: 25px;
+$gridMarginBottom: 25px;
+
+// Top banner image
+$bannerMarginTop: 7%;
+$bannerMarginLeft: 10%;
+
+$bannerHead1Color: $cambermastWhite;
+$bannerHead2Color: $cambermastWhite;
+$bannerHead2MarginTop: 5%;
+$bannerHeadBtnMarginTop: 2.5%;
+
+// Default button to use for the website
+$btnDefaultColor: $cambermastAltLightBlue;
+$btnDefaultBorderColor: $cambermastAltLightBlue;
+$btnDefaultBgColor: $cambermastWhite;
+$btnDefaultPadding: .8% 1%;
+
+// Markdown content
+$contentWidth: 75%;

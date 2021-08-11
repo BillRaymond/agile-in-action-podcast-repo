@@ -1,0 +1,64 @@
+// Layout for the website footer
+
+// Create a 2-column, 2-row grid for the nav bar.
+.footer-section {
+    display: grid;
+    margin-top: 25px;
+    margin-bottom: 50px; // make additional scrolling space available for the Calendly link when the user scrolls
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 20px 20px;
+
+  }
+
+// display the navigation items
+.footer-data {
+    display: grid;
+    height: 100%;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    grid-row: 1;
+}
+
+// display copyright information
+.footer-copyright {
+    display: grid;
+    height: 100%;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    grid-row: 2;
+}
+
+// styling for the navigation items.
+.footer-item {
+    font-size: calc(12px + .2vw); // responsive size, but keep a minimum.
+    text-transform: uppercase;
+    color: $navDefaultColor;
+    text-decoration: none;
+
+    &:hover {
+        font-weight: bold;
+    }
+    &:visited {
+        color: $navDefaultColor;
+    }
+
+    &:active {
+        font-weight: bolder;
+    }
+}
+
+
+// TODO: Add footer logos and copyright
+// .footer-logos {
+//     display: grid;
+//     height: 100%;
+//     grid-auto-flow: column;
+//     justify-items: center;
+//     align-content: center;
+//     justify-content: space-evenly;
+//     grid-row: 2;
+// }

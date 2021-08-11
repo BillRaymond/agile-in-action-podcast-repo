@@ -1,0 +1,97 @@
+// Layout for the navigation bar.
+
+// Create a 2-column, 2-row grid for the nav bar.
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: $navHeight auto;
+    margin-left: $gridMarginLeft;
+    margin-right: $gridMarginRight;
+    @include for-size(phone-only) {
+        // smaller screens will just use the first column.
+        grid-template-columns: 1fr auto;
+    }
+  }
+
+// display the logo
+.nav-logo {
+    display: grid;
+    grid-column: 1;
+    @include for-size(phone-only) {
+        // center if in mobile
+        justify-items: center;
+    }
+}
+
+// display the logo
+.nav-logo-image {
+    width: auto;
+    height: $navHeight;
+}
+
+// display the navigation items
+.nav-items {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: end;
+    height: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    grid-column: 2;
+    @include for-size(phone-only) {
+        // on mobile, display the nav on the second row.
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 5px;
+        justify-items: start;
+    }
+}
+
+// styling for the navigation items.
+.nav-item {
+    font-size: calc(12px + .15vw); // responsive size, but keep a minimum.
+    text-transform: uppercase;
+    color: $navDefaultColor;
+    text-decoration: none;
+
+    &:hover {
+        font-weight: bold;
+    }
+    &:visited {
+        color: $navDefaultColor;
+    }
+
+    &:active {
+        font-weight: bolder;
+    }
+}
+
+
+// do not display the burger menu (not used at this time)
+#nav-toggle, .burger-menu {
+    display: none;
+}
+
+// ----------
+// *** TODO: Implement burger menu
+// http://modern-css.com/responsive-navbar-with-css-grid.html
+// .burger-menu {
+//     grid-column: 2;
+//     align-self: center;
+//     margin-left: 20px;
+// }
+// @media only screen and (max-width: 1025px) {
+//     .burger-menu {
+//         display: inline-block;
+//     }
+    
+//     .nav-items {
+//         display: none;
+//     }
+
+//     #nav-toggle:checked ~ .nav-items {
+//         display: grid;
+//         grid-row: 2;
+//     }
+// }
+// ----------

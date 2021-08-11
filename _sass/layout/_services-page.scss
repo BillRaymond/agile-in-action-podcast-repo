@@ -1,0 +1,78 @@
+// Services page section styles
+
+.services-page-section {
+    display: grid;
+    // show as many columns as possible, not going smaller than 350px.
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    margin-top: 10px;  // separate the grid from the content above.
+    margin-left: $gridMarginLeft; // indent the blog list.
+    margin-right: $gridMarginRight; // indent the blog list.
+    column-gap: 1vw; 
+    row-gap: 1vw;
+
+    // reduce the side border on the grid if mobile
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-right: 5px;
+        align-items: start;
+        column-gap: 0px;
+    }
+}
+
+.services-page-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+// topography for the blog feed.
+.services-page-title {
+    font-size: calc(12px + .4vw);
+    color:$navHoverColor;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:link { color: $navHoverColor; }
+    &:hover { color: $navHoverColor; }
+    &:active { color: $navHoverColor; }
+    &:visited { color: $navHoverColor; }
+}
+.services-page-excerpt-div { 
+    line-height: 1.25em;
+}
+
+.servies-page-list {
+    list-style-type: none;
+}
+
+@import "https://fonts.googleapis.com/css?family=Roboto";
+.servies-page-list {
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 1.5em;
+	margin: 5px 0 15px;
+	padding: 0;
+	li {
+		list-style: none;
+		position: relative;
+		padding: 0 0 0 20px;
+	}
+}
+
+.services-page-bullet {
+    &::before {
+        content: ""; 
+        position: absolute; 
+        left: 2px; 
+        top: 5px; 
+        width: 3px;
+        height: 6px;
+        border: solid $cambermastAltGreen;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        }
+}
