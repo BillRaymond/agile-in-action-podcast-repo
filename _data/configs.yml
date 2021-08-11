@@ -1,0 +1,25 @@
+# These are configuration items specific to the Cambermast.com website
+# Using this over _config.yml because it does not require a jekyll serve restart
+
+## ** for feed items, like blogs and podcasts
+# Glyphs (small icons) to use throughout the site
+podcast-glyph: /assets/feed-glyphs/podcast.svg
+blog-glyph: /assets/feed-glyphs/blog.svg
+
+# Default featured images for posts that do not contain one
+# Small should be rectangular and usually displays in a list of feed items
+# Large should be used for full-size featured posts
+blog-fi-small: /assets/agile-blog/blog-fi-small.jpg
+blog-fi-large: /assets/agile-blog/blog-fi-large.jpg
+podcast-fi-large: /assets/agile-in-action/podcast-fi-large.jpg
+podcast-fi-small: /assets/agile-in-action/agile-in-action-caption-image.svg
+
+## ** for pages, like services and about us
+# Default featured images for pages without featured-image front mattter yml
+page-featured-image: /assets/pages/featured-image/default.jpg
+# Any page will start with a <section>. Define the default
+page-css-style: page-section
+
+## ** for unsupported browsers
+# Script to test for older versions of IE and non-chromium Edge
+browser-not-supported-script: /scripts/browser-not-supported.js

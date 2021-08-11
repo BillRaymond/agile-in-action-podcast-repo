@@ -1,0 +1,82 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- RSS 2.0 Feed -->
+<!-- All site posts (blog podcast or others) -->
+<!-- Spec: https://validator.w3.org/feed/docs/rss2.html -->
+<!-- Validator: https://validator.w3.org/ -->
+
+<!-- get all static feed data -->
+{%- assign feedMetaData = site.data.feed-rss-main -%}
+
+<rss version="2.0">
+    <channel>
+        <!-- required channel elements-->
+        <title>{{- feedMetaData.title -}}</title>
+        <link>{{- feedMetaData.link -}}</link>
+        <description>{{- site.podcast_description | escape -}}</description>
+
+        <!-- optional channel elements -->
+        <language>{{- feedMetaData.language -}}</language>
+        <copyright>{{- feedMetaData.copyright -}}</copyright>
+        <managingEditor>{{ feedMetaData.managingEditorEmail }} ({{- feedMetaData.managingEditorName -}})</managingEditor>
+        <!-- By default, pubDate and lastBuildDate are the same -->
+        <pubDate>{{- site.time | date_to_rfc822 -}}</pubDate>
+        <lastBuildDate>{{- site.time | date_to_rfc822 -}}</lastBuildDate>
+        <category>{{- feedMetaData.category -}}</category>
+        <generator>{{- feedMetaData.generator -}}</generator>
+        <docs>{{- feedMetaData.docs -}}</docs>
+        <!-- by default, not using cloud -->
+        <!-- <cloud /> -->
+        <ttl>{{- feedMetaData.ttl -}}</ttl>
+        <image>
+            <url>{{- feedMetaData.imageUrl | absolute_url -}}</url>
+            <!-- Title and link much be the same as the channel image and link -->
+            <title>{{- feedMetaData.title -}}</title>
+            <link>{{- feedMetaData.link -}}</link>
+        </image>
+        <!-- by default, not using textInput -->
+        <!-- <textInput /> -->
+        <!-- by default, not using skipHours -->
+        <!-- <skipHours /> -->
+        <!-- by default, not using skipDays -->
+        <!-- <skipDays /> -->
+
+        <!-- item elements -->
+        {%- for post in site.posts limit: 20 -%}
+        <item>
+            <title>{{- post.title -}}</title>
+            <link>{{- post.url | absolute_url -}}</link>
+            <description>
+                {%- if post.excerpt -%}
+                  {{- post.excerpt | strip_html | lstrip | rstrip -}}
+               {%- endif -%}
+            </description>
+            <author>{{ feedMetaData.authorEmail}} (
+                {%- if post.author -%}
+                    {{- post.author -}})
+                {%- else -%}
+                    {{- feedMetaData.authorName -}}
+                {%- endif -%})</author>
+            <!-- Use the first word in the yml categories or the default category -->
+            <category>
+                {%- if post.categories[0] -%}
+                    {{- post.categories[0] -}}
+                {%- else -%}
+                    {{- feedMetaData.categoryDefault -}}
+                {%- endif -%}
+            </category>
+            <!-- by default, not using comments. -->
+            <!-- <comments /> -->
+            <!-- by default, not using enclosure. -->
+            <!-- <enclosure /> -->
+            <guid>{{- post.url | absolute_url -}}</guid>
+            <pubDate>{{- post.date | date_to_rfc822 -}}</pubDate>
+            <source url="{{- feedMetaData.sourceUrl | absolute_url -}}">
+                {{- feedMetaData.sourceChannelTitle -}}
+            </source>
+        </item>
+        {%- endfor- %}
+    </channel>
+</rss>

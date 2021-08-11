@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="home-container">
+  {%- comment -%}Display the navigation section{%- endcomment -%} 
+    {%- include nav.html -%}
+  {%- comment -%}Display the banner in the form of a featured image{%- endcomment -%} 
+  {%- comment -%}Display the post's featured image using the feed{%- endcomment -%} 
+    {%- assign feed-type = "agile-in-action-podcast" -%}
+    {%- assign fi-default = site.data.configs.podcast-fi-large -%}
+    {%- assign fi-type = "post-fi" -%}
+    {%- assign feed-glyph = site.data.configs.podcast-glyph -%}
+    {%- assign css-style = "feed-latest" -%}
+    {%- assign title-filter = page.title -%}
+    {%- assign display-offset = 0 -%}
+    {%- assign display-limit = 1 -%}
+    {%- include feed.html -%}
+  {%- comment -%}Display the post content{%- endcomment -%} 
+    {%- include podcast-post.html -%}
+  {%- comment -%}Display the footer section{%- endcomment -%} 
+    {%- include footer.html -%}
+</div>

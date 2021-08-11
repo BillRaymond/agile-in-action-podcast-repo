@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="home-container">
+  {% comment %} Display the navigation section {% endcomment %}
+    {%- include nav.html -%}
+  {% comment %} Display the play podcast section {% endcomment %}
+    {%- include playpod.html -%}
+  {% comment %} Display the post's featured image using the feed {% endcomment %}
+    {%- assign feed-type = "agile-blog" -%}
+    {%- assign fi-default = site.data.configs.blog-fi-large -%}
+    {%- assign fi-type = "post-fi" -%}
+    {%- assign feed-glyph = site.data.configs.blog-glyph -%}
+    {%- assign css-style = "feed-latest" -%}
+    {%- assign title-filter = page.title -%}
+    {%- assign display-offset = 0 -%}
+    {%- assign display-limit = 1 -%}
+    {%- include feed.html -%}
+  {% comment %} Display the blog content {% endcomment %}
+  {%- include blog-post.html -%}
+  {% comment %} Display the footer section {% endcomment %}
+    {%- include footer.html -%}
+</div>

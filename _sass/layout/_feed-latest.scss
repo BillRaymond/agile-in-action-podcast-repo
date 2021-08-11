@@ -1,0 +1,157 @@
+// Defines how to display the latest post(s) in a feed feed
+
+// wrapper container for the whole section
+.feed-latest {
+    display: grid;
+    margin-top: 5px; //put some space above the content
+}
+
+// *** FEATURED IMAGE AND OVERLAY ***
+// The feed card contains multiple, layered, grids on top of each other
+// The image displays first, then a gradient (if neceesary), a glyph,
+// and the content for the card (title, short description, date, etc.)
+.feed-latest .feed-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px;
+
+    // All items overlap eachother
+    .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-glyph { grid-area: 1 / 1 / 2 / 2;}
+    .feed-card-content { grid-area: 1 / 1 / 2 /2; }
+
+    @include for-size(phone-only){
+        grid-template-rows: 150px;
+    }
+}
+
+.feed-card-image {
+    display: grid;
+    height: 1fr;
+    width: 1fr;
+}
+
+
+// display the featured image
+.feed-latest .feed-item-image {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover; // resize and crop the image
+}
+
+// If needed, add a gradient overlay over the image
+.feed-latest .feed-card-gradient-overlay {
+    display: grid;
+    // background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 100%);
+}
+
+// the card that displays the glyph item
+.feed-latest .feed-card-glyph {
+    display: grid;
+    align-self: start;
+    margin-left: $gridMarginLeft;
+    margin-top: $gridMarginTop;
+
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
+
+// displays a small glyph that represents the type of content
+// the user is viewing (image that represents a podcast, blog, etc.)
+.feed-latest .feed-item-glyph {
+    width: auto;
+    height: 25px;
+}
+
+// *** CONTENT ***
+// layout for the card content, like title, excerpt, author, etc.
+.feed-latest .feed-card-content {
+    display: grid;
+    margin-left: $gridMarginLeft;
+    margin-right: $gridMarginRight;
+    margin-bottom: $gridMarginBottom;
+    align-self: end;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-columns: 1fr;
+    background-color: rgba(0,0,0,0.75);
+
+    grid-template-areas:
+        "feed-card-title" 
+        "feed-card-excerpt" 
+        "feed-card-author";
+
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+// row to display the title of the item
+.feed-latest .feed-card-title {
+    grid-area: feed-card-title;
+    align-self: end;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+    @include for-size(phone-only){
+        margin-bottom: 5px;
+    }
+}
+
+// row to display the excerpt of the item
+.feed-latest .feed-card-excerpt {
+    grid-area: feed-card-excerpt;
+    align-self: end;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    
+
+    @include for-size(phone-only){
+        display: none;
+    }
+}
+
+// row to display the author of the item
+.feed-latest .feed-card-author {
+    grid-area: feed-card-author;
+    align-self: end;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    @include for-size(phone-only){
+        display: none;
+    }
+}
+
+// TYPOGRAPHY
+.feed-latest .feed-item-title {
+    @include fluid-type(11px, 18px);
+    text-transform: uppercase;
+}
+
+.feed-latest .feed-item-link {
+    text-decoration: none;
+    color: $cambermastWhite;
+    &:link { color: $cambermastWhite; }
+    &:visited { color: $cambermastWhite; }
+    &:hover { color: $cambermastAltLightBlue; }
+}
+
+.feed-latest .feed-item-excerpt {
+    @include fluid-type(11px, 16px);
+    color: lightgray;
+}
+
+.feed-latest .feed-item-author {
+    @include fluid-type(11px, 14px);
+    text-transform: uppercase;
+    color: lightgray;
+}

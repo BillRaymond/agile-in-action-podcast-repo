@@ -1,0 +1,73 @@
+// Layout for the featured image on a page 
+// (NOT feeds like blog, podcast etc.)
+
+// wrapper container for the whole section
+.page-section {
+    display: grid;
+    margin-top: 5px;
+}
+
+// *** FEATURED IMAGE AND OVERLAY ***
+// container for the content to display
+.page-section .page-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px;
+
+    // layer the image, gradient overlay, and content summary on top of each other:
+    .page-card-image { grid-area: 1 / 1 / 2 / 2; }
+    .page-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .page-card-content { grid-area: 1 / 1 / 2 /2; }
+
+    @include for-size(phone-only){
+        grid-template-rows: 150px;
+    }
+}
+
+.page-section .card-item-image {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover; // Using this so the image can be any size and still look halfway decent.
+}
+
+// Add a semi-transparent gradient overlay that displays over the featured image
+// Start at black at the bottom left'ish and goes at a 60% angle. 
+.page-section .page-card-gradient-overlay {
+    display: grid;
+    max-width: 100%;
+    background: black;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 100%);
+}
+
+// *** CONTENT ***
+// layout for the card content, like title, excerpt, author, etc.
+.page-section .page-card-content {
+    display: grid;
+    margin-left: $gridMarginLeft;
+    margin-right: $gridMarginRight;
+    align-content: end;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-columns: 1fr;
+
+    grid-template-areas:
+        "page-card-title";
+
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+// row to display the title of the item
+.page-section .page-card-title {
+    grid-area: page-card-title;
+    align-self: center;
+    @include for-size(phone-only){
+        margin-bottom: 5px;
+    }
+}
+
+// TYPOGRAPHY
+.page-section .card-item-title {
+    color: $cambermastWhite;
+}

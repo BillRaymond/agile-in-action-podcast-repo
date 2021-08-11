@@ -1,0 +1,71 @@
+// layout for the list of services on the home page
+
+// display a 2-column grid
+.services-section {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-auto-flow: row dense;
+  margin-left: $gridMarginLeft;
+  margin-right: $gridMarginRight;
+
+  // do not put a side border on the grid if mobile
+  @include for-size(phone-only){
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  @if $debug { background-color: $debugServicesArea; }
+}
+
+.services-section-text {
+    margin-left: calc(5px + .2vw);
+    margin-right: calc(5px + .2vw);
+}
+
+// alternate the services columns for each row, like this:
+// | service | image   |
+// | image   | service |
+// | service | image   |
+// | image   | service |
+.services-section > :nth-child(4n-1) {
+  grid-column-start: 2;
+}
+
+// give the image a rounded edge.
+.services-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.services-title {
+  font-size: calc(12pt + .2vw); // responsive size, but keep a minimum.
+  font-weight: bold;
+  margin-bottom: .25em;
+}
+
+.services-description {
+  font-size: calc(8pt + .2vw); // responsive size, but keep a minimum.
+  margin-bottom: 1em;
+}
+
+// Get started button
+.button-services {
+  font-size: calc(8pt + .08vw); // responsive size, but keep a minimum.
+  padding-top: calc(.25em + .08vw);
+  padding-bottom: calc(.2em + .08vw);
+  padding-left: calc(.25em + .08vw);
+  padding-right: calc(.25em + .08vw);
+  color: $btnDefaultColor;
+  background-color: $btnDefaultBgColor;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid $btnDefaultBorderColor;
+
+    &:link { text-decoration: none; }
+    &:visited { text-decoration: none;}
+}

@@ -1,0 +1,14 @@
+// layout for the area that displays if a browser is not supported.
+
+#unsupported-browser {
+    display: none;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#browser-not-supported-message {
+    color: white;
+    text-align: center;
+    // text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+// Layout to display any podcast badges
+
+.podcast-badges {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 130px);
+    justify-content: start;
+    gap: 5px;
+
+    // reduce the side border on the grid if mobile
+    @include for-size(phone-only){
+        justify-content: center;
+    }
+  }
+
+.podcast-badge {
+    display: grid;
+    width: auto;
+    height: 100%;
+}
+
+/* uncomment for a visual representation of the grid */
+// .podcast-badges * {
+//     border: 1px solid red;
+//     position: relative;
+// }
+  
+// .podcast-badges *:after {
+//     content:attr(class);
+//     color: red;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+// }

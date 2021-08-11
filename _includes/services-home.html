@@ -1,0 +1,22 @@
+{% comment %}
+    Services section ON THE HOME PAGE 
+    Services are listed in the "_data" folder
+{% endcomment %}
+<section class="services-section">
+    {% assign services = site.data.services.items | sort: "orderby" %}
+    {% for item in services %}
+        {% if item.display %}
+            {% comment %} Display all available services {% endcomment %}
+            <div class="services-text-div">
+                <div class="services-section-text">
+                    <p class="services-title">{{- item.title -}}</p>
+                    <p class="services-description">{{- item.content -}}</p>
+                    <a class="button-services" href="{{- item.url | relative_url -}}">Get started &#8594;</a>
+                </div>
+            </div>
+            <div class="services-image-div">
+                <img class="services-image" src="{{- item.imageUrl | relative_url -}}" alt="Agile transformation image.">
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
