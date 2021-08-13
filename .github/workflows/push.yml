@@ -1,9 +1,9 @@
 on:
   push:
     branches:
-      - main
+      - main # trigger on push on branch 'main'
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 0 * * *' # trigger every day at 00:00
   workflow_dispatch: # trigger workflow manually
 name: publish on push and schedule
 
@@ -13,10 +13,10 @@ jobs:
     name: generate and push
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@master # pull the code
         with:
           ref: main
-      - uses: ./
+      - uses: ./ # runs Dockerfile, which calls entrypoint.sh
         env:
-          USER_SITE_REPOSITORY: cybi/agile-in-action-podcast-website
-          GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }}
+          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-podcast-website # target repository to push the created site
+          GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }} # personal access token of the source repository
