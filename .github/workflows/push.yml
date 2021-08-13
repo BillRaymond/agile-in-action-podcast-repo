@@ -18,5 +18,5 @@ jobs:
           ref: main
       - uses: ./
         env:
-          USER_SITE_REPOSITORY: cybi/agile-in-action-podcast-website
+          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-podcast-website # target repository to push the created site
           GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }}
