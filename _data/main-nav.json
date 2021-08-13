@@ -11,13 +11,13 @@
             "orderby": 1
         },
         {
-            "title": "Services",
-            "url": "/pages/services",
+            "title": "Podcast",
+            "url": "/feed/podcast",
             "type": "text",
             "content": "Content",
             "imageUrl": "",
             "display": true,
-            "orderby": 2
+            "orderby": 4
         },
         {
             "title": "Blog",
@@ -29,58 +29,13 @@
             "orderby": 3
         },
         {
-            "title": "Podcast",
-            "url": "/feed/podcast",
+            "title": "Social",
+            "url": "/social-sharing-card",
             "type": "text",
             "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 4
-        },
-        {
-            "title": "Feed",
-            "url": "/feed",
-            "type": "text",
-            "content": "Content",
-            "imageUrl": "",
-            "display": false,
-            "orderby": 5
-        },
-        {
-            "title": "Testimonials",
-            "url": "/testimonials",
-            "type": "text",
-            "content": "Content",
-            "imageUrl": "",
-            "display": false,
-            "orderby": 5
-        },
-        {
-            "title": "LinkedIn",
-            "url": "https://www.linkedin.com/in/williamraymond",
-            "type": "image",
-            "content": "Content",
-            "imageUrl": "",
-            "display": false,
-            "orderby": 6
-        },
-        {
-            "item": "Twitter",
-            "url": "https://twitter.com/billraymonde",
-            "type": "image",
-            "content": "Content",
-            "imageUrl": "",
-            "display": false,
-            "orderby": 7
-        },
-        {
-            "item": "GitHub",
-            "url": "https://www.linkedin.com/in/williamraymond/",
-            "type": "image",
-            "content": "Content",
-            "imageUrl": "",
-            "display": false,
-            "orderby": 8
         }
     ]
 }
