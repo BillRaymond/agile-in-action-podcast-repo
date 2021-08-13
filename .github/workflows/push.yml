@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch: # trigger workflow manually
+name: publish on push and schedule
+
+jobs:
+
+  build:
+    name: generate and push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          ref: main
+      - uses: ./
+        env:
+          USER_SITE_REPOSITORY: cybi/agile-in-action-podcast-website
+          GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }}
