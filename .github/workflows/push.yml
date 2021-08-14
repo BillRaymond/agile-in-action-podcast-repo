@@ -18,5 +18,5 @@ jobs:
           ref: main
       - uses: ./ # runs Dockerfile, which calls entrypoint.sh
         env:
-          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-podcast-website # target repository to push the created site
+          USER_SITE_REPOSITORY: cybi/agile-in-action-podcast-website # target repository to push the created site
           GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }} # personal access token of the source repository
