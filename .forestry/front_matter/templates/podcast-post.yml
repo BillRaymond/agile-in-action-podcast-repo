@@ -40,7 +40,7 @@ fields:
   label: Featured image
   description: Select an image to display at the top of the post. Download a pertinent
     image from <a href="https://unsplash.com." title="https://unsplash.com." target="_blank">https://unsplash.com.</a>
-- name: guest-photo
+- name: guest-details
   type: field_group_list
   fields:
   - name: name_of_person
@@ -57,4 +57,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Guest photo
+  label: Guest details
