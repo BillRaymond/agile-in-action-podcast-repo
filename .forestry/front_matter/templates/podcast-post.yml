@@ -1,4 +1,35 @@
 ---
 label: Podcast Post
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: Used to determine how to display the page. Do not change.
+  hidden: true
+  default: podcast-post
+- name: categories
+  type: text
+  config:
+    required: false
+  label: categories
+  description: Used to determine how to display the post. Do not modify.
+  default: agile-in-action-poscast
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Podcast title
+  description: A short title to describe the podcast
+- name: date
+  type: datetime
+  label: Publish date
+  description: Select the day the podcast goes live
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
