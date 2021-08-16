@@ -12,6 +12,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - podcast-post
 - type: jekyll-pages
   label: Pages
   create: all
