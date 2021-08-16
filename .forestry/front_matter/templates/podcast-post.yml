@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: layout
-  description: Used to determine how to display the page. Do not change.
+  description: Used to determine how to display the post. Do not change.
   hidden: true
   default: podcast-post
 - name: categories
@@ -18,6 +18,22 @@ fields:
   description: Used to determine how to display the post. Do not modify.
   default: agile-in-action-poscast
   hidden: true
+- name: author
+  type: select
+  default: Bill Raymond
+  config:
+    required: false
+    options:
+    - Bill Raymond
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Podcast host
+  hidden: true
+  description: Select the name of the person hosting the podcast. The person will
+    also be listed as the author in the website.
 - name: title
   type: text
   config:
@@ -40,7 +56,7 @@ fields:
   label: Featured image
   description: Select an image to display at the top of the post. Download a pertinent
     image from <a href="https://unsplash.com." title="https://unsplash.com." target="_blank">https://unsplash.com.</a>
-- name: guest-details
+- name: guestDetails
   type: field_group_list
   fields:
   - name: name_of_person
@@ -48,6 +64,8 @@ fields:
     config:
       required: false
     label: Guest name
+    description: 'Type the guest''s name, or name and title. Like this: "Sarah Smith"
+      or "Sarah Smith, Vice President Technology at Acme Corp".'
   - name: guest_photo
     type: file
     config:
@@ -58,5 +76,7 @@ fields:
     max: 
     labelField: 
   label: Guest details
+  description: Select the guest's photo and their name. There must be at least one
+    guest and not more than four guests.
 pages:
 - _posts/2021-08-17-test-guest-details.md
