@@ -18,6 +18,15 @@ fields:
   description: Used to determine how to display the post. Do not modify.
   default: agile-in-action-poscast
   hidden: true
+- name: date
+  type: datetime
+  label: Publish date
+  description: Select the day the podcast goes live
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
 - name: author
   type: select
   default: Bill Raymond
@@ -40,15 +49,6 @@ fields:
     required: true
   label: Podcast title
   description: A short title to describe the podcast
-- name: date
-  type: datetime
-  label: Publish date
-  description: Select the day the podcast goes live
-  config:
-    required: false
-    date_format: YYYY-MM-DD
-    time_format: 
-    display_utc: false
 - name: featuredImage
   type: text
   config:
@@ -78,5 +78,10 @@ fields:
   label: Guest details
   description: Select the guest's photo and their name. There must be at least one
     guest and not more than four guests.
+- name: libsynUrl
+  type: text
+  config:
+    required: false
+  label: Libsyn URL
 pages:
 - _posts/2021-08-17-test-guest-details.md
