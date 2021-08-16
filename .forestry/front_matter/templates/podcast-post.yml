@@ -58,3 +58,5 @@ fields:
     max: 
     labelField: 
   label: Guest details
+pages:
+- _posts/test-guest-details.md
