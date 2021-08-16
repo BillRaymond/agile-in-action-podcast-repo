@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+
+{%- assign posts = site.posts -%}
+{%- for post in posts -%}
+    <h2>Title: {{ post.title }}</h2>
+    {%- for photo in post.guestPhotos -%}
+        {%- assign guest = photo | relative_url -%}
+        <p><img src="{{-guest-}}" alt=""></p>
+        <p>{{-guest-}}</p>
+        <p>
+    {%- endfor -%}
+{%- endfor -%}
