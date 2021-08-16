@@ -42,6 +42,17 @@ fields:
     image from <a href="https://unsplash.com." title="https://unsplash.com." target="_blank">https://unsplash.com.</a>
 - name: guest-photo
   type: field_group_list
+  fields:
+  - name: name_of_person
+    type: text
+    config:
+      required: false
+    label: Guest name
+  - name: guest_photo
+    type: file
+    config:
+      maxSize: 64
+    label: Guest photo
   config:
     min: 
     max: 
