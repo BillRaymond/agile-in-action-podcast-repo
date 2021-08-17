@@ -9,6 +9,8 @@ guestDetails:
 - name_of_person: Yun Peng
   guest_photo: "/uploads/yunpeng.jpg"
   guest_links:
+  - guestLinkLabel: Book
+    guestLinkUrl: https://www.amazon.com
   - guestLinkLabel: LinkedIn
     guestLinkUrl: https://www.linkedin.com
 libsynUrl: ''
