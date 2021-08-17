@@ -22,4 +22,4 @@ guestDetails:
 libsynUrl: ''
 
 ---
-In the year 2024, an epic scrum battle was waged between the scrum masters of the great north and the Italian scrumlord, Michele Magnardini. 
+In the year 2024, an epic scrum battle was waged between the scrum masters of the great north and the Italian scrumlord, Michele Magnardini. Many sprints were conducted. Who will emerge victorious?!? 
