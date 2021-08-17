@@ -14,7 +14,7 @@ guestDetails:
   guest_photo: "/uploads/william-morgan-headshot.jpeg"
 
 ---
-In today's podcast, I speak with Buoyant CEO William Morgan. We talk about how his flagship opensource project, Linkerd, reduces developers' time to deliver software while improving product quality. We discuss what it is like to manage a business while working with a vibrant community of collaborators in the open source community.
+In today's podcast, I speak with Buoyant CEO William Morgan. We talk about how his flagship opensource project, Linkerd, reduces developers' time to deliver software while improving product quality. We discuss what it is like to manage a business while working with a vibrant community of collaborators in the open-source community.
 
 [Buoyant.io](https://buoyant.io/ "Buoyant.io")
 
