@@ -73,11 +73,26 @@ fields:
     label: Guest photo
   - name: guest_links
     type: field_group_list
+    fields:
+    - name: guestLinkLabel
+      type: text
+      config:
+        required: false
+      label: label
+      description: Type a label for the link, like LinkedIn, Twitter, Amazon Book,
+        etc.
+    - name: guestLinkUrl
+      type: text
+      config:
+        required: false
+      label: Link url
+      description: Type a url for the link, like https://www.mybook.com.
     config:
       min: 
       max: 
       labelField: 
     label: Guest links
+    description: Add links, like LinkedIn and others for each guest.
   config:
     min: 
     max: 
