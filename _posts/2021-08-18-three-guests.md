@@ -26,6 +26,6 @@ guestDetails:
     guestLinkUrl: tracybrowertowerofpower.com
   - guestLinkLabel: LinkedIn
     guestLinkUrl: Linkedin.com/browertowerofpower
-libsynUrl: ''
+libsynUrl: 'https://directory.libsyn.com/episode/index/id/19847354'
 
 ---
