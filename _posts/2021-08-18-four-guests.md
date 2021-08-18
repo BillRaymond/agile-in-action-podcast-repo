@@ -33,7 +33,7 @@ guestDetails:
     guestLinkUrl: imetalbertbecausewebothrodemotorcycles.com
   - guestLinkLabel: Linkedin.com
     guestLinkUrl: Linkedin.com/Albertsbabyiscute
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/20167064
 
 ---
 We get to meet and speak with some really cool people. 
