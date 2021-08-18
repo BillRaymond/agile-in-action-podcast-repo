@@ -3,7 +3,7 @@ on:
     branches:
       - main # trigger on push on branch 'main'
   schedule:
-    - cron:  '30 0 * * *' # trigger every day at 00:00
+    - cron:  '30 0 * * *' # trigger every day at 00:30
   workflow_dispatch: # trigger workflow manually
 name: publish on push and schedule
 
