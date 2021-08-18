@@ -36,3 +36,4 @@ guestDetails:
 libsynUrl: ''
 
 ---
+We get to meet and speak with some really cool people. 
