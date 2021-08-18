@@ -19,7 +19,7 @@ guestDetails:
     guestLinkUrl: 'maaaaarteeendalmijn.com '
   - guestLinkLabel: LinkedIn
     guestLinkUrl: 'linkedin.com/maaaaaaartendalmiiiijn '
-libsynUrl: 'https://directory.libsyn.com/episode/index/id/19847354'
+libsynUrl: ''
 
 ---
 Two awesome guests! 
