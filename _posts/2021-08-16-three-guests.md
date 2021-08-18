@@ -1,8 +1,8 @@
 ---
 layout: podcast-post
-categories: agile-in-action-poscast
+categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2021-08-18
+date: 2021-08-16
 title: Three-guests
 guestDetails:
 - name_of_person: Loretta Harland

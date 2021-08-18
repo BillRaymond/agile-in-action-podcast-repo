@@ -1,8 +1,8 @@
 ---
 layout: podcast-post
-categories: agile-in-action-poscast
+categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2021-08-18
+date: 2021-08-15
 title: two-guests
 guestDetails:
 - name_of_person: Peter Koning
