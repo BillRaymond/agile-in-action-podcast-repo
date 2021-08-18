@@ -22,3 +22,4 @@ guestDetails:
 libsynUrl: ''
 
 ---
+Two awesome guests! 
