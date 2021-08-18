@@ -102,8 +102,8 @@ fields:
   description: After you publish a post, Libsyn will provide a "Libsyn Directory URL".
     Paste that link into this field.
 pages:
+- _posts/2021-08-18-four-guests.md
 - _posts/2021-08-18-one-guest.md
 - _posts/2021-08-18-three-guests.md
 - _posts/2021-08-18-two-guests.md
-- _posts/four-guests.md
 - _posts/test-date-time.md
