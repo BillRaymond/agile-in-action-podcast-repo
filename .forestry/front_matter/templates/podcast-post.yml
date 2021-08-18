@@ -16,7 +16,7 @@ fields:
     required: false
   label: categories
   description: Used to determine how to display the post. Do not modify.
-  default: agile-in-action-poscast
+  default: agile-in-action-podcast
   hidden: true
 - name: date
   type: datetime
