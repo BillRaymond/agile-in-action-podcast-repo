@@ -26,7 +26,7 @@ guestDetails:
     guestLinkUrl: tracybrowertowerofpower.com
   - guestLinkLabel: LinkedIn
     guestLinkUrl: Linkedin.com/browertowerofpower
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/20064671
 
 ---
 I could not get three Ph.Ds in one post. 
