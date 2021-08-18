@@ -1,6 +1,6 @@
 ---
 layout: podcast-post
-categories: agile-in-action-poscast
+categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2022-01-20 08:00:00 +0000
 title: Iteration station

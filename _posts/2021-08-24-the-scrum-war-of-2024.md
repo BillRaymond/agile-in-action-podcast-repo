@@ -1,6 +1,6 @@
 ---
 layout: podcast-post
-categories: agile-in-action-poscast
+categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2021-08-24 07:00:00 +0000
 title: 'The scrum war of 2024 '

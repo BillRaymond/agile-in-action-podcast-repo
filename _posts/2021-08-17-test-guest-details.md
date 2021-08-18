@@ -1,6 +1,6 @@
 ---
 layout: podcast-post
-categories: agile-in-action-poscast
+categories: agile-in-action-podcast
 title: Test guest details
 date: 2021-08-17 07:00:00 +0000
 featuredImage: ''
