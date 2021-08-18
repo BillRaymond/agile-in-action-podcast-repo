@@ -12,7 +12,8 @@
 
 .feed-latest-post-cards {
     display: grid;
-    grid-template-columns: repeat(2, .5fr); // Display a 2-column grid. TODO: allow any number of columns
+    // grid-template-columns: repeat(2, .5fr); // Display a 2-column grid. TODO: allow any number of columns
+    grid-template-columns: 1fr; // Display a 2-column grid. TODO: allow any number of columns
     gap: 10px;
     @include for-size(phone-only){
         gap: 5px;
