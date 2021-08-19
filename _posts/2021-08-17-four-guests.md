@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2021-08-17
-title: four-guests
+title: four guests
 guestDetails:
 - name_of_person: Michele Magnardini
   guest_photo: "/uploads/michele.jpg"

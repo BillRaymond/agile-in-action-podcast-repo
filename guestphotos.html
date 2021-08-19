@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-
-
+{% comment %} {%- assign posts = site.posts | where_exp: "post", "post.guestDetails != nil" -%} {% endcomment %}
 {%- assign posts = site.posts -%}
 {%- for post in posts -%}
-    <h2>Title: {{ post.title }}</h2>
-    {%- for photo in post.guestPhotos -%}
-        {%- assign guest = photo | relative_url -%}
-        <p><img src="{{-guest-}}" alt=""></p>
-        <p>{{-guest-}}</p>
-        <p>
+    <h2>Title: {{- post.title -}}</h2>
+    {%- assign details = post.guestDetails -%}
+    {%- assign total-guests = details.size -%}
+    # Guests: {{- total-guests -}}
+    {%- for detail in details -%}
+        <p>Guest: {{- detail.name_of_person -}}</p>
+        <p>Photo:</p>
+        <p><img src="{{- detail.guest_photo | relative_url -}}" alt=""> </p>
     {%- endfor -%}
 {%- endfor -%}
