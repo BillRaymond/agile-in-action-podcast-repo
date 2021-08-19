@@ -104,7 +104,7 @@ python3 share-card-creator.py
 
     {% comment %} Finalize the shell command {% endcomment %}
     {%- if index-id == total-guests -%}
-      {%- assign shell = shell | append: photo-text | append: ""&#34;"" -%}
+      {%- assign shell = shell | append: photo-text | append: "&#34;" -%}
       {%- assign shell = shell | append: guest-text | append: "&#34;" -%}
       {%- assign shell = shell | append: " --card_file &#34;" -%}
       {%- assign shell = shell | append: "card" -%}
