@@ -78,7 +78,7 @@ python3 share-card-creator.py
       {%- endif -%}
       {%- if index-id == 3 -%}
         {%- assign photo-text = photo-text | append: ','-%}
-        {%- assign guest-text = guest-text | append: '. and' -%}
+        {%- assign guest-text = guest-text | append: ', and ' -%}
       {%- endif -%}
       {%- assign photo-text = photo-text | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
@@ -96,7 +96,7 @@ python3 share-card-creator.py
       {%- endif -%}
       {%- if index-id == 4 -%}
         {%- assign photo-text = photo-text | append: ',' -%}
-        {%- assign guest-text = guest-text | append: ', and' -%}
+        {%- assign guest-text = guest-text | append: ', and ' -%}
       {%- endif -%}
       {%- assign photo-text = photo-text | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
@@ -111,9 +111,9 @@ python3 share-card-creator.py
       {%- assign shell = shell | append: total-guests -%}
       {%- assign shell = shell | append: '.png"' -%}
 {% capture final-shell %}
-{{shell}}
+{{ shell }}
 {% endcapture %}
-      {{final-shell}}
+{{ final-shell }}
     {%- endif -%}        
   {%- endfor -%}
 {%- endfor -%}
