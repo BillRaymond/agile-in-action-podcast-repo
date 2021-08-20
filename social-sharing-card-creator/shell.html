@@ -106,10 +106,9 @@ python3 share-card-creator.py
     {%- if index-id == total-guests -%}
       {%- assign shell = shell | append: photo-text | append: '"' -%}
       {%- assign shell = shell | append: guest-text | append: '"' -%}
-      {%- assign shell = shell | append: ' --card_file "' -%}
-      {%- assign shell = shell | append: "card" -%}
-      {%- assign shell = shell | append: total-guests -%}
-      {%- assign shell = shell | append: '.png"' -%}
+      {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' -%}
+      {%- assign card-filename = card-filename | prepend: '/uploads/' | relative_url -%}
+      {%- assign shell = shell | append: ' --card_file "' | append: card-filename | append: '"' -%}
 {% capture final-shell %}
 {{ shell }}
 {% endcapture %}
