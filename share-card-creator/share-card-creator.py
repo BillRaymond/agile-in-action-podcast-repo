@@ -137,7 +137,7 @@ def start(params):
     
     title={"width":448 ,"height":324,"x":0,"y":0 , "text": title}
     guests={"width":448 ,"height":46,"x":0,"y":0 , "text": guests}
-    
+
     count=0
     
     for i in (getFixArrFromStr(photos)): # get a photo array trimmed from string
@@ -324,6 +324,7 @@ def getCLIParameters(argv):
     params={ "title":None ,  "guests":None , "photos":None, "card_file":"card.png", "template":"", "fonts":""}
     for k in params.keys():
         paramArr.append(k+'=')
+        print(k)
     
     try:
         opts, args = getopt.getopt(argv,"h",paramArr) 
