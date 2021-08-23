@@ -12,6 +12,11 @@ sh -c "rm entrypoint.sh"
 sh -c "rm .gitignore"
 
 echo "#################################################"
+echo "Install imagemagick"
+
+sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick && pecl install imagick-beta && apk del .build-deps"
+
+echo "#################################################"
 echo "Add ./_site as submodule"
 
 git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
@@ -30,6 +35,16 @@ echo "Starting the Jekyll Action"
 sh -c "chmod 777 /github/workspace/*"
 sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
+sh -c "jekyll build"
+
+FILE=.github/scripts/shell.sh
+if test -f "$FILE"; then
+  echo "#################################################"
+  echo "Execute the optional Action"
+  sh -c "./$FILE"
+  sh -c "rm $FILE"
+fi
+
 sh -c "jekyll build"
 
 echo "#################################################"
