@@ -1,6 +1,6 @@
 // Display 1-4 guests for a podcast
 // If there are more than 5, html shold not display
-.guest-cards-container {
+.guest-card-images-container {
   display: grid; 
   grid-auto-rows: 1fr; 
   grid-template-columns: 1fr; 
@@ -10,7 +10,7 @@
   height: 110px;
 }
 
-.gc-background {
+.gci-background {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
@@ -20,7 +20,7 @@
   grid-area: 1 / 1 / 2 / 2; 
 }
 
-.guest-cards-1 {
+.gci-cards-1 {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
@@ -33,7 +33,7 @@
   // use the default layout below
 }
 
-.guest-cards-2 {
+.gci-cards-2 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   gap: 0px 2px; 
@@ -44,12 +44,12 @@
 }
 
 // unique card layout for two images
-.guest-cards-2 .gc-card {
+.gci-cards-2 .gci-card {
   height: 100%;
   object-fit: cover;
 }
 
-.guest-cards-3 {
+.gci-cards-3 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -63,7 +63,7 @@
   // use the default image layout below
 }
 
-.guest-cards-4 {
+.gci-cards-4 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -78,13 +78,13 @@
 }
 
 // default image layout for guest card size
-.gc-card {
+.gci-card {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
 }
 
-.gc-background-image {
+.gci-background-image {
   width: 100%;
   max-width: 100%;
   object-fit: cover;

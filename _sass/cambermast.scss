@@ -6,8 +6,9 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'base/typography';
-@import 'components/guests-grid';
-@import 'layout/browser-not-supported.scss';
+@import 'components/guest-card-details';
+@import 'components/guest-card-images';
+@import 'layout/browser-not-supported';
 @import 'layout/feed';
 @import 'layout/feed-latest';
 @import 'layout/feed-latest-posts';

@@ -1,0 +1,32 @@
+{% comment %} Display the list of guests in a grid {% endcomment %}
+{% comment %} Uses guest-card-images-container as the primary container {% endcomment %}
+
+{% comment %} Another page will provide the title to display {% endcomment %}
+{%- assign cards = site.posts | where: 'title', title -%}
+{%- for card in cards -%}
+    <div class="guest-card-images-container">
+        <div class="gci-background">
+            {%- assign gci-background-image = '/assets/guests-card/logo-background-black-400x400.png' | relative_url -%}
+            <img src="{{-gci-background-image-}}" alt="" class="gci-background-image">
+        </div>
+        {% comment %} Get the list of guests {% endcomment %}
+        {%- assign guest-details = card.guestDetails -%}
+        {% comment %} CSS defines the image layout {% endcomment %}
+        {% comment %} Do not allow more than a 4-quadrant grid {% endcomment %}
+        {%- assign grid-boxes = guest-details.size -%}
+        {%- if grid-boxes > 4 -%}
+            {%- assign grid-boxes = 4 -%}
+        {%- endif -%}
+        {% comment %} The CSS grid may modify based on the number of images, so give each a unique number (ex card-1, card-2, etc) {% endcomment %}
+        {%- assign grid-boxes = "gci-cards-" | append: grid-boxes -%}
+        <div class="{{- grid-boxes -}}">
+            {% comment %} Display the guests {% endcomment %}
+            {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
+            {%- for guest in guest-details limit: 4 -%}
+                {%- assign index-id = forloop.index -%}
+                    {%- assign guest-photo = guest.guest_photo | relative_url -%}
+                    <img src="{{- guest-photo -}}" alt="" class="gci-card">
+            {%- endfor -%}
+        </div>
+    </div>
+{%- endfor -%}

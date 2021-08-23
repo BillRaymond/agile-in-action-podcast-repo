@@ -1,8 +1,8 @@
-<div class="podcast-feed-card">
+<div class="guest-card-container">
     {%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
     {%- for post in posts -%}
         {%- assign title = post.title -%}
         <h2>Title: {{post.title}}</h2>
-        {%- include guest-cards-container.html -%}
+        {%- include guest-card-images.html -%}
     {%- endfor -%}
 </div>
