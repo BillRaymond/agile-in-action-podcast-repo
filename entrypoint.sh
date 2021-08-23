@@ -12,6 +12,11 @@ sh -c "rm entrypoint.sh"
 sh -c "rm .gitignore"
 
 echo "#################################################"
+echo "Make some files executable"
+sh -c "chmod +x .github/scripts/shell.sh"
+sh -c "chmod +x .github/scripts/script.py"
+
+echo "#################################################"
 echo "Install imagemagick"
 
 sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
@@ -37,15 +42,11 @@ sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
 sh -c "jekyll build"
 
-echo "#################################################"
-FILE=.github/scripts/shell.sh
-echo "check for file $FILE"
-
-if test -f "$FILE"; then
+if test -f "$SHELL_FILE"; then
   echo "#################################################"
   echo "Execute the optional Action"
-  sh -c "./$FILE"
-  sh -c "rm $FILE"
+  sh -c "./$SHELL_FILE"
+  sh -c "rm $SHELL_FILE"
 fi
 
 echo "#################################################"
