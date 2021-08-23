@@ -37,7 +37,10 @@ sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
 sh -c "jekyll build"
 
+echo "#################################################"
 FILE=.github/scripts/shell.sh
+echo "check for file $FILE"
+
 if test -f "$FILE"; then
   echo "#################################################"
   echo "Execute the optional Action"
@@ -45,6 +48,8 @@ if test -f "$FILE"; then
   sh -c "rm $FILE"
 fi
 
+echo "#################################################"
+echo "Starting the Jekyll Action a second time"
 sh -c "jekyll build"
 
 echo "#################################################"
