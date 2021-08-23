@@ -13,7 +13,8 @@ sh -c "rm .gitignore"
 
 echo "#################################################"
 echo "Make some files executable"
-sh -c "chmod +x .github/scripts/shell.sh"
+SHELL_FILE=".github/scripts/shell.sh"
+sh -c "chmod +x $SHELL_FILE"
 sh -c "chmod +x .github/scripts/script.py"
 
 echo "#################################################"
