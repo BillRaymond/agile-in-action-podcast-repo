@@ -3,7 +3,12 @@ layout: default
 ---
 {%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
 {%- for post in posts -%}
-    <h2>{{post.title}}</h2>
+    <h2>{{-post.title-}}</h2>
+    <div class="guest-cards-container">
+    <div class="gc-background">
+        {%- assign gc-background-image = '/assets/guests-card/logo-background-black-400x400.png' | relative_url -%}
+        <img src="{{-gc-background-image-}}" alt="" class="gc-background-image">
+    </div>
     {% comment %} Get the list of guests {% endcomment %}
     {%- assign guest-details = post.guestDetails -%}
     {% comment %} Define how to display the grid as defined in CSS {% endcomment %}
@@ -13,7 +18,6 @@ layout: default
         {%- assign grid-boxes = 4 -%}
     {%- endif -%}
     {%- assign grid-boxes = "guest-cards-" | append: grid-boxes -%}
-    Grid boxes css: {{-grid-boxes-}}
     <div class="{{- grid-boxes -}}">
         {% comment %} Display the guests {% endcomment %}
         {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
@@ -23,5 +27,5 @@ layout: default
                 <img src="{{- guest-photo -}}" alt="" class="gc-card">
         {%- endfor -%}
     </div>
+    </div>
 {%- endfor -%}
-
