@@ -48,6 +48,7 @@ echo "#################################################"
 cd $SCRIPTS_DIR
 sh -c "pwd"
 sh -c "ls -lta"
+cat $SHELL_FILE
 echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
 
