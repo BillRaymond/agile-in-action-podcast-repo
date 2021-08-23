@@ -44,6 +44,7 @@ sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
 sh -c "jekyll build"
 
+sh -c "echo $SCRIPTS_DIR"
 sh -c "cd $SCRIPTS_DIR"
 sh -c "pwd"
 sh -c "ls -lta"
