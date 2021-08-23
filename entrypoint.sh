@@ -45,7 +45,7 @@ sh -c "bundle install"
 sh -c "jekyll build"
 
 echo "#################################################"
-cd $SCRIPT_DIR
+cd $SCRIPTS_DIR
 sh -c "pwd"
 sh -c "ls -lta"
 echo "Execute $SHELL_FILE"
