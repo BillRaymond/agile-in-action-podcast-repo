@@ -13,7 +13,7 @@ sh -c "rm .gitignore"
 
 echo "#################################################"
 echo "Make some files executable"
-SCRIPTS_DIR="/github/workspace/.github/scripts"
+SCRIPTS_DIR=share-card-creator"
 SHELL_FILE="shell.sh"
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
 sh -c "chmod +x $SCRIPTS_DIR/share-card-creator.py"
@@ -44,17 +44,12 @@ sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
 sh -c "jekyll build"
 
-sh -c "echo $SCRIPTS_DIR"
-sh -c "cd /github/workspace/.github"
-sh -c "pwd"
-sh -c "ls -lta"
-
 echo "#################################################"
 echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
-sh -c "rm $SCRIPTS_DIR/$SHELL_FILE"
 
-sh -c "cd /github/workspace"
+sh -c "cd .."
+sh -c "rm -rf $SCRIPTS_DIR"
 
 echo "#################################################"
 echo "Starting the Jekyll Action a second time"
