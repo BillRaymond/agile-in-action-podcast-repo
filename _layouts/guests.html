@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
+{%- for post in posts -%}
+    <h2>{{post.title}}</h2>
+    {% comment %} Get the list of guests {% endcomment %}
+    {%- assign guest-details = post.guestDetails -%}
+    {% comment %} Define how to display the grid as defined in CSS {% endcomment %}
+    {% comment %} Do not allow more than a 4-quadrant grid {% endcomment %}
+    {%- assign grid-boxes = guest-details.size -%}
+    {%- if grid-boxes > 4 -%}
+        {%- assign grid-boxes = 4 -%}
+    {%- endif -%}
+    {%- assign grid-boxes = "guest-cards-" | append: grid-boxes -%}
+    Grid boxes css: {{-grid-boxes-}}
+    <div class="{{- grid-boxes -}}">
+        {% comment %} Display the guests {% endcomment %}
+        {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
+        {%- for guest in guest-details limit: 4 -%}
+            {%- assign index-id = forloop.index -%}
+                {%- assign guest-photo = guest.guest_photo | relative_url -%}
+                <img src="{{- guest-photo -}}" alt="" class="gc-card">
+        {%- endfor -%}
+    </div>
+{%- endfor -%}
+
