@@ -1,4 +1,14 @@
 ---
 layout: default
 ---
-{%- include podcast-feed-card.html -%}
+<div class="guest-card-container">
+    {% comment %} Get the details for each post {% endcomment %}
+    {%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
+    {%- for post in posts -%}
+        {% comment %} Only get the images for this post {% endcomment %}
+        {%- assign title = post.title -%}
+        {%- include guest-card-images.html -%}
+        {%- include guest-card-title.html -%}
+
+    {%- endfor -%}
+</div>

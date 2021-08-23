@@ -1,0 +1,8 @@
+{% comment %} Get the details of a post (ex title, date, author, etc) {% endcomment %}
+
+{%- assign cards = site.posts | where: 'title', title -%}
+{%- for card in cards -%}
+    <div class="guest-card-title-container">
+        <p class="gc-title">{{- card.title -}}</p>
+    </div>
+{%- endfor -%}
