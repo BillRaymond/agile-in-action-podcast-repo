@@ -48,7 +48,7 @@ sh -c "cd .github/scripts"
 
 echo "#################################################"
 echo "Execute $SHELL_FILE"
-sh -c "./$SCRIPTS_DIR/$SHELL_FILE"
+sh -c "./$SHELL_FILE"
 sh -c "rm $SCRIPTS_DIR/$SHELL_FILE"
 
 sh -c "cd /github/workspace"
