@@ -45,6 +45,7 @@ sh -c "bundle install"
 sh -c "jekyll build"
 
 sh -c "cd $SCRIPTS_DIR"
+sh -c "pwd"
 sh -c "ls -lta"
 
 echo "#################################################"
