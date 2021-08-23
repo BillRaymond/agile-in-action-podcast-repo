@@ -1,0 +1,17 @@
+.guest-card-title-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "gc-title";
+  }
+  
+.gc-title {
+    grid-area: gc-title;
+    align-self: end;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
