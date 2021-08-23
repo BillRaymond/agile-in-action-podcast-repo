@@ -1,3 +1,6 @@
+pwd
+ls -ltar
+
 
 python3 share-card-creator.py –title “four guests”  –photo “/agile-in-action-podcast-website/uploads/michele.jpg,/agile-in-action-podcast-website/uploads/yunpeng.jpg,/agile-in-action-podcast-website/uploads/matt-koball.jpg,/agile-in-action-podcast-website/uploads/albert.jpg” –guests “Michele Magnardini, Yunpeng Li, Matt Koball, and Albert Chen” –card_file “/agile-in-action-podcast-website/uploads/2021-08-17-four-guests.png”
 
