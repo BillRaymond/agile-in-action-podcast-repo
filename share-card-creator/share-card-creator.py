@@ -308,7 +308,6 @@ def createDirIfNotExist(path):
         
 def getFixArrFromStr(str_, separator=","): 
     #get and trimmed array from a string with a separator
-    print(str_)
     arr=str_.split(separator)    
     data=[]
     for i in arr:
@@ -329,10 +328,10 @@ def getCLIParameters(argv):
     try:
         opts, args = getopt.getopt(argv,"h",paramArr) 
         for opt, arg in opts:
+            print("opt="+opt)
+            print("arg="+arg)
             opt=opt.lower()[2:] #2 cause --param, got it?
             if opt in ('h','help'):
-                print("opt="+opt)
-                print("arg="+arg)
                 print(
                     "\n--title: The podcast title \n"+
                     "\n--guests: The guests names follow by commas i.e Dr Yen Gates,Alan Parker & Louis C.K \n"+
@@ -343,8 +342,6 @@ def getCLIParameters(argv):
                 )
                 sys.exit()
             elif opt in params.keys():
-                print("opt="+opt)
-                print("arg="+arg)
                 params[opt]=arg
     except Exception as e:
        print("Invalid parameter ")
