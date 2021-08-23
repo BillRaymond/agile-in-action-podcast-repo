@@ -329,6 +329,7 @@ def getCLIParameters(argv):
     try:
         opts, args = getopt.getopt(argv,"h",paramArr)
         for opt in opts:
+            print(opt[1] + "=>" + opt[2])
             if opt in ('h','help'):
                 print(
                     "\n--title: The podcast title \n"+
