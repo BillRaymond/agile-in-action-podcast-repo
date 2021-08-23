@@ -320,7 +320,7 @@ def getFixArrFromStr(str_, separator=","):
 
 def getCLIParameters(argv):
     #Process the parameters
-    paramArr=["help"]
+    paramArr=["help", "title", "guests", "photos", "card_file", "template", "fonts"]
     params={ "title":None ,  "guests":None , "photos":None, "card_file":"card.png", "template":"", "fonts":""}
     for k in params.keys():
         paramArr.append(k+'=')
@@ -328,7 +328,7 @@ def getCLIParameters(argv):
     try:
         opts, args = getopt.getopt(argv,"h",paramArr)
         print(args)
-        for opt, arg in opts:
+        for opt, arg in args:
             opt=opt.lower()[2:] #2 cause --param, got it?
             if opt in ('h','help'):
                 print(
@@ -344,6 +344,7 @@ def getCLIParameters(argv):
                 params[opt]=arg
     except Exception as e:
        print("Invalid parameter ")
+       print(e)
        sys.exit()
        
     return params
