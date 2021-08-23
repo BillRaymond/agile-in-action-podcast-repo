@@ -106,7 +106,7 @@ def getIMCmdAndFontSize(IMcmd, fontsize_start , fontsize_finish=15, ideal_dim=[-
     return {"fontsize":fontsize, "cmd":IMcmd , "textsize":textsize }
 
 def start(params):
-    
+    print("Params: " + params)
     #After set the parameters , will create the elements of the template
     #photos, title, guest and playbutton
     
@@ -329,9 +329,6 @@ def getCLIParameters(argv):
     try:
         opts, args = getopt.getopt(argv,"h",paramArr)
         for opt in opts:
-            print(opt)
-            print(opt[0])
-            print(opt[1])
             if opt in ('h','help'):
                 print(
                     "\n--title: The podcast title \n"+
