@@ -330,9 +330,9 @@ def getCLIParameters(argv):
         opts, args = getopt.getopt(argv,"h",paramArr) 
         for opt, arg in opts:
             opt=opt.lower()[2:] #2 cause --param, got it?
-            print("opt="+opt)
-            print("arg="+arg)
             if opt in ('h','help'):
+                print("opt="+opt)
+                print("arg="+arg)
                 print(
                     "\n--title: The podcast title \n"+
                     "\n--guests: The guests names follow by commas i.e Dr Yen Gates,Alan Parker & Louis C.K \n"+
@@ -343,6 +343,8 @@ def getCLIParameters(argv):
                 )
                 sys.exit()
             elif opt in params.keys():
+                print("opt="+opt)
+                print("arg="+arg)
                 params[opt]=arg
     except Exception as e:
        print("Invalid parameter ")
