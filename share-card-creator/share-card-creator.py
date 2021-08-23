@@ -126,6 +126,7 @@ def start(params):
     title=params['--title']
     guests=params['--guests']
     photos=params['--photos']
+    print(photos)
     
     #optional params
     
