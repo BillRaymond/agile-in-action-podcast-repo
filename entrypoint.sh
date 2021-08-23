@@ -15,8 +15,6 @@ echo "#################################################"
 echo "Make some files executable"
 SCRIPTS_DIR="share-card-creator"
 SHELL_FILE="shell.sh"
-sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
-sh -c "chmod +x $SCRIPTS_DIR/share-card-creator.py"
 
 echo "#################################################"
 echo "Install imagemagick"
@@ -39,12 +37,12 @@ echo "Added submodule"
 echo "#################################################"
 echo "Starting the Jekyll Action"
 
-sh -c "chmod 777 /github/workspace/*"
-sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
 sh -c "jekyll build"
 
 cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
+sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
+sh -c "chmod +x $SCRIPTS_DIR/share-card-creator.py"
 
 echo "#################################################"
 cd $SCRIPTS_DIR
