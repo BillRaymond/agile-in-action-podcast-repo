@@ -329,7 +329,7 @@ def getCLIParameters(argv):
     try:
         opts, args = getopt.getopt(argv,"h",paramArr)
         for opt in opts:
-            print(opt[1] + "=>" + opt[2])
+            print(opt[0] + "=>" + opt[1])
             if opt in ('h','help'):
                 print(
                     "\n--title: The podcast title \n"+
@@ -340,9 +340,9 @@ def getCLIParameters(argv):
                     "\n--fonts: The path of the fonts to use , follow by commas, if not defined it will used these: 'fonts/ProximaNovaA-Bold.ttf,fonts/ProximaNovaA-Light.ttf' \n"
                 )
                 sys.exit()
-            elif opt[1] in params.keys():
-                print(opt[1] + "=>" + opt[2])
-                params[opt[1]]=opt[2]
+            elif opt[0] in params.keys():
+                print(opt[0] + "=>" + opt[1])
+                params[opt[0]]=opt[1]
     except Exception as e:
        print("Invalid parameter ")
        print(e)
