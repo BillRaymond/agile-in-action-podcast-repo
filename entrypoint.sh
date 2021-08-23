@@ -45,7 +45,7 @@ sh -c "bundle install"
 sh -c "jekyll build"
 
 sh -c "echo $SCRIPTS_DIR"
-sh -c "cd $SCRIPTS_DIR"
+sh -c "cd /github/workspace/.github"
 sh -c "pwd"
 sh -c "ls -lta"
 
