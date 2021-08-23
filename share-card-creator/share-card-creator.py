@@ -106,7 +106,7 @@ def getIMCmdAndFontSize(IMcmd, fontsize_start , fontsize_finish=15, ideal_dim=[-
     return {"fontsize":fontsize, "cmd":IMcmd , "textsize":textsize }
 
 def start(params):
-    print("Params: " + params)
+    print(params)
     #After set the parameters , will create the elements of the template
     #photos, title, guest and playbutton
     
