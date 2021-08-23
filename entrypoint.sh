@@ -13,9 +13,10 @@ sh -c "rm .gitignore"
 
 echo "#################################################"
 echo "Make some files executable"
-SHELL_FILE=".github/scripts/shell.sh"
-sh -c "chmod +x $SHELL_FILE"
-sh -c "chmod +x .github/scripts/share-card-creator.py"
+SCRIPTS_DIR=".github/scripts"
+SHELL_FILE="shell.sh"
+sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
+sh -c "chmod +x $SCRIPTS_DIR/share-card-creator.py"
 
 echo "#################################################"
 echo "Install imagemagick"
@@ -43,10 +44,14 @@ sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
 sh -c "jekyll build"
 
+sh -c "cd .github/scripts"
+
 echo "#################################################"
 echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
 sh -c "rm $SHELL_FILE"
+
+sh -c "cd /github/workspace"
 
 echo "#################################################"
 echo "Starting the Jekyll Action a second time"
