@@ -327,7 +327,7 @@ def getCLIParameters(argv):
     
     try:
         opts, args = getopt.getopt(argv,"h",paramArr)
-        print(opts + ":" + args)
+        print(opts)
         for opt, arg in opts:
             print(opt + ":" + arg)
             opt=opt.lower()[2:] #2 cause --param, got it?
