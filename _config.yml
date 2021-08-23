@@ -23,7 +23,7 @@ email: bill.raymond@cambermast.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Agile in Action podcast explores the new way people work
 baseurl: "/agile-in-action-podcast-website" # the subpath of your site, e.g. /blog
-url: "https://billraymond.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cybi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: billraymonde
 github_username:  billraymond
 
