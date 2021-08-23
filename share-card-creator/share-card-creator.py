@@ -327,6 +327,7 @@ def getCLIParameters(argv):
         paramArr.append(k+'=')
         print(k)
     
+    print(argv)
     try:
         opts, args = getopt.getopt(argv,"h",paramArr) 
         for opt, arg in opts:
