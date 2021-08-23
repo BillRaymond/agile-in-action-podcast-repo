@@ -34,7 +34,7 @@ python3 share-card-creator.py
 
   {% comment %} Add the title to the shell command {% endcomment %}
   {%- assign title = post.title -%}
-  {%- assign shell = shell | append: ' -' | append: '-title="' | append: title | append: '" ' -%}
+  {%- assign shell = shell | append: ' --title' | append: '-title="' | append: title | append: '" ' -%}
 
   {% comment %} Add the photo files and guest photos to the shell command {% endcomment %}
   {%- assign shell = shell | append: photo -%}
