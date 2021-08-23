@@ -46,6 +46,7 @@ sh -c "jekyll build"
 
 echo "#################################################"
 cd $SCRIPTS_DIR
+cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
 sh -c "pwd"
 sh -c "ls -lta"
 cat $SHELL_FILE
