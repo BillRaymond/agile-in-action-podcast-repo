@@ -59,10 +59,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-<<<<<<< Updated upstream
-=======
   arm64-darwin-20
->>>>>>> Stashed changes
   x86_64-darwin-20
 
 DEPENDENCIES
@@ -70,8 +67,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-<<<<<<< Updated upstream
-   2.2.19
-=======
    2.2.25
->>>>>>> Stashed changes

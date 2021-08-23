@@ -30,10 +30,6 @@ echo "#################################################"
 echo "Added submodule"
 
 echo "#################################################"
-echo "Get clean Gemfile.lock"
-sh -c "git checkout HEAD -- Gemfile.lock"
-
-echo "#################################################"
 echo "Starting the Jekyll Action"
 
 sh -c "chmod 777 /github/workspace/*"
