@@ -13,7 +13,7 @@ sh -c "rm .gitignore"
 
 echo "#################################################"
 echo "Make some files executable"
-SCRIPTS_DIR=share-card-creator"
+SCRIPTS_DIR="share-card-creator"
 SHELL_FILE="shell.sh"
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
 sh -c "chmod +x $SCRIPTS_DIR/share-card-creator.py"
