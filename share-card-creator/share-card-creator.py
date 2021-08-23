@@ -308,6 +308,7 @@ def createDirIfNotExist(path):
         
 def getFixArrFromStr(str_, separator=","): 
     #get and trimmed array from a string with a separator
+    print(str_)
     arr=str_.split(separator)    
     data=[]
     for i in arr:
