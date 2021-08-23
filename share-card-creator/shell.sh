@@ -1,6 +1,6 @@
 pwd
 
-python3 share-card-creator.py --title='four guests'  --photos='../uploads/michele.jpg,../uploads/yunpeng.jpg,../uploads/matt-koball.jpg,../uploads/albert.jpg' --guests 'Michele Magnardini, Yunpeng Li, Matt Koball, and Albert Chen' --card_file '../uploads/2021-08-17-four-guests.png'
+python3 share-card-creator.py --title="four guests"  --photos='../uploads/michele.jpg,../uploads/yunpeng.jpg,../uploads/matt-koball.jpg,../uploads/albert.jpg' --guests 'Michele Magnardini, Yunpeng Li, Matt Koball, and Albert Chen' --card_file '../uploads/2021-08-17-four-guests.png'
 
 python3 share-card-creator.py --title 'Three guests'  --photos '../uploads/loretta.jpg,../uploads/farlik.jpg,../uploads/brower-6917.jpg' --guests 'Loretta Harland, Dr. John Farlik, and Dr. Tracy Brower' --card_file '../uploads/2021-08-16-three-guests.png'
 
