@@ -140,7 +140,7 @@ def start(params):
     guests={"width":448 ,"height":46,"x":0,"y":0 , "text": guests}
 
     count=0
-    
+    photos_arr = []
     for i in (getFixArrFromStr(photos)): # get a photo array trimmed from string
         photos_arr.append(getAbsolutePath(i))
     
