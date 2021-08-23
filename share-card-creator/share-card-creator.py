@@ -138,7 +138,6 @@ def start(params):
     title={"width":448 ,"height":324,"x":0,"y":0 , "text": title}
     guests={"width":448 ,"height":46,"x":0,"y":0 , "text": guests}
     
-    photos_arr=[]
     count=0
     
     for i in (getFixArrFromStr(photos)): # get a photo array trimmed from string
