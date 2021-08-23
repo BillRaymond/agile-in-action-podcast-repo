@@ -14,7 +14,7 @@ sh -c "rm .gitignore"
 echo "#################################################"
 echo "Install imagemagick"
 
-sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick && pecl install imagick-beta && apk del .build-deps"
+sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
 
 echo "#################################################"
 echo "Add ./_site as submodule"
