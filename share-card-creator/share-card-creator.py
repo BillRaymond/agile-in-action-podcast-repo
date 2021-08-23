@@ -321,7 +321,7 @@ def getFixArrFromStr(str_, separator=","):
 
 def getCLIParameters(argv):
     #Process the parameters
-    paramArr=["help", "title", "guests", "photos", "card_file", "template", "fonts"]
+    paramArr=["help", "title", "guests=", "photos=", "card_file=", "template=", "fonts="]
     params={ "--title":None ,  "--guests":None , "--photos":None, "--card_file":"card.png", "--template":"", "--fonts":""}
     for k in params.keys():
         paramArr.append(k+'=')
