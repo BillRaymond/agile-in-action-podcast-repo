@@ -31,6 +31,9 @@ git pull
 
 cd ..
 
+sh -c "chmod 777 /github/workspace/*"
+sh -c "chmod 777 /github/workspace/.*"
+
 echo "#################################################"
 echo "Added submodule"
 
