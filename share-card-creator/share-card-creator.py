@@ -343,7 +343,7 @@ def getCLIParameters(argv):
                 )
                 sys.exit()
             elif opt in params.keys():
-                params[opt[1:]]=opt[2:]
+                params[opt[1]]=opt[2]
     except Exception as e:
        print("Invalid parameter ")
        print(e)
