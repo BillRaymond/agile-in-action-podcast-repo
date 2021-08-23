@@ -123,15 +123,15 @@ def start(params):
     # fonts=["./fonts/ProximaNovaA-Bold.ttf","fonts/ProximaNovaA-Light.ttf"]    
     # required params
     
-    title=params['title']
-    guests=params['guests']
-    photos=params['photos']
+    title=params['--title']
+    guests=params['--guests']
+    photos=params['--photos']
     
     #optional params
     
-    card_file=params['card_file']    
-    template=params['template']
-    fonts=params['fonts']
+    card_file=params['--card_file']    
+    template=params['--template']
+    fonts=params['f--fonts']
     
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
@@ -321,7 +321,7 @@ def getFixArrFromStr(str_, separator=","):
 def getCLIParameters(argv):
     #Process the parameters
     paramArr=["help", "title", "guests", "photos", "card_file", "template", "fonts"]
-    params={ "title":None ,  "guests":None , "photos":None, "card_file":"card.png", "template":"", "fonts":""}
+    params={ "--title":None ,  "--guests":None , "--photos":None, "--card_file":"card.png", "--template":"", "--fonts":""}
     for k in params.keys():
         paramArr.append(k+'=')
     
