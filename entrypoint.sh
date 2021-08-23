@@ -15,7 +15,7 @@ echo "#################################################"
 echo "Make some files executable"
 SHELL_FILE=".github/scripts/shell.sh"
 sh -c "chmod +x $SHELL_FILE"
-sh -c "chmod +x .github/scripts/script.py"
+sh -c "chmod +x .github/scripts/share-card-creator.py"
 
 echo "#################################################"
 echo "Install imagemagick"
