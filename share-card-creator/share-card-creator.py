@@ -131,7 +131,7 @@ def start(params):
     
     card_file=params['--card_file']    
     template=params['--template']
-    fonts=params['f--fonts']
+    fonts=params['--fonts']
     
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
