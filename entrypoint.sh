@@ -45,6 +45,7 @@ sh -c "bundle install"
 sh -c "jekyll build"
 
 sh -c "cd .github/scripts"
+sh -c "ls -ltar"
 
 echo "#################################################"
 echo "Execute $SHELL_FILE"
