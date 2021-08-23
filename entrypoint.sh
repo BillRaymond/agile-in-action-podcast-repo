@@ -46,6 +46,8 @@ sh -c "jekyll build"
 
 echo "#################################################"
 sh -c "cd $SCRIPT_DIR"
+sh -c "pwd"
+sh -c "ls -lta"
 echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
 
