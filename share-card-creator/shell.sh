@@ -34,12 +34,12 @@ python3 share-card-creator.py
   {%- assign shell = 'python3 script.py ' -%}
   {% comment %} Add the title to the shell command {% endcomment %}
   {%- assign title = post.title -%}
-  {%- assign shell = shell | append: switch | append: 'title=&lsquo;' | append: title | append: '&rsquo; ' -%}
+  {%- assign shell = shell | append: switch | append: 'title=&apos;' | append: title | append: '&apos; ' -%}
 
   {% comment %} Add the photo files and guest photos to the shell command {% endcomment %}
   {%- assign shell = shell | append: photo -%}
-  {%- assign photo-text = ' ' | append: switch | append: 'photo=&lsquo;' -%}
-  {%- assign guest-text = ' ' | append: switch | append: 'guests=&lsquo;' -%}
+  {%- assign photo-text = ' ' | append: switch | append: 'photo=&apos;' -%}
+  {%- assign guest-text = ' ' | append: switch | append: 'guests=&apos;' -%}
 
   {% comment %} Create the rest of the shell script {% endcomment %}
   {%- assign guest-details = post.guestDetails -%}
@@ -104,11 +104,11 @@ python3 share-card-creator.py
 
     {% comment %} Finalize the shell command {% endcomment %}
     {%- if index-id == total-guests -%}
-      {%- assign shell = shell | append: photo-text | append: '&rsquo;' -%}
-      {%- assign shell = shell | append: guest-text | append: '&rsquo;' -%}
+      {%- assign shell = shell | append: photo-text | append: '&apos;' -%}
+      {%- assign shell = shell | append: guest-text | append: '&apos;' -%}
       {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' -%}
       {%- assign card-filename = card-filename | prepend: '/uploads/' | relative_url -%}
-      {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file=&lsquo;' | append: card-filename | append: '&rsquo;' -%}
+      {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file=&apos;' | append: card-filename | append: '&apos;' -%}
 {% capture final-shell %}
 {{ shell }}
 {% endcapture %}
