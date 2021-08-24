@@ -5,41 +5,41 @@ layout: shell
 {% comment %} 
 TEMPLATE
 1 guest:
-  python3 share-card-creator.py --title="A day in the life of a Product Manager" --photo="guest/albert.jpg" --guests="Albert Chen" --card_file="card1.png" 
+  python3 share-card-creator.py --title "A day in the life of a Product Manager" --photo "guest/albert.jpg" --guests "Albert Chen" --card_file "card1.png" 
 2 guests:
-  python3 share-card-creator.py --title="The power of an agile operating model in the manufacturing supply chain" --photo="guest/spady.jpeg,guest/joshua-hinkel.jpg" --guests="Richard Spady and Joshua Hinkel" --card_file="card2.png" 
+  python3 share-card-creator.py --title "The power of an agile operating model in the manufacturing supply chain" --photo "guest/spady.jpeg,guest/joshua-hinkel.jpg" --guests "Richard Spady and Joshua Hinkel" --card_file "card2.png" 
 3 guests:
-  python3 share-card-creator.py --title="Adapting agile to human resources" --photo="guest/natal-head-shot.jpg,guest/farlik.png,guest/maarten.jpeg" --guests="Natal Dank, Dr. John Farlick, and Maarten Dalmjin" --card_file="card3.png"
+  python3 share-card-creator.py --title "Adapting agile to human resources" --photo "guest/natal-head-shot.jpg,guest/farlik.png,guest/maarten.jpeg" --guests "Natal Dank, Dr. John Farlick, and Maarten Dalmjin" --card_file "card3.png"
 4 guests
-  python3 share-card-creator.py --title="Transform Your Conversations, Transform Your Culture" --photo="guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg" --guests="Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais" --card_file "card4.png"
+  python3 share-card-creator.py --title "Transform Your Conversations, Transform Your Culture" --photo "guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg" --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais" --card_file "card4.png"
 MISC
-  python3 share-card-creator.py --title="Labore nulla tempor culpa non aliquip occaecat incididunt Velit reprehenderit Incididunt dolor sit sint laboris id. nostrud deserunt quis esse esse quis duis qui ad." --photo="guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg" --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais" --card_file "card5.png"
+  python3 share-card-creator.py --title "Labore nulla tempor culpa non aliquip occaecat incididunt Velit reprehenderit Incididunt dolor sit sint laboris id. nostrud deserunt quis esse esse quis duis qui ad." --photo "guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg" --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais" --card_file "card5.png"
 {% endcomment %}
 
 {% comment %}
 Structure:
 python3 share-card-creator.py 
-  --title="Transform Your Conversations, Transform Your Culture"
-  --photo="guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg"
-  --guests="Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais"
-  --card_file="card4.png"
+  --title "Transform Your Conversations, Transform Your Culture"
+  --photo "guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg"
+  --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais"
+  --card_file "card4.png"
 {% endcomment %}
 
 {% comment %} Start the shell command {% endcomment %}
 {% comment %} Only get posts with a guest/photo structure {% endcomment %}
 {%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
+{%- assign switch = '&#45;&#45;' -%}
 {%- for post in posts -%}
   {% comment %} create the python script element {% endcomment %}
-  {%- assign shell = 'python3 share-card-creator.py ' -%}
-
+  {%- assign shell = 'python3 script.py ' -%}
   {% comment %} Add the title to the shell command {% endcomment %}
   {%- assign title = post.title -%}
-  {%- assign shell = shell | append: '-title="' | append: title | append: '" ' -%}
+  {%- assign shell = shell | append: switch | append: 'title "' | append: title | append: '" ' -%}
 
   {% comment %} Add the photo files and guest photos to the shell command {% endcomment %}
   {%- assign shell = shell | append: photo -%}
-  {%- assign photo-text = append: '--photos="' -%}
-  {%- assign guest-text = append: '--guests="' -%}
+  {%- assign photo-text = ' ' | append: switch | append: 'photo "' -%}
+  {%- assign guest-text = ' ' | append: switch | append: 'guests "' -%}
 
   {% comment %} Create the rest of the shell script {% endcomment %}
   {%- assign guest-details = post.guestDetails -%}
@@ -108,7 +108,7 @@ python3 share-card-creator.py
       {%- assign shell = shell | append: guest-text | append: '"' -%}
       {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' -%}
       {%- assign card-filename = card-filename | prepend: '/uploads/' | relative_url -%}
-      {%- assign shell = shell | append: ' --card_file="' | append: card-filename | append: '"' -%}
+      {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file "' | append: card-filename | append: '"' -%}
 {% capture final-shell %}
 {{ shell }}
 {% endcapture %}

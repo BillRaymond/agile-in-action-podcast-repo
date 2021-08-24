@@ -36,6 +36,15 @@
             "imageUrl": "",
             "display": false,
             "orderby": 4
+        },
+        {
+            "title": "Shell",
+            "url": "/social-sharing-card-creator/shell.zshrc",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "",
+            "display": true,
+            "orderby": 5
         }
     ]
 }
