@@ -6,8 +6,10 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'base/typography';
-@import 'components/guest-card-title';
+@import 'components/guest-card-autohor';
+@import 'components/_guest-card-guests';
 @import 'components/guest-card-images';
+@import 'components/guest-card-title';
 @import 'layout/browser-not-supported';
 @import 'layout/feed';
 @import 'layout/feed-latest';

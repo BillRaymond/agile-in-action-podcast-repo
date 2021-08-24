@@ -1,0 +1,14 @@
+.guest-card-guests-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "gc-guest-text";
+    // border-color: green;
+    // border-style: solid;
+  }
+  
+  .gc-guest-text { grid-area: gc-guest-text; }
+  

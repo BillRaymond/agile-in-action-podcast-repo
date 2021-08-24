@@ -3,7 +3,7 @@
 
 {% comment %} Another page will provide the title to display {% endcomment %}
 {%- assign cards = site.posts | where: 'title', title -%}
-{%- for card in cards -%}
+{%- for card in cards limit: 1 -%}
     <div class="guest-card-images-container">
         <div class="gci-background">
             {%- assign gci-background-image = '/assets/guests-card/logo-background-black-400x400.png' | relative_url -%}
