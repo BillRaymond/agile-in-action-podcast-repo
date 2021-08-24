@@ -56,7 +56,7 @@ echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
 
 cd ..
-sh -c "rm -rf $SCRIPTS_DIR"
+rm -rf $SCRIPTS_DIR
 
 echo "#################################################"
 echo "Starting the Jekyll Action a second time"
