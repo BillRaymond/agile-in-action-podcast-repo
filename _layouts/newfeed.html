@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<div class="guest-card-container">
-    {% comment %} Get the details for each post {% endcomment %}
-    {%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
-    {%- for post in posts -%}
+{% comment %} Get the details for each post {% endcomment %}
+{%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
+{%- for post in posts limit: 4 -%}
+    <div class="guest-card-container">
         {% comment %} Only get the images for this post {% endcomment %}
         {%- assign title = post.title -%}
         {%- include guest-card-images.html -%}
         {%- include guest-card-title.html -%}
         {%- include guest-card-guests.html -%}
         {%- include guest-card-author.html -%}
-    {%- endfor -%}
-</div>
+    </div>
+{%- endfor -%}
