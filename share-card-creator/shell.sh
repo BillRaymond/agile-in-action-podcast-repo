@@ -56,7 +56,7 @@ python3 share-card-creator.py
 
     {% comment %} If there is only one guest, just add the guest details {% endcomment %}
     {%- if total-guests == 1  -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: guest-photo  | prepend: '..' -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
@@ -107,7 +107,7 @@ python3 share-card-creator.py
       {%- assign shell = shell | append: photo-text | append: '&apos;' -%}
       {%- assign shell = shell | append: guest-text | append: '&apos;' -%}
       {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' -%}
-      {%- assign card-filename = card-filename | prepend: '/uploads/' -%}
+      {%- assign card-filename = card-filename | prepend: '../uploads/' -%}
       {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file=&apos;' | append: card-filename | append: '&apos;' -%}
 {% capture final-shell %}
 {{ shell }}
