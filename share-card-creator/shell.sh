@@ -56,7 +56,7 @@ python3 share-card-creator.py
 
     {% comment %} If there is only one guest, just add the guest details {% endcomment %}
     {%- if total-guests == 1  -%}
-      {%- assign photo-text = photo-text | append: guest-photo  | prepend: '..' -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
