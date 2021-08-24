@@ -66,7 +66,7 @@ python3 share-card-creator.py
         {%- assign photo-text = photo-text | append: ',' -%}
         {%- assign guest-text = guest-text | append: ' and ' -%}
       {%- endif -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
@@ -80,7 +80,7 @@ python3 share-card-creator.py
         {%- assign photo-text = photo-text | append: ','-%}
         {%- assign guest-text = guest-text | append: ', and ' -%}
       {%- endif -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
@@ -98,7 +98,7 @@ python3 share-card-creator.py
         {%- assign photo-text = photo-text | append: ',' -%}
         {%- assign guest-text = guest-text | append: ', and ' -%}
       {%- endif -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
