@@ -28,5 +28,9 @@
                     <img src="{{- guest-photo -}}" alt="" class="gci-card">
             {%- endfor -%}
         </div>
+        <div class="gci-play">
+            {%- assign play-circle = "/assets/guests-card/play-circle.png" | relative_url -%}
+            <img src="{{- play-circle -}}" alt="" class="gci-play-image">
+        </div>
     </div>
 {%- endfor -%}

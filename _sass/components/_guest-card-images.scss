@@ -20,6 +20,7 @@
   grid-area: 1 / 1 / 2 / 2; 
 }
 
+// display one guest photo
 .gci-cards-1 {
   display: grid; 
   grid-template-columns: 1fr; 
@@ -33,6 +34,7 @@
   // use the default layout below
 }
 
+// display 2 guest photos
 .gci-cards-2 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
@@ -49,6 +51,7 @@
   object-fit: cover;
 }
 
+// Display 3 guest photos
 .gci-cards-3 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
@@ -63,6 +66,7 @@
   // use the default image layout below
 }
 
+// Display 4 guest photos
 .gci-cards-4 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
@@ -88,4 +92,27 @@
   width: 100%;
   max-width: 100%;
   object-fit: cover;
+}
+
+// Display the play icon
+.gci-play {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "."; 
+  justify-self: end;
+  align-self: end;
+  justify-items: end;
+  align-items: end;
+  grid-area: 1 / 1 / 2 / 2; 
+}
+
+.gci-play-image {
+  width: 50%;
+  height: 50%;
+  opacity: 90%;
+  padding-right: 4%;
+  padding-bottom: 4%;
 }
