@@ -4,7 +4,9 @@
     grid-template-rows: min-content;
     gap: 0px 5px;
     grid-auto-flow: column;
-    align-content: center;
+    align-items: center;
+    align-content: end;
+    margin-bottom: 5px;
     grid-template-areas:
       "gc-author-image gc-author-text";
 
@@ -12,29 +14,18 @@
         margin-top: 5px;
       }
   }
-  
+
   .gca-author-image { 
     grid-area: gc-author-image;
-    align-content: center;
     width: 25px;
     height: 25px;
   }
   
-  .gc-author-text { 
-    grid-area: gc-author-text;
-    margin-top: 5px;
-  }
-  
   .gca-author-name {
     text-transform: uppercase;
-  
-    @include for-size(phone-only){
-      text-transform: capitalize;
-    }
   }
 
-  .gca-post-date {
-    @include for-size(phone-only){
-      display: none;
-    }
+  // Do not show author details in smaller devices
+  .guest-card-author-container* {
+    @include for-size(phone-only){ display: none; }
   }

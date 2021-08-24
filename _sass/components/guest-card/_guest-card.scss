@@ -35,11 +35,3 @@
   @include for-size(tablet-portrait-up) { grid-area: guest-card-author-container; }
   @include for-size(phone-only) { display: none; }
 }
-
-.gca-author {
-  @include for-size(phone-only){ display: none; }
-}
-
-.gca-author-image {
-  @include for-size(phone-only){ display: none; }
-}
