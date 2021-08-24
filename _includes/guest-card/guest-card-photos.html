@@ -6,7 +6,7 @@
 {%- for card in cards limit: 1 -%}
     <div class="guest-card-photos-container">
         <div class="gcp-background">
-            {%- assign gcp-background-image = '/assets/guests-card/logo-background-black-400x400.png' | relative_url -%}
+            {%- assign gcp-background-image = '/assets/guest-card/logo-background-black-400x400.png' | relative_url -%}
             <img src="{{-gcp-background-image-}}" alt="" class="gcp-background-image">
         </div>
         {% comment %} Get the list of guests {% endcomment %}
@@ -29,7 +29,7 @@
             {%- endfor -%}
         </div>
         <div class="gcp-play">
-            {%- assign play-circle = "/assets/guests-card/play-circle.png" | relative_url -%}
+            {%- assign play-circle = "/assets/guest-card/play-circle.png" | relative_url -%}
             <img src="{{- play-circle -}}" alt="" class="gcp-play-image">
         </div>
     </div>

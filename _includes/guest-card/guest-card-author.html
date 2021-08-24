@@ -3,7 +3,7 @@
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
     <div class="guest-card-author-container">
-        {%- assign author-image = "/assets/guests-card/bill-raymond-small-circle-50x50.png" | relative_url -%}
+        {%- assign author-image = "/assets/guest-card/bill-raymond-small-circle.png" | relative_url -%}
         <img src="{{- author-image -}}" alt="" class="gca-author-image">
         {% assign gc-post-date = post.date  | date: "%a, %b %d, %y" %}
         <p class="gca-author">BILL RAYMOND&nbsp;-&nbsp;{{- gc-post-date -}}</p>
