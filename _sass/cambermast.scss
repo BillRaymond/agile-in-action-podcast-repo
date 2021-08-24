@@ -6,10 +6,12 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'base/typography';
+@import 'components/guest-card-all';
+@import 'components/guest-card-styles';
 @import 'components/guest-card';
 @import 'components/guest-card-autohor';
 @import 'components/_guest-card-guests';
-@import 'components/guest-card-images';
+@import 'components/guest-card-photos';
 @import 'components/guest-card-title';
 @import 'layout/browser-not-supported';
 @import 'layout/feed';

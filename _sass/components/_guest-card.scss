@@ -2,15 +2,15 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-template-rows: min-content min-content min-content;
-  gap: 20px 5px;
+  gap: 0px 15px;
   grid-auto-flow: row;
   grid-template-areas:
-    "guest-card-images-container guest-card-title-container"
-    "guest-card-images-container guest-card-guests-container"
-    "guest-card-images-container guest-card-author-container";
+    "guest-card-photos-container guest-card-title-container"
+    "guest-card-photos-container guest-card-guests-container"
+    "guest-card-photos-container guest-card-author-container";
 }
 
-.guest-card-images-container { grid-area: guest-card-images-container; }
+.guest-card-photos-container { grid-area: guest-card-photos-container; }
 
 .guest-card-title-container { grid-area: guest-card-title-container; }
 
