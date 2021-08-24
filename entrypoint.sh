@@ -45,7 +45,7 @@ sh -c "jekyll build"
 
 cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
-sh -c "chmod +x $SCRIPTS_DIR/share-card-creator.py"
+sh -c "chmod +x $SCRIPTS_DIR/script.py"
 
 echo "#################################################"
 cd $SCRIPTS_DIR
