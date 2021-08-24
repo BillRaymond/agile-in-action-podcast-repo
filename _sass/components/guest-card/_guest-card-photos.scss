@@ -6,8 +6,12 @@
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
   gap: 0px 0px;
-  width: 110px; 
-  height: 110px;
+  width: 140px; 
+  height: 140px;
+  @include for-size(phone-only){ 
+    width: 110px; 
+    height: 110px; 
+  }
 }
 
 .gcp-background {
@@ -17,7 +21,8 @@
   gap: 0px 0px; 
   grid-template-areas: 
     "."; 
-  grid-area: 1 / 1 / 2 / 2; 
+  grid-area: 1 / 1 / 2 / 2;
+  @include for-size(phone-only){ display: none; }
 }
 
 // display one guest photo

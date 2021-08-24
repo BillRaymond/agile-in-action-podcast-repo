@@ -3,6 +3,6 @@
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
     <div class="guest-card-title-container">
-        <p class="gc-title">{{- card.title -}}</p>
+        <p class="gct-title">{{- card.title -}}</p>
     </div>
 {%- endfor -%}

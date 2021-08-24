@@ -6,13 +6,21 @@
     grid-auto-flow: row;
     align-self: end;
     grid-template-areas:
-      "gc-title";
+      "gct-title";
+      @include for-size(phone-only){
+        align-self: start;
+        margin-top: 5px
+      }
   }
   
-.gc-title {
-    grid-area: gc-title;
+.gct-title {
+    grid-area: gct-title;
     align-self: end;
     font-weight: bold;
     text-transform: uppercase;
+    @include fluid-type(16px, 24px);
+    @include for-size(phone-only){
+      text-transform: none;
+    }
 }
   
