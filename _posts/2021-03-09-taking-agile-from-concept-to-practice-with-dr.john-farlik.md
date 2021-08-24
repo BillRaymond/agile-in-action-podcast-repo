@@ -7,7 +7,7 @@ title: Taking agile from concept to practice with Dr. John Farlik
 featuredImage: "/uploads/airfocus-um1zvjvctey-unsplash.jpg"
 guestPhotos:
 - "/uploads/farlik.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/18217643
+linsyn-url: https://directory.libsyn.com/episode/index/id/18217643
 
 ---
 In this podcast, I speak with Doctor John Farlik and discuss the successful implementation of agile in part by gauging where stakeholders fall on the agile-waterfall continuum and working with them at their level. We discuss how planning is a crucial part of agile even when done differently than for a waterfall project.

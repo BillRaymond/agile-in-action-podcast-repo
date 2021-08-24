@@ -7,7 +7,7 @@ title: 'Untapped Agility. An Interview with Jesse Fewell. '
 featuredImage: "/uploads/nick-fewings-zf_ptlx_dkg-unsplash.jpg"
 guestPhotos:
 - "/uploads/fewell_cpm_203-min-scaled.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/18344072
+linsyn-url: https://directory.libsyn.com/episode/index/id/18344072
 
 ---
 In this podcast, I speak to a very important topic on the mindset of leaders adopting agile for their organization. Author Jesse Fewell provides insight into how leaders should focus on outcomes over plans.

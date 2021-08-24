@@ -10,7 +10,7 @@
             <img src="{{-gcp-background-image-}}" alt="" class="gcp-background-image">
         </div>
         {% comment %} Get the list of guests {% endcomment %}
-        {%- assign guest-details = card.guestDetails -%}
+        {%- assign guest-details = card.guest-details -%}
         {% comment %} CSS defines the image layout {% endcomment %}
         {% comment %} Do not allow more than a 4-quadrant grid {% endcomment %}
         {%- assign grid-boxes = guest-details.size -%}
@@ -24,7 +24,7 @@
             {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
             {%- for guest in guest-details limit: 4 -%}
                 {%- assign index-id = forloop.index -%}
-                    {%- assign guest-photo = guest.guest_photo | relative_url -%}
+                    {%- assign guest-photo = guest.guest-photo | relative_url -%}
                     <img src="{{- guest-photo -}}" alt="" class="gcp-card">
             {%- endfor -%}
         </div>

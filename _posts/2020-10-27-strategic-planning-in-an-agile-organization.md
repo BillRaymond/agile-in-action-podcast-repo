@@ -7,7 +7,7 @@ title: Strategic planning in an agile organization
 featuredImage: "/uploads/executive-meeting.jpg"
 guestPhotos:
 - "/uploads/bethann-zaveson.jpeg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/16558685
+linsyn-url: https://directory.libsyn.com/episode/index/id/16558685
 
 ---
 In this podcast, I speak with Bethann Zaveson, Director Portfolio Management, IT at AmTrust Financial. Bethann walks us through her career path from more formal frameworks like stage-gate and portfolio management.

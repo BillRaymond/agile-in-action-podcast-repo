@@ -7,7 +7,7 @@ title: A day in the life of a SCRUM Master with Michele Magnardini at Sage
 featuredImage: "/uploads/michele-image.png"
 guestPhotos:
 - "/uploads/michele.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/19385285
+linsyn-url: https://directory.libsyn.com/episode/index/id/19385285
 
 ---
 When you think about agile teams, or more specifically, Scrum teams, you will often hear about a role called the Scrum Master. That role is frequently confused, and you will often hear the position referred to as a project manager with a new and modern title.

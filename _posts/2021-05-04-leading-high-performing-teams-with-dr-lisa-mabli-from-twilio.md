@@ -7,7 +7,7 @@ title: Leading high performing teams with Dr Lisa Mabli from Twilio
 featuredImage: "/uploads/working-team.png"
 guestPhotos:
 - "/uploads/dr-mabli.jpg"
-libsynUrl: ''
+linsyn-url: ''
 
 ---
 In today's podcast, I speak to Lisa Mabli, Senior Manager of Agile Program Management at Twilio. We discuss the qualities that make up high performing teams and strategies for how new leaders can build and enable their teams.

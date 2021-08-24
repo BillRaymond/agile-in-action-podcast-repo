@@ -4,22 +4,22 @@ categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2021-08-15
 title: two guests
-guestDetails:
-- name_of_person: Peter Koning
-  guest_photo: "/uploads/koning.jpg"
-  guest_links:
-  - guestLinkLabel: website
-    guestLinkUrl: peeeeterkooooning.com
-  - guestLinkLabel: LinkedIn
-    guestLinkUrl: 'linkedin.com/peeeeeterkoning '
-- name_of_person: maarten dalmijn
-  guest_photo: "/uploads/maarten-1.jpeg"
-  guest_links:
-  - guestLinkLabel: Website
-    guestLinkUrl: 'maaaaarteeendalmijn.com '
-  - guestLinkLabel: LinkedIn
-    guestLinkUrl: 'linkedin.com/maaaaaaartendalmiiiijn '
-libsynUrl: https://directory.libsyn.com/episode/index/id/20016338
+guest-details:
+- guest-name: Peter Koning
+  guest-photo: "/uploads/koning.jpg"
+  guest-links:
+  - guest-link-label: website
+    guest-link-url: peeeeterkooooning.com
+  - guest-link-label: LinkedIn
+    guest-link-url: 'linkedin.com/peeeeeterkoning '
+- guest-name: maarten dalmijn
+  guest-photo: "/uploads/maarten-1.jpeg"
+  guest-links:
+  - guest-link-label: Website
+    guest-link-url: 'maaaaarteeendalmijn.com '
+  - guest-link-label: LinkedIn
+    guest-link-url: 'linkedin.com/maaaaaaartendalmiiiijn '
+linsyn-url: https://directory.libsyn.com/episode/index/id/20016338
 
 ---
 Two awesome guests!

@@ -10,7 +10,7 @@
             {%- endfor -%}
         </div>
         <h2>Listen now</h2>
-        {%- assign player-id = page.libsynUrl | split: '/' | last -%}
+        {%- assign player-id = page.linsyn-url | split: '/' | last -%}
         {%- if player-id -%}
             <iframe class="podcast-player"
                 style="border: none" 

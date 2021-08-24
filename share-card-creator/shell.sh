@@ -27,7 +27,7 @@ python3 share-card-creator.py
 
 {% comment %} Start the shell command {% endcomment %}
 {% comment %} Only get posts with a guest/photo structure {% endcomment %}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
+{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
 {%- assign switch = '&#45;&#45;' -%}
 {%- for post in posts -%}
   {% comment %} create the python script element {% endcomment %}
@@ -42,11 +42,16 @@ python3 share-card-creator.py
   {%- assign guest-text = ' ' | append: switch | append: 'guests=&apos;' -%}
 
   {% comment %} Create the rest of the shell script {% endcomment %}
-  {%- assign guest-details = post.guestDetails -%}
+  {%- assign guest-details = post.guest-details -%}
   {%- assign total-guests = guest-details.size -%}
   {%- for guest-detail in guest-details -%}
+<<<<<<< HEAD:share-card-creator/shell.sh
     {%- assign guest-name = guest-detail.name_of_person -%}
     {%- assign guest-photo = guest-detail.guest_photo -%}
+=======
+    {%- assign guest-name = guest-detail.guest-name -%}
+    {%- assign guest-photo = guest-detail.guest-photo | relative_url -%}
+>>>>>>> 49cc710... rename front matter for new posts:social-sharing-card-creator/shell.zshrc
 
     {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
     {%- assign index-id = forloop.index -%}

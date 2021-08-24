@@ -3,11 +3,11 @@
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
     <div class="guest-card-guests-container">
-        {%- assign guest-details = post.guestDetails -%}
+        {%- assign guest-details = post.guest-details -%}
         {%- assign total-guests = guest-details.size -%}
         {%- assign guest-text = "" -%}
         {%- for guest-detail in guest-details limit: 4 -%}
-            {%- assign guest-name = guest-detail.name_of_person -%}
+            {%- assign guest-name = guest-detail.guest-name -%}
 
             {%- assign index-id = forloop.index -%}
             {% comment %} If there is only one guest, just add the guest details {% endcomment %}

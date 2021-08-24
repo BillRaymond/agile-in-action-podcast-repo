@@ -6,7 +6,7 @@ layout: default
       {%- include nav.html -%}
 {% comment %} Get the details for each post {% endcomment %}
 <div class="guest-card-all-container">
-    {%- assign posts = site.posts | where_exp: 'post', 'post.guestDetails != nil' -%}
+    {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
     {%- for post in posts limit: 4 -%}
         <div class="guest-card-container">
             {% comment %} Only get the images for this post {% endcomment %}

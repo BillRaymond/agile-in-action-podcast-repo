@@ -7,7 +7,7 @@ title: Loretta Harland on team effectiveness using standardized tools
 featuredImage: "/uploads/team-loretta.jpg"
 guestPhotos:
 - "/uploads/loretta.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/17902886
+linsyn-url: https://directory.libsyn.com/episode/index/id/17902886
 
 ---
 In this podcast, I speak with Loretta Harland and discuss practical ways to work effectively and efficiently with teams. We talk about the importance of using standard tools across teams to improve flow and increase productivity.

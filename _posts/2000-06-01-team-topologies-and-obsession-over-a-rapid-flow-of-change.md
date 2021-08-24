@@ -5,7 +5,7 @@ date: 2020-08-10 12:30:00 -0700
 author: Bill Raymond
 title: Team topologies and an obsession over a rapid flow of change
 featuredImage: "/uploads/team-topologies-podcast.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/14797205
+linsyn-url: https://directory.libsyn.com/episode/index/id/14797205
 guestPhotos:
 - "/uploads/manuel-pais-min.jpg"
 - "/uploads/matthew-skelton-min.jpg"

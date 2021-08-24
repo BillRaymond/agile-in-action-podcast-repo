@@ -7,7 +7,7 @@ title: 'Sarah Shewell on embracing a remote work culture '
 featuredImage: "/uploads/virtual-meeting-image.jpg"
 guestPhotos:
 - "/uploads/sarah-shewell.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/17454836
+linsyn-url: https://directory.libsyn.com/episode/index/id/17454836
 
 ---
 Listen as Bill and Sarah Shewell discuss how, in the age of Zoom meetings and remote work, company culture and inclusion matters more then ever. Sarah shares practical tactics she used to elicit cooperation, communication, and the flow of information among various teams.

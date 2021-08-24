@@ -7,7 +7,7 @@ title: Starting with agile on big bet projects
 featuredImage: "/uploads/icom-logo-ecosystem-lockup-1line.jpg"
 guestPhotos:
 - "/uploads/vice-abbate.jpeg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/16011653
+linsyn-url: https://directory.libsyn.com/episode/index/id/16011653
 
 ---
 QuickBooks and TurboTax are practically household names. Intuit drives projects large and small to improve customer experiences and find new market opportunities. Adopting agile takes a new mindset and Vincent Abbate is all-in and shares some rare insight into how teams must work in a fast-paced, customer-driven tech company.

@@ -7,7 +7,7 @@ title: OnePlan's Jose Levy on seeing the big picture with adaptive agile
 featuredImage: "/uploads/oneplan-logo.png"
 guestPhotos:
 - "/uploads/levy.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/19783685
+linsyn-url: https://directory.libsyn.com/episode/index/id/19783685
 
 ---
 In today’s Agile in Action podcast, I speak with Jose Levy, Director of Cloud Services at OnePlan. We discuss the importance portfolio management processes and software still play in today’s modern organization.

@@ -8,7 +8,7 @@ featuredImage: "/uploads/curtis-macnewton-vviwtmqsiuk-unsplash.jpg"
 guestPhotos:
 - "/uploads/mary-120b.jpg"
 - "/uploads/tom-web.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/16329959
+linsyn-url: https://directory.libsyn.com/episode/index/id/16329959
 
 ---
 Mary and Tom Poppendieck coined the term Lean Software Development and have some great stories to inspire you.

@@ -7,7 +7,7 @@ title: Agility, frameworks, and gaining a competitive advantage with Evan Leybou
 featuredImage: "/uploads/thumbnail_chris-abney-wjsj1f4judk-unsplash.jpg"
 guestPhotos:
 - "/uploads/evan.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/20016338
+linsyn-url: https://directory.libsyn.com/episode/index/id/20016338
 
 ---
 Business agility represents the continuous and purposeful change you make to deliver more value to your customers and gain a competitive edge. Very often, we use frameworks that guide how to be more agile.  

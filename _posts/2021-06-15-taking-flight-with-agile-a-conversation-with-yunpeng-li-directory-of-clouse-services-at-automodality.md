@@ -8,7 +8,7 @@ title: Taking flight with agile, a conversation with Yunpeng Li, Director of Clo
 featuredImage: "/uploads/dose-media-ditiyqx0mh4-unsplash.jpg"
 guestPhotos:
 - "/uploads/yunpeng.jpg"
-libsynUrl: ''
+linsyn-url: ''
 
 ---
 In the 1990s, organizations spent billions on large-scale, monolithic software solutions, such as ERP and MRP systems. Now, in the 2000s, innovative new technologies are changing the way we work.

@@ -8,7 +8,7 @@ title: There is no matrix - Organizing teams for the digital era with Luis Gonç
 featuredImage: "/uploads/luis-goncalves-featured-image.png"
 guestPhotos:
 - "/uploads/luis-goncalves.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/19129748
+linsyn-url: https://directory.libsyn.com/episode/index/id/19129748
 shareCard: "/assets/agile-in-action/share-card.png"
 ---
 In today's podcast, I speak with Luis Goncalves, who shares how too many organizations still use an industrial age, matrixed structure. Luis shares how to re-think team structures and focus on value streams over projects.

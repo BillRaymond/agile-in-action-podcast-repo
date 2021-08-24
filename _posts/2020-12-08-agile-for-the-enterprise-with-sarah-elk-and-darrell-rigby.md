@@ -8,7 +8,7 @@ featuredImage: "/uploads/agile-for-the-enterprise.jpg"
 guestPhotos:
 - "/uploads/sarah-elk-headshot-square.jpg"
 - "/uploads/rigby_darrell_print_bw.jpg"
-libsynUrl: https://directory.libsyn.com/episode/index/id/17103482
+linsyn-url: https://directory.libsyn.com/episode/index/id/17103482
 
 ---
 Learn how Darrell and Sarah help organizations transform their business to increase performance.
