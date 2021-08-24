@@ -53,29 +53,36 @@ fields:
 - name: guestDetails
   type: field_group_list
   fields:
-  - name: name_of_person
+  - name: guest-name
     type: text
     config:
       required: false
     label: Guest name
     description: 'Type the guest''s name, or name and title. Like this: "Sarah Smith"
       or "Sarah Smith, Vice President Technology at Acme Corp".'
-  - name: guest_photo
+  - name: guest-title
+    type: text
+    config:
+      required: false
+    label: Guest title
+    description: 'Type the person''s title and other pertinent information. ex: Jo
+      Smith, CIO Acme Corp, and agile practitioner'
+  - name: guest-photo
     type: file
     config:
       maxSize: 64
     label: Guest photo
-  - name: guest_links
+  - name: guest-links
     type: field_group_list
     fields:
-    - name: guestLinkLabel
+    - name: guest-link-label
       type: text
       config:
         required: false
-      label: label
+      label: Link label
       description: Type a label for the link, like LinkedIn, Twitter, Amazon Book,
         etc.
-    - name: guestLinkUrl
+    - name: guest-link-url
       type: text
       config:
         required: false
@@ -102,8 +109,4 @@ fields:
   description: After you publish a post, Libsyn will provide a "Libsyn Directory URL".
     Paste that link into this field.
 pages:
-- _posts/2021-08-18-four-guests.md
-- _posts/2021-08-18-one-guest.md
-- _posts/2021-08-18-three-guests.md
-- _posts/2021-08-18-two-guests.md
 - _posts/test-date-time.md
