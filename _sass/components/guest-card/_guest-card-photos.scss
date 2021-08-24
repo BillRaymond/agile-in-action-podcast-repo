@@ -1,16 +1,16 @@
 // Display 1-4 guests for a podcast
-// If there are more than 5, html shold not display
-.guest-card-images-container {
+// If there are more than 5, html will not display
+.guest-card-photos-container {
   display: grid; 
   grid-auto-rows: 1fr; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
-  gap: 0px 0px; 
+  gap: 0px 0px;
   width: 110px; 
   height: 110px;
 }
 
-.gci-background {
+.gcp-background {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
@@ -20,36 +20,35 @@
   grid-area: 1 / 1 / 2 / 2; 
 }
 
-.gci-cards-1 {
+// display one guest photo
+.gcp-cards-1 {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
   gap: 2px 2px; 
   grid-template-areas: 
     "."; 
-  width: 110px; 
-  height: 110px; 
   grid-area: 1 / 1 / 2 / 2;
   // use the default layout below
 }
 
-.gci-cards-2 {
+// display 2 guest photos
+.gcp-cards-2 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   gap: 0px 2px; 
-  width: 110px; 
-  height: 110px; 
   grid-area: 1 / 1 / 2 / 2;
   // use the unique card image layout below
 }
 
 // unique card layout for two images
-.gci-cards-2 .gci-card {
+.gcp-cards-2 .gcp-card {
   height: 100%;
   object-fit: cover;
 }
 
-.gci-cards-3 {
+// Display 3 guest photos
+.gcp-cards-3 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -57,13 +56,12 @@
   grid-template-areas: 
     ". ."
     ". ."; 
-  width: 110px; 
-  height: 110px; 
   grid-area: 1 / 1 / 2 / 2;
   // use the default image layout below
 }
 
-.gci-cards-4 {
+// Display 4 guest photos
+.gcp-cards-4 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -71,21 +69,40 @@
   grid-template-areas: 
     ". ."
     ". ."; 
-  width: 110px; 
-  height: 110px; 
   grid-area: 1 / 1 / 2 / 2;
   // use the default image layout below
 }
 
 // default image layout for guest card size
-.gci-card {
+.gcp-card {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
 }
 
-.gci-background-image {
+.gcp-background-image {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
+}
+
+// Display the play icon
+.gcp-play {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ".";
+  justify-items: end;
+  align-items: end;
+  grid-area: 1 / 1 / 2 / 2; 
+}
+
+.gcp-play-image {
+  width: 15%;
+  height: 15%;
+  opacity: 90%;
+  padding-right: 4%;
+  padding-bottom: 4%;
 }

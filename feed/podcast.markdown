@@ -1,3 +1,3 @@
 ---
-layout: feed-podcast
+layout: feed
 ---

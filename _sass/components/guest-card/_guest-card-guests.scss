@@ -4,6 +4,8 @@
     grid-template-rows: min-content;
     gap: 0px 0px;
     grid-auto-flow: row;
+    align-self: start;
+
     grid-template-areas:
       "gc-guest-text";
     // border-color: green;

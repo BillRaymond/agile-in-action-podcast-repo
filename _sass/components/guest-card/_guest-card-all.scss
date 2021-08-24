@@ -1,0 +1,10 @@
+.guest-card-all-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    gap: 10px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ".";
+  }
+  
