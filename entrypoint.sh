@@ -12,6 +12,16 @@ sh -c "rm entrypoint.sh"
 sh -c "rm .gitignore"
 
 echo "#################################################"
+echo "Make some files executable"
+SCRIPTS_DIR="share-card-creator"
+SHELL_FILE="shell.sh"
+
+echo "#################################################"
+echo "Install imagemagick"
+
+sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
+
+echo "#################################################"
 echo "Add ./_site as submodule"
 
 git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
@@ -21,15 +31,35 @@ git pull
 
 cd ..
 
+sh -c "chmod 777 /github/workspace/*"
+sh -c "chmod 777 /github/workspace/.*"
+
 echo "#################################################"
 echo "Added submodule"
 
 echo "#################################################"
 echo "Starting the Jekyll Action"
 
-sh -c "chmod 777 /github/workspace/*"
-sh -c "chmod 777 /github/workspace/.*"
 sh -c "bundle install"
+sh -c "jekyll build"
+
+cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
+sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
+sh -c "chmod +x $SCRIPTS_DIR/script.py"
+
+echo "#################################################"
+cd $SCRIPTS_DIR
+sh -c "pwd"
+sh -c "ls -lta"
+cat $SHELL_FILE
+echo "Execute $SHELL_FILE"
+sh -c "./$SHELL_FILE"
+
+cd ..
+rm -rf $SCRIPTS_DIR
+
+echo "#################################################"
+echo "Starting the Jekyll Action a second time"
 sh -c "jekyll build"
 
 echo "#################################################"

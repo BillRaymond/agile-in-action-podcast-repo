@@ -34,19 +34,19 @@ python3 share-card-creator.py
   {%- assign shell = 'python3 script.py ' -%}
   {% comment %} Add the title to the shell command {% endcomment %}
   {%- assign title = post.title -%}
-  {%- assign shell = shell | append: switch | append: 'title "' | append: title | append: '" ' -%}
+  {%- assign shell = shell | append: switch | append: 'title=&apos;' | append: title | append: '&apos; ' -%}
 
   {% comment %} Add the photo files and guest photos to the shell command {% endcomment %}
   {%- assign shell = shell | append: photo -%}
-  {%- assign photo-text = ' ' | append: switch | append: 'photo "' -%}
-  {%- assign guest-text = ' ' | append: switch | append: 'guests "' -%}
+  {%- assign photo-text = ' ' | append: switch | append: 'photo=&apos;' -%}
+  {%- assign guest-text = ' ' | append: switch | append: 'guests=&apos;' -%}
 
   {% comment %} Create the rest of the shell script {% endcomment %}
   {%- assign guest-details = post.guestDetails -%}
   {%- assign total-guests = guest-details.size -%}
   {%- for guest-detail in guest-details -%}
     {%- assign guest-name = guest-detail.name_of_person -%}
-    {%- assign guest-photo = guest-detail.guest_photo | relative_url -%}
+    {%- assign guest-photo = guest-detail.guest_photo -%}
 
     {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
     {%- assign index-id = forloop.index -%}
@@ -56,7 +56,7 @@ python3 share-card-creator.py
 
     {% comment %} If there is only one guest, just add the guest details {% endcomment %}
     {%- if total-guests == 1  -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
@@ -66,7 +66,7 @@ python3 share-card-creator.py
         {%- assign photo-text = photo-text | append: ',' -%}
         {%- assign guest-text = guest-text | append: ' and ' -%}
       {%- endif -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
@@ -80,7 +80,7 @@ python3 share-card-creator.py
         {%- assign photo-text = photo-text | append: ','-%}
         {%- assign guest-text = guest-text | append: ', and ' -%}
       {%- endif -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
@@ -98,17 +98,17 @@ python3 share-card-creator.py
         {%- assign photo-text = photo-text | append: ',' -%}
         {%- assign guest-text = guest-text | append: ', and ' -%}
       {%- endif -%}
-      {%- assign photo-text = photo-text | append: guest-photo -%}
+      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
       {%- assign guest-text = guest-text | append: guest-name -%}
     {%- endif -%}
 
     {% comment %} Finalize the shell command {% endcomment %}
     {%- if index-id == total-guests -%}
-      {%- assign shell = shell | append: photo-text | append: '"' -%}
-      {%- assign shell = shell | append: guest-text | append: '"' -%}
+      {%- assign shell = shell | append: photo-text | append: '&apos;' -%}
+      {%- assign shell = shell | append: guest-text | append: '&apos;' -%}
       {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' -%}
-      {%- assign card-filename = card-filename | prepend: '/uploads/' | relative_url -%}
-      {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file "' | append: card-filename | append: '"' -%}
+      {%- assign card-filename = card-filename | prepend: '../uploads/' -%}
+      {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file=&apos;' | append: card-filename | append: '&apos;' -%}
 {% capture final-shell %}
 {{ shell }}
 {% endcapture %}
