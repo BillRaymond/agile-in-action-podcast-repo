@@ -5,7 +5,7 @@
     <div class="guest-card-author-container">
         {%- assign author-image = "/assets/guest-card/bill-raymond-small-circle.png" | relative_url -%}
         <img src="{{- author-image -}}" alt="" class="gca-author-image">
-        {%- assign gca-post-date = post.date  | date: "%a, %b %d, %y" | prepend: ' - ' -%}
+        {%- assign gca-post-date = post.date  | date: "%A, %b %d, %Y" | prepend: ' - ' -%}
         <p class="gca-author"><span class="gca-author-name">Bill Raymond</span>
         <span class="gca-post-date">{{- gca-post-date -}}</span></p>
     </div>
