@@ -10,17 +10,6 @@ git config user.email "${MAIL}"
 git submodule init
 git submodule update
 
-echo "Set user data."
-git config user.name "${USER_NAME}"
-git config user.email "${MAIL}"
-
-echo "#################################################"
-echo "Remove some files"
-sh -c "rm Dockerfile"
-sh -c "rm README.md"
-sh -c "rm entrypoint.sh"
-sh -c "rm .gitignore"
-
 echo "#################################################"
 echo "Make some files executable"
 SCRIPTS_DIR="share-card-creator"
@@ -89,6 +78,13 @@ SOME_TOKEN=${GITHUB_TOKEN}
 USER_NAME="${GITHUB_ACTOR}"
 MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
+echo "#################################################"
+echo "Remove some files"
+sh -c "rm Dockerfile"
+sh -c "rm README.md"
+sh -c "rm entrypoint.sh"
+sh -c "rm .gitignore"
+
 ls -ltar
 cd ./_site
 ls -ltar
@@ -104,6 +100,10 @@ touch .nojekyll
 echo "Add all files."
 git add -f -A -v
 git status
+
+echo "Set user data."
+git config user.name "${USER_NAME}"
+git config user.email "${MAIL}"
 
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
 
