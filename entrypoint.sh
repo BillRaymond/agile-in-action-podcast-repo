@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+gem install bundler
+
 git submodule init
 git submodule update
 
