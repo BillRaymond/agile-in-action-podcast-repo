@@ -66,8 +66,7 @@ rm -rf $SCRIPTS_DIR
 
 echo "#################################################"
 echo "Publishing all images"
-echo "Add all files."
-git add -f -A -v
+git add uploads/\*
 git status
 
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
