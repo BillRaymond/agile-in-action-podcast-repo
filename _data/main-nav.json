@@ -39,7 +39,7 @@
         },
         {
             "title": "Shell",
-            "url": "/social-sharing-card-creator/shell.zshrc",
+            "url": "/share-card-creator/shell.sh",
             "type": "text",
             "content": "Content",
             "imageUrl": "",
