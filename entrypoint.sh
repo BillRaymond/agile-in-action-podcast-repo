@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+USER_NAME="${GITHUB_ACTOR}"
+MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
+
 gem install bundler
 
 git submodule init
@@ -87,9 +90,6 @@ echo "Second Jekyll build done"
 echo "#################################################"
 echo "Now publishing"
 SOME_TOKEN=${GITHUB_TOKEN}
-
-USER_NAME="${GITHUB_ACTOR}"
-MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
 ls -ltar
 cd ./_site
