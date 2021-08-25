@@ -71,13 +71,6 @@ git pull
 echo "#################################################"
 echo "Added submodule"
 
-echo "#################################################"
-echo "Remove some files"
-sh -c "rm Dockerfile"
-sh -c "rm README.md"
-sh -c "rm entrypoint.sh"
-sh -c "rm .gitignore"
-
 cd ..
 
 echo "#################################################"
@@ -89,7 +82,6 @@ echo "Second Jekyll build done"
 
 echo "#################################################"
 echo "Now publishing"
-SOME_TOKEN=${GITHUB_TOKEN}
 
 ls -ltar
 cd ./_site
