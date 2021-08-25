@@ -72,6 +72,8 @@ echo "#################################################"
 echo "Added submodule"
 
 cd ..
+sh -c "chmod 777 /github/workspace/*"
+sh -c "chmod 777 /github/workspace/.*"
 
 echo "#################################################"
 echo "Starting the Jekyll Action a second time"
