@@ -51,6 +51,8 @@ echo "Set user data."
 git config --global user.name "${USER_NAME}"
 git config --global user.email "${MAIL}"
 
+git config --list
+
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action - add images' && echo "Push." && git push origin
 
 git reset --hard
