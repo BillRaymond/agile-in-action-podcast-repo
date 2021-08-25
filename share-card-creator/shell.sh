@@ -45,13 +45,8 @@ python3 share-card-creator.py
   {%- assign guest-details = post.guest-details -%}
   {%- assign total-guests = guest-details.size -%}
   {%- for guest-detail in guest-details -%}
-<<<<<<< HEAD:share-card-creator/shell.sh
-    {%- assign guest-name = guest-detail.name_of_person -%}
-    {%- assign guest-photo = guest-detail.guest_photo -%}
-=======
     {%- assign guest-name = guest-detail.guest-name -%}
     {%- assign guest-photo = guest-detail.guest-photo | relative_url -%}
->>>>>>> 49cc710... rename front matter for new posts:social-sharing-card-creator/shell.zshrc
 
     {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
     {%- assign index-id = forloop.index -%}
