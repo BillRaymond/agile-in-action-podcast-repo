@@ -41,24 +41,22 @@ echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
 
 cd ..
-rm -rf $SCRIPTS_DIR
-rm -rf _site
 
 echo "#################################################"
 echo "Publishing all images"
 git add uploads/\*
 git status
 
-pwd
 echo "Set user data."
 git config --global user.name "${USER_NAME}"
 git config --global user.email "${MAIL}"
 
-git config --list
-
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action - add images' && echo "Push." && git push origin
 
 git reset --hard
+
+rm -rf $SCRIPTS_DIR
+rm -rf _site
 
 echo "#################################################"
 echo "Add ./_site as submodule"
@@ -100,10 +98,6 @@ touch .nojekyll
 echo "Add all files."
 git add -f -A -v
 git status
-
-echo "Set user data."
-git config user.name "${USER_NAME}"
-git config user.email "${MAIL}"
 
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
 
