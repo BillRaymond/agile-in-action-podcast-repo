@@ -3,6 +3,10 @@ set -e
 
 gem install bundler
 
+echo "Set user data."
+git config --global user.name "${USER_NAME}"
+git config --global user.email "${MAIL}"
+
 git submodule init
 git submodule update
 
@@ -61,6 +65,14 @@ cd ..
 rm -rf $SCRIPTS_DIR
 
 echo "#################################################"
+echo "Publishing all images"
+echo "Add all files."
+git add -f -A -v
+git status
+
+git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
+
+echo "#################################################"
 echo "Starting the Jekyll Action a second time"
 sh -c "jekyll build"
 
@@ -79,10 +91,6 @@ cd ./_site
 ls -ltar
 git log -2
 git remote -v
-
-echo "Set user data."
-git config user.name "${USER_NAME}"
-git config user.email "${MAIL}"
 
 # Create CNAME file for redirect to this repository
 if [[ "${CNAME}" ]]; then
