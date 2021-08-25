@@ -4,11 +4,15 @@ set -e
 gem install bundler
 
 echo "Set user data."
-git config --global user.name "${USER_NAME}"
-git config --global user.email "${MAIL}"
+git config user.name "${USER_NAME}"
+git config user.email "${MAIL}"
 
 git submodule init
 git submodule update
+
+echo "Set user data."
+git config user.name "${USER_NAME}"
+git config user.email "${MAIL}"
 
 echo "#################################################"
 echo "Remove some files"
