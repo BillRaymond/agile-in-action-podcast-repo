@@ -20,9 +20,6 @@ sh -c "chmod 777 /github/workspace/*"
 sh -c "chmod 777 /github/workspace/.*"
 
 echo "#################################################"
-echo "Added submodule"
-
-echo "#################################################"
 echo "Starting the Jekyll Action"
 
 sh -c "bundle install"
@@ -49,11 +46,14 @@ echo "Publishing all images"
 git add uploads/\*
 git status
 
+pwd
 echo "Set user data."
-git config user.name "${USER_NAME}"
-git config user.email "${MAIL}"
+git config --global user.name "${USER_NAME}"
+git config --global user.email "${MAIL}"
 
-git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
+git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action - add images' && echo "Push." && git push origin
+
+git reset --hard
 
 echo "#################################################"
 echo "Add ./_site as submodule"
@@ -62,6 +62,9 @@ git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.
 cd ./_site
 git checkout main
 git pull
+
+echo "#################################################"
+echo "Added submodule"
 
 echo "#################################################"
 echo "Remove some files"
