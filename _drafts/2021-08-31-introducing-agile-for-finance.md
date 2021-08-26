@@ -16,7 +16,7 @@ guestDetails:
     guest-link-url: https://www.imanet.org/?ssopc=1
   - guest-link-label: myima.org/agile
     guest-link-url: https://www.imanet.org/insights-and-trends/the-future-of-management-accounting/an-agile-approach-to-finance-transformation?ssopc=1
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/20267219
 
 ---
 As a researcher, Loreal Jiles has interviewed large and small organizations to learn the challenges and changes affecting finance. In doing that research, she discovered momentum to progress from data stewardship to value creation through deeper collaborations. Not surprisingly -- especially given the pandemic -- there is a significant shift to finance adapting to a fast pace of change.  
