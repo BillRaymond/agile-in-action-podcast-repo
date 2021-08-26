@@ -10,6 +10,8 @@ guestDetails:
     of Management Accountants (IMA)
   guest-photo: "/uploads/loreal-jiles.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/loreal-jiles/
   - guest-link-label: Institute of Management Accountants
     guest-link-url: https://www.imanet.org/?ssopc=1
   - guest-link-label: myima.org/agile
