@@ -1,13 +1,26 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2021-06-08 01:00:15 -0700
+date: 2021-06-08T01:00:15.000-07:00
 author: Bill Raymond
-title: A day in the life of a SCRUM Master with Michele Magnardini at Sage
+title: 'A day in the life of a SCRUM Master '
 featuredImage: "/uploads/michele-image.png"
 guestPhotos:
 - "/uploads/michele.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19385285
+guestDetails:
+- guest-name: Michele Magnardini
+  guest-title: Scrum Master at Sage
+  guest-photo: "/uploads/michele.jpg"
+  guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/michelemagnardini/
+  - guest-link-label: Eight stances of a scrum master
+    guest-link-url: 'https://www.scrum.org/resources/8-stances-scrum-master '
+  - guest-link-label: Scrum certification
+    guest-link-url: 'https://www.mountaingoatsoftware.com '
+  - guest-link-label: Geoff Watts' website
+    guest-link-url: 'https://www.inspectandadapt.com '
 
 ---
 When you think about agile teams, or more specifically, Scrum teams, you will often hear about a role called the Scrum Master. That role is frequently confused, and you will often hear the position referred to as a project manager with a new and modern title.
