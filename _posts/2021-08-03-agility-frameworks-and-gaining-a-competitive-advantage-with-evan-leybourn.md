@@ -13,6 +13,14 @@ guestDetails:
   guest-title: Co-founder and CEO, Business Agility Institute
   guest-photo: "/uploads/evan.jpg"
   guest-links:
+  - guest-link-label: LeSS (Large Scale Scrum)
+    guest-link-url: https://less.works/less/framework/index
+  - guest-link-label: Spotify Model on YouTube
+    guest-link-url: https://www.youtube.com/watch?v=Yvfz4HGtoPc&list=PLaEqoYnARQrTewzxx9t2IUnAcfLVB0TTu
+  - guest-link-label: Spotify Model on YouTube, continued
+    guest-link-url: https://www.youtube.com/watch?v=vOt4BbWLWQw&list=PLaEqoYnARQrTewzxx9t2IUnAcfLVB0TTu&index=2
+  - guest-link-label: BDD (Behavior Driven Development)
+    guest-link-url: https://www.agilealliance.org/glossary/bdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'bdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
   - guest-link-label: FDD (Feature Driven Development)
     guest-link-url: http://agilemodeling.com/essays/fdd.htm
 
