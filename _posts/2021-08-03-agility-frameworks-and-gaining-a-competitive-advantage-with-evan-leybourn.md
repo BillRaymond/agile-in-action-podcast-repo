@@ -13,6 +13,16 @@ guestDetails:
   guest-title: Co-founder and CEO, Business Agility Institute
   guest-photo: "/uploads/evan.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/evanleybourn/
+  - guest-link-label: Business Agility Institute
+    guest-link-url: https://businessagility.institute/
+  - guest-link-label: Scrum Alliance
+    guest-link-url: https://www.scrumalliance.org/
+  - guest-link-label: SAFe (Scaled Agile Frameworks)
+    guest-link-url: https://www.scaledagileframework.com/
+  - guest-link-label: XP (Extreme Programming)
+    guest-link-url: https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
   - guest-link-label: LeSS (Large Scale Scrum)
     guest-link-url: https://less.works/less/framework/index
   - guest-link-label: Spotify Model on YouTube
