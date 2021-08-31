@@ -50,7 +50,7 @@ fields:
     required: true
   label: Podcast title
   description: A short title to describe the podcast
-- name: guestDetails
+- name: guest-details
   type: field_group_list
   fields:
   - name: guest-name
