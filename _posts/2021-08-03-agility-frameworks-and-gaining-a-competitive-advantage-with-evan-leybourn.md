@@ -8,7 +8,7 @@ featuredImage: "/uploads/thumbnail_chris-abney-wjsj1f4judk-unsplash.jpg"
 guestPhotos:
 - "/uploads/evan.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/20016338
-guestDetails:
+guest-details:
 - guest-name: Evan Leybourn
   guest-title: Co-founder and CEO, Business Agility Institute
   guest-photo: "/uploads/evan.jpg"

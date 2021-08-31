@@ -9,7 +9,7 @@ guestPhotos:
 - "/uploads/luis-goncalves.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19129748
 shareCard: "/assets/agile-in-action/share-card.png"
-guestDetails:
+guest-details:
 - guest-name: Luis Goncalves
   guest-title: Founder of Evolution for All
   guest-photo: "/uploads/luis-goncalves.jpg"

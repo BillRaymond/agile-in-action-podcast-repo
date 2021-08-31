@@ -8,7 +8,7 @@ featuredImage: "/uploads/kvalifik-hqgj1ke2sro-unsplash.jpg"
 guestPhotos:
 - "/uploads/willemjan.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19016537
-guestDetails:
+guest-details:
 - guest-name: Willem-Jan Ageling
   guest-title: Agile Coach at Ingenico
   guest-photo: "/uploads/willemjan.jpg"

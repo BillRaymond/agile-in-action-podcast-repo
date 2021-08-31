@@ -8,7 +8,7 @@ featuredImage: "/uploads/dose-media-ditiyqx0mh4-unsplash.jpg"
 guestPhotos:
 - "/uploads/yunpeng.jpg"
 linsyn-url: ''
-guestDetails:
+guest-details:
 - guest-name: Yunpeng Li
   guest-title: Director of Cloud Services at AutoModality
   guest-photo: "/uploads/yunpeng.jpg"

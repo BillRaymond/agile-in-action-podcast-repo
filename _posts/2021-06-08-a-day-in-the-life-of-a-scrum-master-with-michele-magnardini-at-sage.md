@@ -8,7 +8,7 @@ featuredImage: "/uploads/michele-image.png"
 guestPhotos:
 - "/uploads/michele.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19385285
-guestDetails:
+guest-details:
 - guest-name: Michele Magnardini
   guest-title: Scrum Master at Sage
   guest-photo: "/uploads/michele.jpg"

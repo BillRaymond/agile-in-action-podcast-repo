@@ -8,7 +8,7 @@ featuredImage: "/uploads/working-team.png"
 guestPhotos:
 - "/uploads/dr-mabli.jpg"
 linsyn-url: ''
-guestDetails:
+guest-details:
 - guest-links:
   - guest-link-label: '"Leaders eat last"'
   - 

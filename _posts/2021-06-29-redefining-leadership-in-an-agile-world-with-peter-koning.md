@@ -8,7 +8,7 @@ featuredImage: "/uploads/beautiful-people.png"
 guestPhotos:
 - "/uploads/koning.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19610951
-guestDetails:
+guest-details:
 - guest-name: Peter Koning
   guest-title: Author and Coach
   guest-photo: "/uploads/koning.jpg"

@@ -8,7 +8,7 @@ featuredImage: "/uploads/hands.png"
 guestPhotos:
 - "/uploads/albert.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19847354
-guestDetails:
+guest-details:
 - guest-name: Albert Chen
   guest-title: Senior Product Manager at Okta
   guest-photo: "/uploads/albert.jpg"

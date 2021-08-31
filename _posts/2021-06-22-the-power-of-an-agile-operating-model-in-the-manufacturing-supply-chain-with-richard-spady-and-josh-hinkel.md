@@ -9,7 +9,7 @@ guestPhotos:
 - "/uploads/spady.jpg"
 - "/uploads/joshua-hinkel.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19545221
-guestDetails:
+guest-details:
 - guest-name: Josh Hinkel
   guest-title: Partner, Bain & Company
   guest-photo: "/uploads/joshua-hinkel.jpg"

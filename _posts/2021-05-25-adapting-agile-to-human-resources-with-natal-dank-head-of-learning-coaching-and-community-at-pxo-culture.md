@@ -8,7 +8,7 @@ featuredImage: "/uploads/dank-try-2.png"
 guestPhotos:
 - "/uploads/natal-head-shot.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19226258
-guestDetails:
+guest-details:
 - guest-name: 'Natal Dank '
   guest-title: Head of Learning, Coaching, and Community at PXO Culture
   guest-photo: "/uploads/natal-head-shot.jpg"

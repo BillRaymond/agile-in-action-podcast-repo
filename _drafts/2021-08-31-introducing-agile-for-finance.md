@@ -4,7 +4,7 @@ categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2021-08-31
 title: 'Introducing Agile for Finance '
-guestDetails:
+guest-details:
 - guest-name: Loreal Jiles
   guest-title: Incoming Vice President of Research and Thought Leadership, the Institute
     of Management Accountants (IMA)
