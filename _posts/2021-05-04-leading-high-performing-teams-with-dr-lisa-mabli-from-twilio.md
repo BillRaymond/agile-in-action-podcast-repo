@@ -3,19 +3,15 @@ layout: podcast-post
 categories: agile-in-action-podcast
 date: 2021-05-04T01:00:34.000-07:00
 author: Bill Raymond
-title: 'Leading high performing teams '
+title: Leading high performing teams with Dr Lisa Mabli from Twilio
 featuredImage: "/uploads/working-team.png"
 guestPhotos:
 - "/uploads/dr-mabli.jpg"
 linsyn-url: ''
 guestDetails:
-- guest-name: Dr. Lisa Mabli
-  guest-title: Senior Manager of Agile Program Management at Twilio
-  guest-photo: "/uploads/dr-mabli.jpg"
-  guest-links:
-  - {}
-  - guest-link-label: '"Flow"'
-    guest-link-url: https://www.amazon.com/Flow-Change-Makers-Mavericks-Innovation-Transformation-ebook/dp/B07FK5Y122/ref=sr_1_1?dchild=1&keywords=flow+finn+goulding&qid=1619761923&s=books&sr=1-1
+- guest-links:
+  - guest-link-label: '"Leaders eat last"'
+  - 
 
 ---
 In today's podcast, I speak to Lisa Mabli, Senior Manager of Agile Program Management at Twilio. We discuss the qualities that make up high performing teams and strategies for how new leaders can build and enable their teams.
