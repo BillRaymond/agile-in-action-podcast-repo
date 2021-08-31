@@ -17,8 +17,7 @@
     grid-area: gct-title;
     align-self: end;
     font-weight: bold;
-    text-transform: uppercase;
-    @include fluid-type(16px, 24px);
+    @include fluid-type(16px, 18px);
     @include for-size(phone-only){
       text-transform: none;
     }
