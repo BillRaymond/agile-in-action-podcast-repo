@@ -13,6 +13,10 @@ guestDetails:
   guest-title: Agile Coach at Ingenico
   guest-photo: "/uploads/willemjan.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/willemjanageling/
+  - guest-link-label: Website
+    guest-link-url: https://www.seriousscrum.com/
   - guest-link-label: Medium
     guest-link-url: https://medium.com/@WJAgeling
   - guest-link-label: Twitter
