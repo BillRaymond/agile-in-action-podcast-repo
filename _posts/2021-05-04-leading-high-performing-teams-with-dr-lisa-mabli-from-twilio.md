@@ -9,9 +9,9 @@ guestPhotos:
 - "/uploads/dr-mabli.jpg"
 linsyn-url: ''
 guest-details:
-- guest-links:
-  - guest-link-label: '"Leaders eat last"'
-  - 
+- guest-name: Dr. Lisa Mabli
+  guest-photo: "/uploads/dr-mabli.jpg"
+  guest-links: 
 
 ---
 In today's podcast, I speak to Lisa Mabli, Senior Manager of Agile Program Management at Twilio. We discuss the qualities that make up high performing teams and strategies for how new leaders can build and enable their teams.
