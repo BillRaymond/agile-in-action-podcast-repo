@@ -1,0 +1,31 @@
+.guests-card-author-container {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content;
+    gap: 0px 5px;
+    grid-auto-flow: column;
+    align-items: center;
+    align-content: end;
+    margin-bottom: 5px;
+    grid-template-areas:
+      "gc-author-image gc-author-text";
+
+      @include for-size(phone-only){
+        margin-top: 5px;
+      }
+  }
+
+  .gca-author-image { 
+    grid-area: gc-author-image;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .gca-author-name {
+    text-transform: uppercase;
+  }
+
+  // Do not show author details in smaller devices
+  .guests-card-author-container* {
+    @include for-size(phone-only){ display: none; }
+  }

@@ -1,0 +1,32 @@
+.guests-card-title-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-self: end;
+    grid-template-areas:
+      "gct-title";
+      @include for-size(phone-only){
+        align-self: start;
+        margin-top: 5px
+      }
+  }
+  
+.gct-title {
+    grid-area: gct-title;
+    align-self: end;
+    @include fluid-type(16px, 18px);
+    @include for-size(phone-only){
+      text-transform: none;
+    }
+}
+  
+
+.gct-title-href {
+  text-decoration: none;
+  color: $cambermastPrimary;
+  &:link { color: $cambermastPrimary; }
+  &:visited { color: $cambermastPrimary; }
+  &:hover { color: $cambermastAltDarkBlue; }
+}

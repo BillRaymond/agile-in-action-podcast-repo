@@ -1,0 +1,12 @@
+{% comment %} Compile the list of guests on the podcast {% endcomment %}
+
+{%- assign cards = site.posts | where: 'title', title -%}
+{%- for card in cards limit: 1 -%}
+    <div class="guest-featured-card-author-container">
+        {%- assign author-image = "/assets/guests-card/bill-raymond-small-circle.png" | relative_url -%}
+        <img src="{{- author-image -}}" alt="" class="gca-author-image">
+        {%- assign gca-post-date = post.date  | date: "%A, %b %d, %Y" | prepend: ' - ' -%}
+        <p class="gca-author"><span class="gca-author-name">Bill Raymond</span>
+        <span class="gca-post-date">{{- gca-post-date -}}</span></p>
+    </div>
+{%- endfor -%}
