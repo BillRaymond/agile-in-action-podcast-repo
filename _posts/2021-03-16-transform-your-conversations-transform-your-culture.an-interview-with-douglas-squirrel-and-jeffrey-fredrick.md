@@ -11,6 +11,11 @@ guestPhotos:
 - "/uploads/j-fredrick.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/18247106
 guest-details:
+- guest-name: Jeffrey Frederick
+  guest-photo: "/uploads/j-fredrick.jpg"
+  guest-links:
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/Jtf
 - guest-name: Douglas Squirrel
   guest-photo: "/uploads/d-squirrel.jpg"
   guest-links:
