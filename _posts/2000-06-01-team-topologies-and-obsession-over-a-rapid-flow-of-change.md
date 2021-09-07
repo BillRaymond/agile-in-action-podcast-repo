@@ -14,6 +14,8 @@ guest-details:
 - guest-name: Manuel Pais
   guest-photo: "/uploads/manuel-pais-min.jpg"
   guest-links:
+  - guest-link-label: Team Topologies
+    guest-link-url: https://teamtopologies.com/
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/manuelpais/
   - guest-link-label: Twitter
