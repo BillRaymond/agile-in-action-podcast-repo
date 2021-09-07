@@ -21,6 +21,7 @@ guest-details:
     guest-link-url: 'https://www.mountaingoatsoftware.com '
   - guest-link-label: Geoff Watts' website
     guest-link-url: 'https://www.inspectandadapt.com '
+libsynUrl: https://directory.libsyn.com/episode/index/id/19385285
 
 ---
 When you think about agile teams, or more specifically, Scrum teams, you will often hear about a role called the Scrum Master. That role is frequently confused, and you will often hear the position referred to as a project manager with a new and modern title.
