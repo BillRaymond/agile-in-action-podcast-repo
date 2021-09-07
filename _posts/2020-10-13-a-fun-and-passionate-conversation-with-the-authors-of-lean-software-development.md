@@ -16,6 +16,7 @@ guest-details:
     guest-link-url: https://twitter.com/mpoppendieck
   - guest-link-url: https://www.amazon.com/s?i=stripbooks&rh=p_27%3AMary+Poppendieck+%2F+Tom+Poppendieck+Poppendieck+%2F+Poppendieck&s=relevancerank&text=Mary+Poppendieck+%2F+Tom+Poppendieck+Poppendieck+%2F+Poppendieck&ref=dp_byline_sr_book_1
     guest-link-label: List of Publications
+  guest-name: Mary Poppendieck
 
 ---
 Mary and Tom Poppendieck coined the term Lean Software Development and have some great stories to inspire you.
