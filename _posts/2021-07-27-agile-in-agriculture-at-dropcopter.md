@@ -13,6 +13,10 @@ guest-details:
 - guest-name: Matt Koball
   guest-photo: "/uploads/matt-koball.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/matt-koball-58197167/
+  - guest-link-label: Dropcopter
+    guest-link-url: https://www.dropcopter.com/
   - guest-link-label: Genius NY
     guest-link-url: http://www.geniusny.com/
   guest-title: Co-founder of DropCopter
