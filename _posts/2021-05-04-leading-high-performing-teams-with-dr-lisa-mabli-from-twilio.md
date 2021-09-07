@@ -12,6 +12,8 @@ guest-details:
 - guest-name: Dr. Lisa Mabli
   guest-photo: "/uploads/dr-mabli.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/lisamabli/
   - guest-link-label: 'Recommended Reading, Flow: A handbook for change-makers'
     guest-link-url: https://www.amazon.com/Flow-Change-Makers-Mavericks-Innovation-Transformation-ebook/dp/B07FK5Y122/ref=sr_1_1?dchild=1&keywords=flow+finn+goulding&qid=1619761923&s=books&sr=1-1
   - guest-link-label: Recommended Reading, Leaders Eat Last
