@@ -26,6 +26,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/richard-spady-29a917/
   - guest-link-label: Bain & Company
     guest-link-url: bain.com
+libsynUrl: https://directory.libsyn.com/episode/index/id/19545221
 
 ---
 Agile presents a shift in how we approach team structures, plan work, and deliver customer value. Richard Spady and Josh Hinkel are leaders in the manufacturing and supply chain space and share how organizations can use agile to gain a competitive advantage and improve operational performance.
