@@ -11,15 +11,20 @@ guestPhotos:
 - "/uploads/matthew-skelton-min.jpg"
 libsynUrl: https://directory.libsyn.com/episode/index/id/14797205
 guest-details:
-- guest-name: Manuel Pais
-  guest-photo: "/uploads/manuel-pais-min.jpg"
+- guest-name: Matthew Skelton
+  guest-photo: "/uploads/matthew-skelton-min.jpg"
   guest-links:
   - guest-link-label: Team Topologies
     guest-link-url: https://teamtopologies.com/
+- guest-name: Manuel Pais
+  guest-photo: "/uploads/manuel-pais-min.jpg"
+  guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/manuelpais/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/manupaisable
+  - guest-link-label: Team Topologies
+    guest-link-url: https://teamtopologies.com/
 
 ---
 Adopting agile means organizing your teams for efficiency, or as authors Manuel Pais and Matthew Skelton put it, improving team flow. Their book Team Topologies is a must-read for any organization that wants to adopt agile.
