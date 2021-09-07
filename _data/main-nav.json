@@ -36,15 +36,6 @@
             "imageUrl": "",
             "display": false,
             "orderby": 4
-        },
-        {
-            "title": "Shell",
-            "url": "/share-card-creator/shell.sh",
-            "type": "text",
-            "content": "Content",
-            "imageUrl": "",
-            "display": true,
-            "orderby": 5
         }
     ]
 }
