@@ -31,6 +31,8 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/manuelpais/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/manupaisable
+  - guest-link-label: Book
+    guest-link-url: https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819
   - guest-link-label: Team Topologies
     guest-link-url: https://teamtopologies.com/
 
