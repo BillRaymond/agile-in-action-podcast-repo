@@ -1,7 +1,7 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-08-10 12:30:00 -0700
+date: 2020-08-10T12:30:00.000-07:00
 author: Bill Raymond
 title: Team topologies and an obsession over a rapid flow of change
 featuredImage: "/uploads/team-topologies-podcast.jpg"
@@ -9,6 +9,7 @@ linsyn-url: https://directory.libsyn.com/episode/index/id/14797205
 guestPhotos:
 - "/uploads/manuel-pais-min.jpg"
 - "/uploads/matthew-skelton-min.jpg"
+libsynUrl: https://directory.libsyn.com/episode/index/id/14797205
 
 ---
 Adopting agile means organizing your teams for efficiency, or as authors Manuel Pais and Matthew Skelton put it, improving team flow. Their book Team Topologies is a must-read for any organization that wants to adopt agile.
@@ -26,4 +27,3 @@ Matthew Skelton is the co-author of Team Topologies and several other books. He 
 * [Matthew Skelton’s Blog](https://blog.matthewskelton.net/)
 * [Team Topologies](https://teamtopologies.com/)
 * [Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819)
-
