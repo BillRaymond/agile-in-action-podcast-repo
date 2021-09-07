@@ -14,6 +14,10 @@ guest-details:
 - guest-name: Matthew Skelton
   guest-photo: "/uploads/matthew-skelton-min.jpg"
   guest-links:
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/matthewpskelton
+  - guest-link-label: Matthew's Blog
+    guest-link-url: https://blog.matthewskelton.net/
   - guest-link-label: Team Topologies
     guest-link-url: https://teamtopologies.com/
 - guest-name: Manuel Pais
