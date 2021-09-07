@@ -11,7 +11,10 @@ linsyn-url: ''
 guest-details:
 - guest-name: Dr. Lisa Mabli
   guest-photo: "/uploads/dr-mabli.jpg"
-  guest-links: 
+  guest-links:
+  - guest-link-label: Recommended reading, Ask your Developer
+    guest-link-url: https://www.amazon.com/Ask-Your-Developer-Software-Developers/dp/0063018292
+libsynUrl: https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819
 
 ---
 In today's podcast, I speak to Lisa Mabli, Senior Manager of Agile Program Management at Twilio. We discuss the qualities that make up high performing teams and strategies for how new leaders can build and enable their teams.
