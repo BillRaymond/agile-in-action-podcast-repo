@@ -17,6 +17,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/peterkoningagile/
   - guest-link-label: re-lead.co
     guest-link-url: https://re-lead.co/en/
+libsynUrl: https://directory.libsyn.com/episode/index/id/19610951
 
 ---
 In today's podcast, I speak with author and coach Peter Koning about redefining leadership. As organizations modernize and shed their siloes, a new culture must emerge that embraces team ownership and change. Peter shares his clear and concise ideas to help leaders and organizations rise to the challenge.
