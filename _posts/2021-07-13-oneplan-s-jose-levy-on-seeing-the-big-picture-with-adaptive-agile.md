@@ -17,6 +17,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/joserlevy-wh90/
   - guest-link-label: OnePlan
     guest-link-url: https://oneplan.ai/
+libsynUrl: https://directory.libsyn.com/episode/index/id/19783685
 
 ---
 In today’s Agile in Action podcast, I speak with Jose Levy, Director of Cloud Services at OnePlan. We discuss the importance portfolio management processes and software still play in today’s modern organization.
