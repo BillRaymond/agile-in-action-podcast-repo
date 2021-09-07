@@ -12,6 +12,10 @@ guest-details:
 - guest-title: Principal, Applied Research and Consulting at Steelcase
   guest-photo: "/uploads/brower-6917.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/tracybrowerphd/
+  - guest-link-label: 'Dr. Brower''s Website '
+    guest-link-url: https://tracybrower.com/
   - guest-link-label: The Secrets to Happiness at Work
     guest-link-url: https://www.amazon.com/Secrets-Happiness-Work-Purpose-Fulfillment/dp/1728230896/ref=sr_1_2?dchild=1&keywords=secrets+to+happiness+at+work&qid=1613782899&sr=8-2
   - guest-link-label: Bringing Work to Life by Bringing Life to Work
