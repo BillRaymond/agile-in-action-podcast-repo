@@ -1,13 +1,14 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-07-28 13:00:50 -0700
+date: 2020-07-28T13:00:50.000-07:00
 author: Bill Raymond
-title: 'A Short History of Agile'
-featuredImage: '/assets/agile-in-action/podcast-fi-large.jpg'
+title: A Short History of Agile
+featuredImage: "/assets/agile-in-action/podcast-fi-large.jpg"
 guestPhotos:
 - "/uploads/bill-raymond.png"
 linsyn-url: https://directory.libsyn.com/episode/index/id/14523032
+libsynUrl: https://directory.libsyn.com/episode/index/id/14523032
 
 ---
 In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile.
