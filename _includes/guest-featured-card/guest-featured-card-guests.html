@@ -1,0 +1,54 @@
+{% comment %} Compile the list of guests on the podcast {% endcomment %}
+
+{%- assign cards = site.posts | where: 'title', title -%}
+{%- for card in cards limit: 1 -%}
+    <div class="guests-card-guests-container">
+        {%- assign guest-details = post.guest-details -%}
+        {%- assign total-guests = guest-details.size -%}
+        {%- assign guest-text = "" -%}
+        {%- for guest-detail in guest-details limit: 4 -%}
+            {%- assign guest-name = guest-detail.guest-name -%}
+
+            {%- assign index-id = forloop.index -%}
+            {% comment %} If there is only one guest, just add the guest details {% endcomment %}
+            {%- if total-guests == 1  -%}
+                {%- assign guest-text = guest-text | append: guest-name -%}
+            {%- endif -%}
+
+            {% comment %} If there are two guests, add a comma or the word "and" for the guests {% endcomment %}
+            {%- if total-guests == 2 -%}
+                {%- if index-id == 2 -%}
+                    {%- assign guest-text = guest-text | append: ' and ' -%}
+                {%- endif -%}
+                {%- assign guest-text = guest-text | append: guest-name -%}
+            {%- endif -%}
+            
+            {% comment %} If there are three guests, add a comma or the word ", and" for the guests {% endcomment %}
+            {%- if total-guests == 3 -%}
+            {%- if index-id == 2 -%}
+                {%- assign guest-text = guest-text | append: ', ' -%}
+            {%- endif -%}
+            {%- if index-id == 3 -%}
+                {%- assign guest-text = guest-text | append: ', and ' -%}
+            {%- endif -%}
+            {%- assign guest-text = guest-text | append: guest-name -%}
+            {%- endif -%}
+
+            {% comment %} If there are four guests, add a comma or the word ", and" for the guests {% endcomment %}
+            {%- if total-guests == 4 -%}
+                {%- if index-id == 2 -%}
+                    {%- assign guest-text = guest-text | append: ', ' -%}
+                {%- endif -%}
+                {%- if index-id == 3 -%}
+                    {%- assign guest-text = guest-text | append: ', ' -%}
+                {%- endif -%}
+                {%- if index-id == 4 -%}
+                    {%- assign guest-text = guest-text | append: ', and ' -%}
+                {%- endif -%}
+                {%- assign guest-text = guest-text | append: guest-name -%}
+            {%- endif -%}
+        {%- endfor -%}
+        {%- assign guest-text = guest-text | prepend: "with " -%}
+        <p class="gc-guest-text">{{- guest-text -}}</p>
+    </div>
+{%- endfor -%}

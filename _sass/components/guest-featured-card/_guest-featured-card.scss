@@ -1,0 +1,37 @@
+.guests-card-container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content min-content;
+  gap: 0px 15px;
+  grid-auto-flow: row;
+  background-color: $guests-card-bg-tint;
+  grid-template-areas:
+    "guests-card-photos-container guests-card-title-container"
+    "guests-card-photos-container guests-card-guests-container"
+    "guests-card-photos-container guests-card-author-container";
+    
+    // Adjust layout for smaller screens
+    @include for-size(phone-only){
+      display: grid;
+      grid-template-columns: min-content 1fr;
+      grid-template-rows: min-content min-content;
+      gap: 0px 5px;
+      grid-auto-flow: row;
+      grid-template-areas:
+      "guests-card-photos-container guests-card-title-container"
+      "guests-card-photos-container guests-card-guests-container"
+  }
+}
+
+.guests-card-photos-container { 
+  grid-area: guests-card-photos-container; 
+}
+
+.guests-card-title-container { 
+  grid-area: guests-card-title-container;
+}
+
+.guests-card-author-container { 
+  @include for-size(tablet-portrait-up) { grid-area: guests-card-author-container; }
+  @include for-size(phone-only) { display: none; }
+}
