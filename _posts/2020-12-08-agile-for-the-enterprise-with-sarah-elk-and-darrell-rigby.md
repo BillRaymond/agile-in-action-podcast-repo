@@ -22,6 +22,7 @@ guest-details:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/sarahelk/
   guest-title: Partner at Bain & Company
+libsynUrl: https://directory.libsyn.com/episode/index/id/17103482
 
 ---
 Learn how Darrell and Sarah help organizations transform their business to increase performance.
