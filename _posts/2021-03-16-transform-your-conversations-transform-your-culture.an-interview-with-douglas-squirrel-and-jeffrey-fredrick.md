@@ -14,6 +14,8 @@ guest-details:
 - guest-name: Douglas Squirrel
   guest-photo: "/uploads/d-squirrel.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/dsquirrel/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/douglassquirrel
 
