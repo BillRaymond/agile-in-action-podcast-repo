@@ -26,6 +26,7 @@ guest-details:
     guest-link-url: https://www.organisationalmastery.com/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/lgoncalves1979
+libsynUrl: https://directory.libsyn.com/episode/index/id/19129748
 
 ---
 In today's podcast, I speak with Luis Goncalves, who shares how too many organizations still use an industrial age, matrixed structure. Luis shares how to re-think team structures and focus on value streams over projects.
