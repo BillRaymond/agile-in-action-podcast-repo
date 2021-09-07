@@ -15,6 +15,7 @@ guest-details:
   guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/yli179/
+libsynUrl: https://directory.libsyn.com/episode/index/id/19437992
 
 ---
 In the 1990s, organizations spent billions on large-scale, monolithic software solutions, such as ERP and MRP systems. Now, in the 2000s, innovative new technologies are changing the way we work.
