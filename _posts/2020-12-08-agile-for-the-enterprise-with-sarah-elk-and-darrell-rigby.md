@@ -10,6 +10,12 @@ guestPhotos:
 - "/uploads/rigby_darrell_print_bw.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/17103482
 guest-details:
+- guest-name: Darrell Rigby
+  guest-title: Partner and Director, Bain & Company
+  guest-photo: "/uploads/rigby_darrell_print_bw.jpg"
+  guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/darrellrigby/
 - guest-name: Sarah Elk
   guest-photo: "/uploads/sarah-elk-headshot-square.jpg"
   guest-links:
