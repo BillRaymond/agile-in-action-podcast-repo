@@ -19,6 +19,7 @@ guest-details:
     guest-link-url: https://www.amazon.com/Agile-HR-Deliver-Value-Changing/dp/178966585X
   - guest-link-label: PXOCulture
     guest-link-url: https://www.pxoculture.com/
+libsynUrl: https://directory.libsyn.com/episode/index/id/19226258
 
 ---
 Adopting agile can mean sweeping organizational change. Teams remove themselves from silos and re-focus with an intense focus on customer value and iterative design. This shift to agile will inevitably change many departments within an organization. In today's podcast, I talk to Natal Dank, co-author of Agile HR, and we talk about the future of Human Resources, and the benefits agile can bring.
