@@ -12,6 +12,8 @@ guest-details:
 - guest-name: Dr. Lisa Mabli
   guest-photo: "/uploads/dr-mabli.jpg"
   guest-links:
+  - guest-link-label: Recommended Reading, Leaders Eat Last
+    guest-link-url: https://www.amazon.com/Leaders-Eat-Last-Together-Others/dp/1591848016/ref=sr_1_1?dchild=1&keywords=leaders+eat+last&qid=1619762105&s=books&sr=1-1
   - guest-link-label: Recommended reading, Ask your Developer
     guest-link-url: https://www.amazon.com/Ask-Your-Developer-Software-Developers/dp/0063018292
 libsynUrl: https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819
