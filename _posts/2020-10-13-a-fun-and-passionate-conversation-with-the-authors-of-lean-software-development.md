@@ -10,6 +10,12 @@ guestPhotos:
 - "/uploads/tom-web.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/16329959
 libsynUrl: https://directory.libsyn.com/episode/index/id/16329959
+guest-details:
+- guest-links:
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/mpoppendieck
+  - guest-link-url: https://www.amazon.com/s?i=stripbooks&rh=p_27%3AMary+Poppendieck+%2F+Tom+Poppendieck+Poppendieck+%2F+Poppendieck&s=relevancerank&text=Mary+Poppendieck+%2F+Tom+Poppendieck+Poppendieck+%2F+Poppendieck&ref=dp_byline_sr_book_1
+    guest-link-label: List of Publications
 
 ---
 Mary and Tom Poppendieck coined the term Lean Software Development and have some great stories to inspire you.
