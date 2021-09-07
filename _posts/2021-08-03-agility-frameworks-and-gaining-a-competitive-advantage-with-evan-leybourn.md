@@ -33,6 +33,7 @@ guest-details:
     guest-link-url: https://www.agilealliance.org/glossary/bdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'bdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
   - guest-link-label: FDD (Feature Driven Development)
     guest-link-url: http://agilemodeling.com/essays/fdd.htm
+libsynUrl: https://directory.libsyn.com/episode/index/id/19437992
 
 ---
 Business agility represents the continuous and purposeful change you make to deliver more value to your customers and gain a competitive edge. Very often, we use frameworks that guide how to be more agile.  
