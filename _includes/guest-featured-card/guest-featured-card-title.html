@@ -2,7 +2,7 @@
 
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
-    <div class="guests-card-title-container">
+    <div class="guest-featured-card-title-container">
         {%- assign post-url = card.url |relative_url -%}
         <p class="gct-title"><span><a class="gct-title-href" href="{{- post-url -}}">{{- card.title -}}</a></span></p>
     </div>

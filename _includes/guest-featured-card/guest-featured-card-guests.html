@@ -2,7 +2,7 @@
 
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
-    <div class="guests-card-guests-container">
+    <div class="guest-featured-card-guests-container">
         {%- assign guest-details = post.guest-details -%}
         {%- assign total-guests = guest-details.size -%}
         {%- assign guest-text = "" -%}
@@ -49,6 +49,6 @@
             {%- endif -%}
         {%- endfor -%}
         {%- assign guest-text = guest-text | prepend: "with " -%}
-        <p class="gc-guest-text">{{- guest-text -}}</p>
+        <p class="gfc-guest-text">{{- guest-text -}}</p>
     </div>
 {%- endfor -%}

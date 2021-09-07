@@ -1,13 +1,13 @@
 {% comment %} Display the list of guests in a grid {% endcomment %}
-{% comment %} Uses guests-card-photos-container as the primary container {% endcomment %}
+{% comment %} Uses guest-featured-card-photos-container as the primary container {% endcomment %}
 
 {% comment %} Another page will provide the title to display {% endcomment %}
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
-    <div class="guests-card-photos-container">
-        <div class="gcp-background">
-            {%- assign gcp-background-image = '/assets/guests-card/logo-background-black-400x400.png' | relative_url -%}
-            <img src="{{-gcp-background-image-}}" alt="" class="gcp-background-image">
+    <div class="guest-featured-card-photos-container">
+        <div class="gfcp-background">
+            {%- assign gfcp-background-image = '/assets/guests-card/logo-background-black-400x400.png' | relative_url -%}
+            <img src="{{-gfcp-background-image-}}" alt="" class="gfcp-background-image">
         </div>
         {% comment %} Get the list of guests {% endcomment %}
         {%- assign guest-details = card.guest-details -%}
@@ -18,19 +18,19 @@
             {%- assign grid-boxes = 4 -%}
         {%- endif -%}
         {% comment %} The CSS grid may modify based on the number of images, so give each a unique number (ex card-1, card-2, etc) {% endcomment %}
-        {%- assign grid-boxes = "gcp-cards-" | append: grid-boxes -%}
+        {%- assign grid-boxes = "gfcp-cards-" | append: grid-boxes -%}
         <div class="{{- grid-boxes -}}">
             {% comment %} Display the guests {% endcomment %}
             {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
             {%- for guest in guest-details limit: 4 -%}
                 {%- assign index-id = forloop.index -%}
                     {%- assign guest-photo = guest.guest-photo | relative_url -%}
-                    <img src="{{- guest-photo -}}" alt="" class="gcp-card">
+                    <img src="{{- guest-photo -}}" alt="" class="gfcp-card">
             {%- endfor -%}
         </div>
-        <div class="gcp-play">
+        <div class="gfcp-play">
             {%- assign play-circle = "/assets/guests-card/play-circle.png" | relative_url -%}
-            <img src="{{- play-circle -}}" alt="" class="gcp-play-image">
+            <img src="{{- play-circle -}}" alt="" class="gfcp-play-image">
         </div>
     </div>
 {%- endfor -%}
