@@ -14,12 +14,14 @@ guest-details:
 - guest-name: Matthew Skelton
   guest-photo: "/uploads/matthew-skelton-min.jpg"
   guest-links:
-  - guest-link-label: LinkedIn
-    guest-link-url: https://www.linkedin.com/in/matthewskelton/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/matthewpskelton
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/matthewskelton/
   - guest-link-label: Matthew's Blog
     guest-link-url: https://blog.matthewskelton.net/
+  - guest-link-label: Book
+    guest-link-url: https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819
   - guest-link-label: Team Topologies
     guest-link-url: https://teamtopologies.com/
 - guest-name: Manuel Pais
