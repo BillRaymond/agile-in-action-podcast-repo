@@ -14,6 +14,8 @@ guest-details:
   guest-title: Founder, pm-training.net
   guest-photo: "/uploads/shane-drumm-headshot-bg-357x487.png"
   guest-links:
+  - guest-link-label: PM-Training website
+    guest-link-url: https://pm-training.net/agile-handbook/
   - guest-link-label: Shane's website
     guest-link-url: https://shanedrumm.com/
 
