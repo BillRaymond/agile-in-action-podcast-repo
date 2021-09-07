@@ -10,6 +10,12 @@ guestPhotos:
 - "/uploads/d-squirrel.jpg"
 - "/uploads/j-fredrick.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/18247106
+guest-details:
+- guest-name: Douglas Squirrel
+  guest-photo: "/uploads/d-squirrel.jpg"
+  guest-links:
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/douglassquirrel
 
 ---
 In this podcast, I speak with Douglass Squirrel and Jeffrey Fredrick to learn how you can transform your organization using the right conversations. We talk about creating trust and an environment of psychological safety to elicit new ideas that will propel your teams on their agile journey.
