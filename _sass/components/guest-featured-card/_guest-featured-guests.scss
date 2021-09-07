@@ -1,4 +1,4 @@
-.guests-card-guests-container {
+.guest-featured-card-guests-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: min-content;
@@ -7,10 +7,10 @@
     align-self: start;
 
     grid-template-areas:
-      "gc-guest-text";
+      "gfc-guest-text";
     // border-color: green;
     // border-style: solid;
   }
   
-  .gc-guest-text { grid-area: gc-guest-text; }
+  .gfc-guest-text { grid-area: gfc-guest-text; }
   

@@ -1,6 +1,6 @@
 // Display 1-4 guests for a podcast
 // If there are more than 5, html will not display
-.guests-card-photos-container {
+.guest-featured-card-photos-container {
   display: grid; 
   grid-auto-rows: 1fr; 
   grid-template-columns: 1fr; 
@@ -14,7 +14,7 @@
   }
 }
 
-.gcp-background {
+.gfcp-background {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
@@ -26,7 +26,7 @@
 }
 
 // display one guest photo
-.gcp-cards-1 {
+.gfcp-cards-1 {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
@@ -38,7 +38,7 @@
 }
 
 // display 2 guest photos
-.gcp-cards-2 {
+.gfcp-cards-2 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   gap: 0px 2px; 
@@ -47,13 +47,13 @@
 }
 
 // unique card layout for two images
-.gcp-cards-2 .gcp-card {
+.gfcp-cards-2 .gfcp-card {
   height: 100%;
   object-fit: cover;
 }
 
 // Display 3 guest photos
-.gcp-cards-3 {
+.gfcp-cards-3 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -66,7 +66,7 @@
 }
 
 // Display 4 guest photos
-.gcp-cards-4 {
+.gfcp-cards-4 {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
@@ -79,20 +79,20 @@
 }
 
 // default image layout for guest card size
-.gcp-card {
+.gfcp-card {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
 }
 
-.gcp-background-image {
+.gfcp-background-image {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
 }
 
 // Display the play icon
-.gcp-play {
+.gfcp-play {
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 
@@ -104,7 +104,7 @@
   grid-area: 1 / 1 / 2 / 2; 
 }
 
-.gcp-play-image {
+.gfcp-play-image {
   width: 15%;
   height: 15%;
   opacity: 90%;
