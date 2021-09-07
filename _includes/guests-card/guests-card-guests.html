@@ -2,7 +2,7 @@
 
 {%- assign cards = site.posts | where: 'title', title -%}
 {%- for card in cards limit: 1 -%}
-    <div class="guest-card-guests-container">
+    <div class="guests-card-guests-container">
         {%- assign guest-details = post.guest-details -%}
         {%- assign total-guests = guest-details.size -%}
         {%- assign guest-text = "" -%}

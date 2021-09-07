@@ -1,4 +1,4 @@
-.guest-card-author-container {
+.guests-card-author-container {
     display: grid;
     grid-template-columns: min-content 1fr;
     grid-template-rows: min-content;
@@ -26,6 +26,6 @@
   }
 
   // Do not show author details in smaller devices
-  .guest-card-author-container* {
+  .guests-card-author-container* {
     @include for-size(phone-only){ display: none; }
   }
