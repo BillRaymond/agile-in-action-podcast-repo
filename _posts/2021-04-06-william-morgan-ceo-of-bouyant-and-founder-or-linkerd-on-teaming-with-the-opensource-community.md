@@ -17,10 +17,10 @@ guest-details:
   guest-title: CEO of Buoyant
   guest-photo: "/uploads/william-morgan-headshot.jpeg"
   guest-links:
-  - guest-link-label: Twitter
-    guest-link-url: https://twitter.com/wm
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/wmorgan/
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/wm
   - guest-link-label: LINKERD
     guest-link-url: LINKERD.io
   - guest-link-label: Buoyant
