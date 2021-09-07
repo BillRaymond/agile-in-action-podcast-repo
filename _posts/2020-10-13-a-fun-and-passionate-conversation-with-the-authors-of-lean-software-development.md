@@ -11,6 +11,11 @@ guestPhotos:
 linsyn-url: https://directory.libsyn.com/episode/index/id/16329959
 libsynUrl: https://directory.libsyn.com/episode/index/id/16329959
 guest-details:
+- guest-name: Tom Poppendieck
+  guest-photo: "/uploads/tom-web.jpg"
+  guest-links:
+  - guest-link-label: 'Lean Software Development: An Agile Toolkit'
+    guest-link-url: https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783/ref=sr_1_2?dchild=1&keywords=mary+poppendieck&qid=1602193766&sr=8-2
 - guest-links:
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/mpoppendieck
