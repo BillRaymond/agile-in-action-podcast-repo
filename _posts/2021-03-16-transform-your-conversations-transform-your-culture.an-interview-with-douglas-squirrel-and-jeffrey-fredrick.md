@@ -14,6 +14,8 @@ guest-details:
 - guest-name: Jeffrey Frederick
   guest-photo: "/uploads/j-fredrick.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/jfredrick/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/Jtf
 - guest-name: Douglas Squirrel
