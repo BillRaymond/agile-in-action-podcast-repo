@@ -8,6 +8,14 @@ featuredImage: "/uploads/david-henrichs-72ayeebjpz4-unsplash.jpg"
 guestPhotos:
 - "/uploads/matt-koball.jpg"
 linsyn-url: https://directory.libsyn.com/episode/index/id/19911164
+libsynUrl: https://directory.libsyn.com/episode/index/id/19911164
+guest-details:
+- guest-name: Matt Koball
+  guest-photo: "/uploads/matt-koball.jpg"
+  guest-links:
+  - guest-link-label: Genius NY
+    guest-link-url: http://www.geniusny.com/
+  guest-title: Co-founder of DropCopter
 
 ---
 In today's podcast I speak with Matt Koball, co-founder of Dropcopter, about the role agile plays in his development of pollinating drone technology to address a shortage of bees. Listen as Matt shares how modern methods of project management and product development addressed an age old issue.
