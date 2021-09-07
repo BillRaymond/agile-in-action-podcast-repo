@@ -14,6 +14,8 @@ guest-details:
 - guest-name: Matthew Skelton
   guest-photo: "/uploads/matthew-skelton-min.jpg"
   guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/matthewskelton/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/matthewpskelton
   - guest-link-label: Matthew's Blog
