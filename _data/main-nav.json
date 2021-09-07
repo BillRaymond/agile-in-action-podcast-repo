@@ -20,15 +20,6 @@
             "orderby": 4
         },
         {
-            "title": "Blog",
-            "url": "/feed/blog",
-            "type": "text",
-            "content": "Content",
-            "imageUrl": "",
-            "display": true,
-            "orderby": 3
-        },
-        {
             "title": "Social",
             "url": "/social-sharing-card",
             "type": "text",
