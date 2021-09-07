@@ -5,17 +5,17 @@ layout: default
     {% comment %} Display the navigation section {% endcomment %}
       {%- include nav.html -%}
 {% comment %} Get the details for each post {% endcomment %}
-<div class="guest-card-all-container">
+<div class="guests-card-all-container">
     {% comment %} Only get posts that have guest-details {% endcomment %}
     {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
     {%- for post in posts -%}
-        <div class="guest-card-container">
+        <div class="guests-card-container">
             {% comment %} Only get the images for this post {% endcomment %}
             {%- assign title = post.title -%}
-            {%- include guest-card/guest-card-photos.html -%}
-            {%- include guest-card/guest-card-title.html -%}
-            {%- include guest-card/guest-card-guests.html -%}
-            {%- include guest-card/guest-card-author.html -%}
+            {%- include guests-card/guests-card-photos.html -%}
+            {%- include guests-card/guests-card-title.html -%}
+            {%- include guests-card/guests-card-guests.html -%}
+            {%- include guests-card/guests-card-author.html -%}
         </div>
     {%- endfor -%}
     {%- comment -%}Display the footer{%- endcomment -%}

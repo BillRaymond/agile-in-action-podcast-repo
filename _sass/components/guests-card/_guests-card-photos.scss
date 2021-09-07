@@ -1,6 +1,6 @@
 // Display 1-4 guests for a podcast
 // If there are more than 5, html will not display
-.guest-card-photos-container {
+.guests-card-photos-container {
   display: grid; 
   grid-auto-rows: 1fr; 
   grid-template-columns: 1fr; 
