@@ -1,9 +1,38 @@
 ---
 layout: default
 ---
+
+<div class="header-section">
+  <div class="header-background">
+        {%- assign header-background-image = '/assets/home/home-banner.png' | relative_url -%}
+        <img src="{{-header-background-image-}}" alt="Background image for the header section of this page." class="header-background-image">
+  </div>
+  <div class="header-overlay">
+    <div class="nav-section">
+        {% comment %} Display the navigation section {% endcomment %}
+        {%- include nav.html -%}
+    </div>
+    <div class="featured-content">
+
+    </div>
+    <div class="additional-content-section">
+
+    </div>
+  </div>
+</div>
+{% comment %} <section class="header-section">
+    <div header-background>
+        {%- assign header-background-image = '/assets/home/home-banner.png' | relative_url -%}
+        <img src="{{-header-background-image-}}" alt="Background image for the header section of this page." class="header-background-image">
+    </div>
+    <div class="header-overlay">
+        <section class="nav-section">
+        hello
+        </section>
+    </div>
+</section> {% endcomment %}
+
 <div class="home-container">
-    {% comment %} Display the navigation section {% endcomment %}
-      {%- include nav.html -%}
 
 {% comment %} Display the featured guest card {% endcomment %}
 <div class="guest-featured-card-all-container">
