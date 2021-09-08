@@ -7,18 +7,28 @@ layout: default
 
 {% comment %} Display the featured guest card {% endcomment %}
 <div class="guest-featured-card-all-container">
-    {% comment %} This site may be set up to display all blog posts, so only get the latest as of today {% endcomment %}
-    {% comment %} Get the Unix-equivelent of today's date {% endcomment %}
-    {%- assign filtered-posts = site.posts | where_exp: 'post', 'post.date <= site.time' -%}
-    {%- for post in posts -%}
-        <p>Title: {{post.title}}
+    {% comment %} Do not retrieve future-dated posts {% endcomment %}
+    {%- assign posts = site.posts 
+        | where_exp: 'post', 'post.date <= site.time' 
+        | where_exp: 'post', 'post.guest-details != nil' -%}
+    {% comment %} Only get the latest post (featured post) {% endcomment %}
+    {%- for post in posts limit: 1 offset: 0-%}
+        <div class="guest-featured-card-container">
+            {%- assign title = post.title -%}
+            {%- include guest-featured-card/guest-featured-card-photos.html -%}
+            {%- include guest-featured-card/guest-featured-card-title.html -%}
+            {%- include guest-featured-card/guest-featured-card-guests.html -%}
+            {%- include guest-featured-card/guest-featured-card-author.html -%}
+        </div>
     {%- endfor -%}
 </div>
 
 {% comment %} Get the details for each post {% endcomment %}
 <div class="guests-card-all-container">
     {% comment %} Only get posts that have guest-details {% endcomment %}
-    {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
+    {%- assign posts = site.posts 
+        | where_exp: 'post', 'post.date <= site.time' 
+        | where_exp: 'post', 'post.guest-details != nil'-%}
     {%- for post in posts -%}
         <div class="guests-card-container">
             {% comment %} Only get the images for this post {% endcomment %}
