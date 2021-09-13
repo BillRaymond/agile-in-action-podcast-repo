@@ -24,6 +24,8 @@ guest-details:
 - guest-name: Douglas Squirrel
   guest-photo: "/uploads/d-squirrel.jpg"
   guest-links:
+  - guest-link-label: Website
+    guest-link-url: https://www.conversationaltransformation.com
   - guest-link-label: Email
     guest-link-url: info@conversationaltransformation.com
   - guest-link-label: LinkedIn
