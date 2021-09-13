@@ -23,5 +23,3 @@ In this podcast, I speak with Bethann Zaveson, Director Portfolio Management, IT
 Bethann provides valuable insights into how she is transitioning to agile and how it can positively impact the flow of your business.
 
 You can reach out to Bethann on LinkedIn:
-
-[https://www.linkedin.com/in/bethannzaveson/](https://www.linkedin.com/in/bethannzaveson/)
