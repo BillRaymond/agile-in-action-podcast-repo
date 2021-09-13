@@ -29,11 +29,3 @@ linsyn-url: https://directory.libsyn.com/episode/index/id/18484103
 
 ---
 In today's podcast, I speak with Buoyant CEO William Morgan. We talk about how his flagship opensource project, Linkerd, reduces developers' time to deliver software while improving product quality. We discuss what it is like to manage a business while working with a vibrant community of collaborators in the open-source community.
-
-[Buoyant.io](https://buoyant.io/ "Buoyant.io")
-
-[LINKERD.io](https://linkerd.io/ "Linkerd.io")
-
-[Twitter](https://twitter.com/wm "Twitter")
-
-[LinkedIn](https://www.linkedin.com/in/wmorgan/ "LinkedIn")

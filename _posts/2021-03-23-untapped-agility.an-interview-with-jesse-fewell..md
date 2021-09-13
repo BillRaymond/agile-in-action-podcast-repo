@@ -18,15 +18,3 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/18344072
 
 ---
 In this podcast, I speak to a very important topic on the mindset of leaders adopting agile for their organization. Author Jesse Fewell provides insight into how leaders should focus on outcomes over plans.
-
-Apple Podcasts: [https://apple.co/3e35K9O](https://apple.co/3e35K9O "https://apple.co/3e35K9O")
-
-Spotify: [https://spoti.fi/3e40d34](https://apple.co/3e35K9O "https://apple.co/3e35K9O")
-
-Google: [https://bit.ly/3sFYpBe](https://apple.co/3e35K9O "https://apple.co/3e35K9O")
-
-[@Reama Dagasan](reama.dagasan@cambermast.com "@Reama Dagasan") #leadership #podcast #agile #agileteams #untappedagility
-
-## Contact Jesse Fewell
-
-[Website](https://jessefewell.com "Website")
