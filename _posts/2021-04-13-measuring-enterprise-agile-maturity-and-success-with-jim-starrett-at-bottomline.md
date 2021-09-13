@@ -17,10 +17,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/jimstarrett/#
   - guest-link-label: Bottomline Technologies
     guest-link-url: https://www.bottomline.com/us
+libsynUrl: https://directory.libsyn.com/episode/index/id/18639497
 
 ---
 Before you adopt agile, you need to know where to start and then continuously measure its success. In today's spirited podcast, I speak with Jim Starrett, Head of Platform Engagement and Adoption at Bottomline Technologies. We talk about how he and his team transform Bottomline's teams to adopt agile techniques, build a roadmap to a successful design, and implement a consistent maturity model.
-
-[LinkedIn]()
-
-[Bottomline Technologies]()

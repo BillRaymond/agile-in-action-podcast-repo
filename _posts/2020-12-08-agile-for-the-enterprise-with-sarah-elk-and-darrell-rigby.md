@@ -16,9 +16,13 @@ guest-details:
   guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/darrellrigby/
+  - guest-link-label: 'Doing Agile Right '
+    guest-link-url: https://www.amazon.com/Doing-Agile-Right-Transformation-Without/dp/163369870X/ref=sr_1_1?dchild=1&keywords=doing+agile+right+sarah+elk+darrell+rigby&qid=1607386717&sr=8-1
 - guest-name: Sarah Elk
   guest-photo: "/uploads/sarah-elk-headshot-square.jpg"
   guest-links:
+  - guest-link-label: Doing Agile Right
+    guest-link-url: https://www.amazon.com/Doing-Agile-Right-Transformation-Without/dp/163369870X/ref=sr_1_1?dchild=1&keywords=doing+agile+right+sarah+elk+darrell+rigby&qid=1607386717&sr=8-1
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/sarahelk/
   guest-title: Partner at Bain & Company
@@ -26,15 +30,3 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/17103482
 
 ---
 Learn how Darrell and Sarah help organizations transform their business to increase performance.
-
-## Sarah Elk
-
-[LinkedIn](https://www.linkedin.com/in/sarahelk/)
-
-## Darrell Rigby
-
-[LinkedIn](https://www.linkedin.com/in/darrellrigby/)
-
-## Doing Agile Right
-
-[Amazon](https://www.amazon.com/Doing-Agile-Right-Transformation-Without/dp/163369870X/ref=sr_1_1?dchild=1&keywords=doing+agile+right+sarah+elk+darrell+rigby&qid=1607386717&sr=8-1)
