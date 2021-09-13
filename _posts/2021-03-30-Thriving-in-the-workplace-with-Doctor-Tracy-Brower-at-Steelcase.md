@@ -21,6 +21,7 @@ guest-details:
   - guest-link-label: Bringing Work to Life by Bringing Life to Work
     guest-link-url: https://www.amazon.com/Bring-Work-Life-Bringing-Organizations/dp/1629560030/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1613783051&sr=8-1
   guest-name: Dr. Tracy Brower
+libsynUrl: https://directory.libsyn.com/episode/index/id/18448034
 
 ---
 In today’s podcast, I speak with Doctor Tracy Brower, Principal, Applied Research and Consulting at Steelcase. We talk about developing the mindset and the mechanics to create meaning and vitality at work. We talk about developing boundaries to foster a work/life balance working from home and how to build the social capital necessary to stay connected and advance at work.
