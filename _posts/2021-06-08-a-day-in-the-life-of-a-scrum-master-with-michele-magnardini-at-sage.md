@@ -33,13 +33,3 @@ In today's podcast, I speak with Michele Magnardini, Scrum Master at Sage. He ta
 In today's fun and lively conversation Michele makes no assumptions that you are a Scrum expert, walking you through all the basics. You will learn how Scrum works, including the roles, meetings, and artifacts defined by the framework. Then, he shares the critical role of a Scrum Master.
 
 Sadly, many consider the Scrum Master as a project manager with a new, modern title. That cannot be farther from the truth, and you will learn just how important the Scrum Master's role is to that continuous improvement process I share earlier in this post.
-
-[LinkedIn](https://www.linkedin.com/in/michelemagnardini/ "LinkedIn")
-
-Resources Michele recommends:
-
-[Eight stances of a scrum master](https://www.scrum.org/resources/8-stances-scrum-master  "Eight stances of a scrum master")
-
-[Scrum certification](https://www.mountaingoatsoftware.com  "Scrum certification")
-
-[Geoff Watts' website](https://www.inspectandadapt.com  "Geoff Watts' website")
