@@ -17,9 +17,15 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/jfredrick/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/Jtf
+  - guest-link-label: Website
+    guest-link-url: https://www.conversationaltransformation.com
+  - guest-link-label: Email
+    guest-link-url: info@conversationaltransformation.com
 - guest-name: Douglas Squirrel
   guest-photo: "/uploads/d-squirrel.jpg"
   guest-links:
+  - guest-link-label: Email
+    guest-link-url: info@conversationaltransformation.com
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/dsquirrel/
   - guest-link-label: Twitter
