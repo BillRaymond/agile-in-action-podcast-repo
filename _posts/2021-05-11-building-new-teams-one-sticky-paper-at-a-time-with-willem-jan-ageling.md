@@ -25,9 +25,3 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/19016537
 
 ---
 Learn how a successful global payments processor transformed their organization by letting teams form themselves. In this enlightening podcast, Willem-Jan shares how Worldline Global is changing the way teams work. He provides insight into what an organization looks like that will hinder innovation and how teams can self-form to become faster and more agile in the marketplace.
-
-[LinkedIn](https://www.linkedin.com/in/willemjanageling/ "LinkedIn")
-
-[Medium](https://medium.com/@WJAgeling "Medium")
-
-[Website](https://www.seriousscrum.com/ "Website")
