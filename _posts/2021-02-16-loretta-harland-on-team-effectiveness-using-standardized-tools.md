@@ -19,14 +19,7 @@ guest-details:
     guest-link-url: https://www.amazon.com/dp/0578727994/ref=rdr_ext_tmb
   - guest-link-label: PM Trailblazer
     guest-link-url: https://pmtrailblazer.com
+libsynUrl: https://directory.libsyn.com/episode/index/id/17902886
 
 ---
 In this podcast, I speak with Loretta Harland and discuss practical ways to work effectively and efficiently with teams. We talk about the importance of using standard tools across teams to improve flow and increase productivity.
-
-## Loretta Harland
-
-You can reach Loretta on [LinkedIn](https://www.linkedin.com/in/loretta-harland-pmtrailblazer "https://www.linkedin.com/in/loretta-harland-pmtrailblazer")
-
-Loretta is the author of Applying Lean Project Management: [Amazon](https://www.amazon.com/dp/0578727994/ref=rdr_ext_tmb "https://www.amazon.com/dp/0578727994/ref=rdr_ext_tmb")
-
-Follow Loretta at: [PM Trailblazer](https://pmtrailblazer.com "https://pmtrailblazer.com")
