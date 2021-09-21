@@ -9,6 +9,8 @@ guest-details:
   guest-title: ''
   guest-photo: "/uploads/luis-goncalves.jpg"
   guest-links:
+  - guest-link-label: Link to Luis' book
+    guest-link-url: https://www.amazon.com/ADAPT-leaders-staying-relevant-recognised-ebook/dp/B096DM3213/
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/luismsg/
   - guest-link-url: https://evolution4all.com/
