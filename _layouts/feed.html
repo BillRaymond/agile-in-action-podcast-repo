@@ -13,24 +13,21 @@ layout: default
         {%- include nav.html -%}
     </div>
     <div class="featured-content">
-
+        {%- assign posts = site.posts 
+            | where_exp: 'post', 'post.date <= site.time' 
+            | where_exp: 'post', 'post.guest-details != nil' -%}
+        {%- for post in posts limit: 1 offset: 0 -%}
+            <span>
+                {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | relative_url -%}
+                <a href="{{- post.path -}}"><img src="{{- card-filename -}}" alt="{{- post.title -}}"></a>
+            </span>            
+        {%- endfor -%}
     </div>
     <div class="additional-content-section">
-
+        <span></span>
     </div>
   </div>
 </div>
-{% comment %} <section class="header-section">
-    <div header-background>
-        {%- assign header-background-image = '/assets/home/home-banner.png' | relative_url -%}
-        <img src="{{-header-background-image-}}" alt="Background image for the header section of this page." class="header-background-image">
-    </div>
-    <div class="header-overlay">
-        <section class="nav-section">
-        hello
-        </section>
-    </div>
-</section> {% endcomment %}
 
 <div class="home-container">
 
@@ -41,7 +38,7 @@ layout: default
         | where_exp: 'post', 'post.date <= site.time' 
         | where_exp: 'post', 'post.guest-details != nil' -%}
     {% comment %} Only get the latest post (featured post) {% endcomment %}
-    {%- for post in posts limit: 1 offset: 0-%}
+    {%- for post in posts limit: 1 offset: 0 -%}
         <div class="guest-featured-card-container">
             {%- assign title = post.title -%}
             {%- include guest-featured-card/guest-featured-card-photos.html -%}
@@ -51,7 +48,6 @@ layout: default
         </div>
     {%- endfor -%}
 </div>
-
 {% comment %} Get the details for each post {% endcomment %}
 <div class="guests-card-all-container">
     {% comment %} Only get posts that have guest-details {% endcomment %}
