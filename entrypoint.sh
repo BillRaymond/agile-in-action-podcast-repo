@@ -27,7 +27,7 @@ echo "#################################################"
 echo "Starting the Jekyll Action"
 
 sh -c "bundle install"
-sh -c "jekyll build"
+sh -c "jekyll build --future"
 
 cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
@@ -81,7 +81,7 @@ sh -c "chmod 777 /github/workspace/.*"
 
 echo "#################################################"
 echo "Starting the Jekyll Action a second time"
-sh -c "jekyll build"
+sh -c "jekyll build --future"
 
 echo "#################################################"
 echo "Second Jekyll build done"

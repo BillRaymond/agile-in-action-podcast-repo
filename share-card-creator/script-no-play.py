@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# uses the play-none graphic that creates a new file without the play icon
 
 card="""
 {
