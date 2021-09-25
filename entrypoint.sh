@@ -13,6 +13,7 @@ echo "#################################################"
 echo "Make some files executable"
 SCRIPTS_DIR="share-card-creator"
 SHELL_FILE="shell.sh"
+SHELL_FILE_NO_PLAY="shell-no-play.sh"
 
 echo "#################################################"
 echo "Install imagemagick"
@@ -31,6 +32,8 @@ sh -c "jekyll build"
 cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
 sh -c "chmod +x $SCRIPTS_DIR/script.py"
+sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE_NO_PLAY"
+sh -c "chmod +x $SCRIPTS_DIR/script-no-play.py"
 
 echo "#################################################"
 cd $SCRIPTS_DIR
@@ -39,6 +42,9 @@ sh -c "ls -lta"
 cat $SHELL_FILE
 echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
+cat $SHELL_FILE_NO_PLAY
+echo "Execute $SHELL_FILE_NO_PLAY"
+sh -c "./$SHELL_FILE_NO_PLAY"
 
 cd ..
 
