@@ -32,8 +32,10 @@ sh -c "jekyll build --future"
 cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
 sh -c "chmod +x $SCRIPTS_DIR/script.py"
+cp -f _site/share-card-creator/shell-no-play.sh $SCRIPTS_DIR
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE_NO_PLAY"
 sh -c "chmod +x $SCRIPTS_DIR/script-no-play.py"
+
 
 echo "#################################################"
 cd $SCRIPTS_DIR

@@ -32,7 +32,7 @@ python3 share-card-creator.py
 {%- assign switch = '&#45;&#45;' -%}
 {%- for post in posts -%}
   {% comment %} create the python script element {% endcomment %}
-  {%- assign shell = 'python3 script.py ' -%}
+  {%- assign shell = 'python3 script-no-play.py ' -%}
   {% comment %} Add the title to the shell command {% endcomment %}
   {%- assign title = post.title -%}
   {%- assign shell = shell | append: switch | append: 'title=&apos;' | append: title | append: '&apos; ' -%}
