@@ -1,13 +1,6 @@
 {% comment %} site navigation {% endcomment %}
 <nav class="nav-section">
     <nav class="nav-wrapper">
-        {% comment %} Do not display the logo since it will appear in the image displayed in the banner {% endcomment %}
-        <span></span>
-        {% comment %} <a href="{{- '/' | relative_url -}}" class="nav-logo"><img class="nav-logo-image" alt="The Agile in Action with Bill Raymond podcast logo" src="{{- '/assets/logos/agile-in-action-podcast-logo.svg' | relative_url -}}" alt="Cambermast logo is a link to the home page." /></a>
-        <input type="checkbox" id="nav-toggle">
-        <label for="nav-toggle" class="burger-menu">
-            &#9776;
-        </label> {% endcomment %}
         <div class="nav-items">
         {%- assign navs = site.data.main-nav.items | sort: "orderby" -%}
         {%- for item in navs -%}
