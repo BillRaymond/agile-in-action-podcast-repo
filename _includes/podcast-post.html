@@ -10,7 +10,7 @@
             {%- endfor -%}
         </div>
         <h2>Listen now</h2>
-        {%- assign player-id = page.linsyn-url | split: '/' | last -%}
+        {%- assign player-id = page.libsynUrl | split: '/' | last -%}
         {%- if player-id -%}
             <iframe class="podcast-player"
                 style="border: none" 
@@ -38,6 +38,21 @@
         <h2>In this episode</h2>
         {{- content -}}
 
+        <h2>Links</h2>
+        {%- assign guests = page.guest-details -%}
+        {%- for guest in guests -%}
+            <h3>{{- guest.guest-name -}}</h3>
+            <ul>
+            {%- for link in guest.guest-links -%}
+                <li>
+                    <a href="{{- link.guest-link-url -}}" target="blank">
+                        {{- link.guest-link-label -}}
+                    </a>
+                </li>
+            {%- endfor -%}
+            </ul>
+           
+        {%- endfor -%}
         {% comment %} Display the podcast footer fromt he footers collection  {% endcomment %}
         {%- assign footers = site.footers | where: "type", "podcast-post" -%}
         {%- for footer in footers -%}
