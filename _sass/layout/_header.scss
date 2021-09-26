@@ -78,9 +78,8 @@
 .header-featured-image {
   max-width: auto;
   max-height: 100%;
-  // box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,099,242,0.9), 0 0 15px rgba(244,159,028,0.22);
+  box-shadow: 0 0 5px rgba(229,161,110,1), 0 0 15px rgba(244,159,028,1)
   // @include for-size(phone-only){
   //     gap: 5px;
   // }
