@@ -38,13 +38,10 @@
     align-content: center;
     justify-content: space-evenly;
     grid-column: 2;
-    @include for-size(phone-only) {
-        // on mobile, display the nav on the second row.
-        grid-column: 1;
-        grid-row: 2;
-        margin-top: 5px;
-        justify-items: start;
-    }
+    // @include for-size(phone-only) {
+    //     // on mobile, display the nav on the second row.
+    //     justify-items: center;
+    // }
 }
 
 // styling for the navigation items.

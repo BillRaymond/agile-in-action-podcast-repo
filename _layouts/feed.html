@@ -2,68 +2,49 @@
 layout: default
 ---
 
-<div class="header-section">
-  <div class="header-background">
+<section class="header-section">
+    <div class="header-background">
         {%- assign header-background-image = '/assets/home/home-banner.png' | relative_url -%}
         <img src="{{-header-background-image-}}" alt="Background image for the header section of this page." class="header-background-image">
-  </div>
-  <div class="header-overlay">
-    <div class="nav-section">
+    </div>
+    <div class="header-content">
+        <div class="header-nav">
         {% comment %} Display the navigation section {% endcomment %}
         {%- include nav.html -%}
+        </div>
+        <div class="header-featured">
+            {%- assign posts = site.posts 
+                | where_exp: 'post', 'post.date <= site.time' 
+                | where_exp: 'post', 'post.guest-details != nil' -%}
+            {%- for post in posts limit: 1 offset: 0 -%}
+                <span class="header-featured-post">
+                    {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | relative_url -%}
+                    <a href="{{- post.path -}}"><img src="{{- card-filename -}}" alt="{{- post.title -}}" class="header-featured-image"></a>
+                </span>            
+            {%- endfor -%}
+        </div>
     </div>
-    <div class="featured-content">
+</section>
+
+
+<section class="feed-section">
+    {% comment %} Get the details for each post {% endcomment %}
+    <div class="guests-card-all-container">
+        {% comment %} Only get posts that have guest-details {% endcomment %}
         {%- assign posts = site.posts 
             | where_exp: 'post', 'post.date <= site.time' 
-            | where_exp: 'post', 'post.guest-details != nil' -%}
-        {%- for post in posts limit: 1 offset: 0 -%}
-            <span>
-                {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | relative_url -%}
-                <a href="{{- post.path -}}"><img src="{{- card-filename -}}" alt="{{- post.title -}}"></a>
-            </span>            
+            | where_exp: 'post', 'post.guest-details != nil'-%}
+        {%- for post in posts -%}
+            <div class="guests-card-container">
+                {% comment %} Only get the images for this post {% endcomment %}
+                {%- assign title = post.title -%}
+                {%- include guests-card/guests-card-photos.html -%}
+                {%- include guests-card/guests-card-title.html -%}
+                {%- include guests-card/guests-card-guests.html -%}
+                {%- include guests-card/guests-card-author.html -%}
+            </div>
         {%- endfor -%}
+        {%- comment -%}Display the footer{%- endcomment -%}
+        {%- include footer.html -%}
     </div>
-    <div class="additional-content-section">
-        <span></span>
-    </div>
-  </div>
-</div>
-
-<div class="home-container">
-
-{% comment %} Display the featured guest card {% endcomment %}
-<div class="guest-featured-card-all-container">
-    {% comment %} Do not retrieve future-dated posts {% endcomment %}
-    {%- assign posts = site.posts 
-        | where_exp: 'post', 'post.date <= site.time' 
-        | where_exp: 'post', 'post.guest-details != nil' -%}
-    {% comment %} Only get the latest post (featured post) {% endcomment %}
-    {%- for post in posts limit: 1 offset: 0 -%}
-        <div class="guest-featured-card-container">
-            {%- assign title = post.title -%}
-            {%- include guest-featured-card/guest-featured-card-photos.html -%}
-            {%- include guest-featured-card/guest-featured-card-title.html -%}
-            {%- include guest-featured-card/guest-featured-card-guests.html -%}
-            {%- include guest-featured-card/guest-featured-card-author.html -%}
-        </div>
-    {%- endfor -%}
-</div>
-{% comment %} Get the details for each post {% endcomment %}
-<div class="guests-card-all-container">
-    {% comment %} Only get posts that have guest-details {% endcomment %}
-    {%- assign posts = site.posts 
-        | where_exp: 'post', 'post.date <= site.time' 
-        | where_exp: 'post', 'post.guest-details != nil'-%}
-    {%- for post in posts -%}
-        <div class="guests-card-container">
-            {% comment %} Only get the images for this post {% endcomment %}
-            {%- assign title = post.title -%}
-            {%- include guests-card/guests-card-photos.html -%}
-            {%- include guests-card/guests-card-title.html -%}
-            {%- include guests-card/guests-card-guests.html -%}
-            {%- include guests-card/guests-card-author.html -%}
-        </div>
-    {%- endfor -%}
-    {%- comment -%}Display the footer{%- endcomment -%}
-      {%- include footer.html -%}
-</div>
+</section>
