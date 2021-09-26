@@ -22,16 +22,19 @@
 .header-content {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: min-content 1fr;
+  grid-template-rows: min-content min-content 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "header-nav"
+    "header-title"
     "header-featured";
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .header-nav { grid-area: header-nav; }
+
+.header-title { grid-area: header-title; }
 
 .header-featured {
   display: grid;
@@ -51,7 +54,6 @@
 }
 
 .header-featured-image {
-
   justify-self: stretch;
   align-self: stretch;
   grid-area: header-featured-image;
@@ -65,6 +67,12 @@
       height: 250px;
       max-height: 250px;
   }
+}
+
+.header-title-text {
+  color: $cambermastAltOrange;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .header-featured-image {

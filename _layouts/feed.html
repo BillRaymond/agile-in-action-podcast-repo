@@ -13,6 +13,9 @@ layout: default
         {% comment %} Display the navigation section {% endcomment %}
         {%- include nav.html -%}
         </div>
+        <div class="header-title">
+            <p class="header-title-text">Listen to our latest Agile in Bill Raymond podcast guest</h2>
+        </div>
         <div class="header-featured">
             {%- assign posts = site.posts 
                 | where_exp: 'post', 'post.date <= site.time' 
