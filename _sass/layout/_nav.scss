@@ -3,7 +3,7 @@
 // Create a 2-column, 2-row grid for the nav bar.
 .nav-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: $navHeight auto;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
@@ -12,22 +12,6 @@
         grid-template-columns: 1fr auto;
     }
   }
-
-// display the logo
-.nav-logo {
-    display: grid;
-    grid-column: 1;
-    @include for-size(phone-only) {
-        // center if in mobile
-        justify-items: center;
-    }
-}
-
-// display the logo
-.nav-logo-image {
-    width: auto;
-    height: $navHeight;
-}
 
 // display the navigation items
 .nav-items {
