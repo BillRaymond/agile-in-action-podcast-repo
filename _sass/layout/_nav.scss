@@ -7,25 +7,16 @@
     grid-template-rows: $navHeight auto;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
-    @include for-size(phone-only) {
-        // smaller screens will just use the first column.
-        grid-template-columns: 1fr auto;
-    }
+    margin-top: 10px;
   }
 
 // display the navigation items
 .nav-items {
     display: grid;
     grid-auto-flow: column;
-    justify-items: end;
     height: 100%;
-    align-content: center;
-    justify-content: space-evenly;
-    grid-column: 2;
-    // @include for-size(phone-only) {
-    //     // on mobile, display the nav on the second row.
-    //     justify-items: center;
-    // }
+    align-content: top;
+    justify-content: start;
 }
 
 // styling for the navigation items.
@@ -46,7 +37,6 @@
         font-weight: bolder;
     }
 }
-
 
 // do not display the burger menu (not used at this time)
 #nav-toggle, .burger-menu {
