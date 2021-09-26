@@ -19,7 +19,8 @@ layout: default
             {%- for post in posts limit: 1 offset: 0 -%}
                 <span class="header-featured-post">
                     {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | relative_url -%}
-                    <a href="{{- post.path -}}"><img src="{{- card-filename -}}" alt="{{- post.title -}}" class="header-featured-image"></a>
+                    {%- assign card-link = post.url | relative_url -%}
+                    <a href="{{- card-link -}}"><img src="{{- card-filename -}}" alt="{{- post.title -}}" class="header-featured-image"></a>
                 </span>            
             {%- endfor -%}
         </div>
