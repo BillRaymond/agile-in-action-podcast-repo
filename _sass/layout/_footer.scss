@@ -36,14 +36,14 @@
 .footer-item {
     font-size: calc(12px + .2vw); // responsive size, but keep a minimum.
     text-transform: uppercase;
-    color: $navDefaultColor;
+    color: $footerDefaultColor;
     text-decoration: none;
 
     &:hover {
         font-weight: bold;
     }
     &:visited {
-        color: $navDefaultColor;
+        color: $footerDefaultColor;
     }
 
     &:active {

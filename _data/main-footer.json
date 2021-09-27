@@ -7,7 +7,7 @@
             "type": "text",
             "content": null,
             "imageUrl": "/",
-            "display": true,
+            "display": false,
             "orderby": 1
         },
         {
