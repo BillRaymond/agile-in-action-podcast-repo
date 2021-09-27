@@ -46,25 +46,6 @@
         display: block;
     }
 
-    .guest-photos {
-        display: grid;
-        grid-auto-flow: column;
-        // overflow: auto;
-        grid-gap: 5px;
-        align-content: start;
-        justify-content: start;
-    }
-    
-    .guest-photo {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        @include for-size(phone-only){
-            width: 75px;
-            height: 75px;
-        }
-    }
-
     h2 {
         margin-top: 1em;
         margin-bottom: .25em;

@@ -1,14 +1,6 @@
 {% comment %} Display the podcast content {% endcomment %}
 <section class="podcast-post-section">
     <div class="markdown-section">
-        <div class="guest-photos">
-            {%- assign guest-photo = page.guestPhotos -%}
-            {%- for guest-photo in page.guestPhotos -%}
-                <div class="guest-photo-items">
-                    <img src="{{- guest-photo | relative_url -}}" alt="" class="guest-photo">
-                </div>
-            {%- endfor -%}
-        </div>
         <h2>Listen now</h2>
         {%- assign player-id = page.libsynUrl | split: '/' | last -%}
         {%- if player-id -%}
