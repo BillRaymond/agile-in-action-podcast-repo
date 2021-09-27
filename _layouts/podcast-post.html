@@ -9,14 +9,8 @@ layout: default
               {%- include nav.html -%}
           </div>
           <div class="header-featured">
-              {%- assign posts = site.posts 
-                  | where_exp: 'post', 'post.date <= site.time' 
-                  | where_exp: 'post', 'post.guest-details != nil' -%}
-              {%- for post in posts limit: 1 offset: 0 -%}
-                      {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '-no-play-icon' | append: '.png' | prepend: '/uploads/' | relative_url -%}
-                      {%- assign card-link = post.url | relative_url -%}
-                      <a href="{{- card-link -}}" class="header-featured-link"><img src="{{- card-filename -}}" alt="{{- post.title -}}" class="header-featured-image"></a>
-              {%- endfor -%}
+            {%- assign card-filename = page.path | split: '/' | last | split: '.' | first | append: '-no-play-icon' | append: '.png' | prepend: '/uploads/' | relative_url -%}
+            <a href="{{- card-link -}}" class="header-featured-link"><img src="{{- card-filename -}}" alt="{{- post.title -}}" class="header-featured-image"></a>
           </div>
       </div>
   </section>
