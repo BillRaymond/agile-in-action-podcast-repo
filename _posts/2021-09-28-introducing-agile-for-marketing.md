@@ -19,6 +19,6 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/20557871
 
 ---
-In our latest ""Agile for..."" series, we talk to Andrea Fryrear about Agile for Marketing. We discuss the unique structure of a marketing organization and the opportunities to reduce complexity and introduce agile methods.
+In our latest "Agile for..." series, we talk to Andrea Fryrear about Agile for Marketing. We discuss the unique structure of a marketing organization and the opportunities to reduce complexity and introduce agile methods.
 
-We talk about the pitfalls of simply ""going agile"" with existing frameworks, how to keep the focus on strategic work (without forgetting keep-the-lights-on work), and how to reduce work efforts by at least 30%.
+We talk about the pitfalls of simply "going agile" with existing frameworks, how to keep the focus on strategic work (without forgetting keep-the-lights-on work), and how to reduce work efforts by at least 30%.
