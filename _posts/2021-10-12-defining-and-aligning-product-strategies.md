@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: antmurphy.me
   - guest-link-label: Medium
     guest-link-url: https://medium.com/@antmurphy
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/20684657
 
 ---
 I am willing to bet that the happiest teams feel they are working toward an objective that will delight their customers and move the needle on their product.
