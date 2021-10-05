@@ -18,6 +18,6 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/20608019
 
 ---
-In today's podcast, I have a lively discussion with David Pereira, Head of Product at @Virtual Identity, who makes a bold proposal for a Product Manifesto.
+In today's podcast, I have a lively discussion with David Pereira, Head of Product at Virtual Identity, who makes a bold proposal for a Product Manifesto.
 
 David shares that while the Manifesto for Agile Software Development helped us change how we work, we now need a product manifesto to define how we deliver value.
