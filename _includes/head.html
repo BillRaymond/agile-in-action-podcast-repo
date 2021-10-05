@@ -7,6 +7,10 @@
   {% comment %} {%- seo -%} {% endcomment %}
   {%- assign card-filename = page.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | absolute_url -%}
   {%- if card-filename -%}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@billraymonde" />
+    <meta name="twitter:title" content="{{- page.title -}}">
+    <meta name="twitter:image" content="{{- card-filename -}}">
     <meta property="og:image" content="{{- card-filename -}}">
     <meta property="og:description" content="{{- page.title -}}"/>
     <meta property="og:image:type" content="image/png">
