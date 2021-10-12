@@ -5,7 +5,7 @@ author: Bill Raymond
 date: 2021-10-12
 title: Defining and aligning product strategies
 guest-details:
-- guest-name: Ant Murphy
+- guest-name: Anthony (Ant) Murphy
   guest-title: Director and found member, Association of Product Professionals
   guest-photo: "/uploads/ant-sq.png"
   guest-links:
