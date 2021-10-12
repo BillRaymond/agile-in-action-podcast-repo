@@ -14,7 +14,7 @@ guest-details:
   - guest-link-label: Association of Product Professionals
     guest-link-url: https://productprofessionals.com/
   - guest-link-label: Website
-    guest-link-url: antmurphy.me
+    guest-link-url: https://www.antmurphy.me/
   - guest-link-label: Medium
     guest-link-url: https://medium.com/@antmurphy
   - guest-link-label: '"Playing to Win" book'
