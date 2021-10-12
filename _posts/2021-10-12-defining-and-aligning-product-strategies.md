@@ -7,14 +7,18 @@ title: Defining and aligning product strategies
 guest-details:
 - guest-name: Ant Murphy
   guest-title: Director and found member, Association of Product Professionals
-  guest-photo: ''
+  guest-photo: "/uploads/ant-sq.png"
   guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/ant-murphy/
+  - guest-link-label: Association of Product Professionals
+    guest-link-url: https://productprofessionals.com/
   - guest-link-label: Website
     guest-link-url: antmurphy.me
   - guest-link-label: Medium
     guest-link-url: https://medium.com/@antmurphy
+  - guest-link-label: '"Playing to Win" book'
+    guest-link-url: https://www.amazon.com/Playing-Win-Strategy-Really-Works/dp/142218739X/ref=sr_1_1?dchild=1&keywords=playing+to+win&qid=1634011393&sr=8-1
 libsynUrl: https://directory.libsyn.com/episode/index/id/20684657
 
 ---
