@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: https://www.researchgate.net/publication/339493924_Certification_of_Openness_-_Corner_Stone_of_an_Agile_PLM_Strategy
   - guest-link-label: Fraunhofer Institute for Industrial Engineering
     guest-link-url: https://www.iao.fraunhofer.de/en.html
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/20787311
 
 ---
 Product Lifecycle Management, especially for large and complex products like automobiles, is ripe for re-invention. Organizations adopt agile techniques and focus on smaller, more focused teams to deliver more competitive and customer-centric solutions at near breakneck speeds.
