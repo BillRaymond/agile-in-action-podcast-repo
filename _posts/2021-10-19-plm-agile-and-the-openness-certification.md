@@ -7,7 +7,7 @@ title: PLM, agile, and the Openness Certification
 guest-details:
 - guest-name: Michael Hertwig
   guest-title: Researcher, Fraunhofer Institute for Industrial Engineering IAO
-  guest-photo: ''
+  guest-photo: "/uploads/hertwig.png"
   guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/michael-hertwig-166100201/
