@@ -13,6 +13,8 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/alexandre-omeyer-060a0175/
   - guest-link-label: Stepsize
     guest-link-url: https://www.stepsize.com/
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/alexomeyer?lang=en
   - guest-link-label: Medium article
     guest-link-url: https://betterprogramming.pub/the-perfect-process-to-manage-technical-debt-ac4b0ece746b
   - guest-link-label: YouTube Video
