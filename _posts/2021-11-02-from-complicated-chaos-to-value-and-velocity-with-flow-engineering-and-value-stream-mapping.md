@@ -7,18 +7,20 @@ title: From complicated chaos to value and velocity with flow engineering and va
   stream mapping
 guest-details:
 - guest-name: Steve Pereira
-  guest-title: ''
-  guest-photo: ''
+  guest-title: The Value Stream Guy
+  guest-photo: "/uploads/spsq.png"
   guest-links:
-  - guest-link-label: The Flow Collective
-    guest-link-url: https://valuestream.link/item/the-flow-collective
-  - guest-link-label: Value Stream Maps
-    guest-link-url: https://visible.is/#thinking
-  - guest-link-label: Visible
-    guest-link-url: https://visible.is/
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/devopsto/
-libsynUrl: ''
+  - guest-link-label: Visible
+    guest-link-url: https://visible.is/
+  - guest-link-label: Value Stream Maps
+    guest-link-url: https://visible.is/#thinking
+  - guest-link-label: The Flow Collective
+    guest-link-url: https://valuestream.link/item/the-flow-collective
+  - guest-link-label: Conway's Law
+    guest-link-url: https://www.melconway.com/Home/Conways_Law.html
+libsynUrl: https://directory.libsyn.com/episode/index/id/21004271
 
 ---
 Do you have outdated or complex business flows that are hindering your ability to deliver more value to your customers at a faster pace? Today's podcast guest, Steve Pereira, "The Value Stream Guy" and creator of "Flow Engineering," will share how to "Marie Kondo" your processes.
