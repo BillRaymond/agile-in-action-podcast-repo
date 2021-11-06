@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: http://masteringagility.org/
   - guest-link-label: Sander's Medium
     guest-link-url: https://sander-dur.medium.com/
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/21069191
 
 ---
 Organizations that want to be more agile will often create small, autonomous teams that can deliver faster. The structure for those teams often looks similar to those defined by SCRUM \[include a link to SCRUM.org\]. However, what happens when many SCRUM teams, maybe 20, 30, or more, need to work on coordinated release efforts? That is a problem the Scaled Agile Framework (or SAFe) may need to answer.
