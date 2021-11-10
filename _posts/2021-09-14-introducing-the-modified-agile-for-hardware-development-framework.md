@@ -12,9 +12,9 @@ guest-details:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/garyhinkle/
   - guest-link-label: Agile for Hardware Website
-    guest-link-url: agileforhardware.org
+    guest-link-url: http://www.agileforhardware.org/
   - guest-link-label: Agile for Hardware e-Book download
-    guest-link-url: https://agileforhardware.org/registration/
+    guest-link-url: https://agileforhardware.org/agile-for-hardware-development-member-resources/
 - guest-name: Dorian Simpson
   guest-title: 'Principal Consultant, Auxilium, Inc. '
   guest-photo: "/uploads/dorian-square.png"
@@ -22,9 +22,9 @@ guest-details:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/doriansimpson/
   - guest-link-label: Agile for Hardware Website
-    guest-link-url: agileforhardware.org
+    guest-link-url: http://www.agileforhardware.org/
   - guest-link-label: Agile for Hardware e-Book download
-    guest-link-url: https://agileforhardware.org/registration/
+    guest-link-url: https://agileforhardware.org/agile-for-hardware-development-member-resources/
 libsynUrl: https://directory.libsyn.com/episode/index/id/20452460
 
 ---
