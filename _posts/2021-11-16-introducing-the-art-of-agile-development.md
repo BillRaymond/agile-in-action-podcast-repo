@@ -6,17 +6,17 @@ date: 2021-11-16
 title: Introducing the Art of Agile Development
 guest-details:
 - guest-name: James Shore
-  guest-title: ''
+  guest-title: Author
   guest-photo: "/uploads/shore-square.png"
   guest-links:
+  - guest-link-label: Get your copy of The Art of Agile Development, 2nd Edition
+    guest-link-url: https://www.jamesshore.com/v2/books/aoad2
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/james-shore-7475b6/
   - guest-link-label: Contact James
     guest-link-url: https://www.jamesshore.com/v2/services/contact
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/jamesshore
-  - guest-link-label: Book
-    guest-link-url: https://www.jamesshore.com/v2/books/aoad2
   - guest-link-label: Fast Agile Website
     guest-link-url: https://www.fastagile.io/
   - guest-link-label: 'LESS: Large Scale SCRUM'
