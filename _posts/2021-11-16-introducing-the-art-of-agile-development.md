@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2021-11-16
-title: Introducing the Art of Agile Development
+title: Introducing the Art of Agile Development, 2nd Edition
 guest-details:
 - guest-name: James Shore
   guest-title: Author
