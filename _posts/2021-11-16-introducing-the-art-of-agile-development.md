@@ -21,7 +21,7 @@ guest-details:
     guest-link-url: https://www.fastagile.io/
   - guest-link-label: 'LESS: Large Scale SCRUM'
     guest-link-url: https://less.works/
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/21176951
 
 ---
 James Shore is the author of The Art of Agile Development. Today, he is announcing the generally availability of the book and shares what you will learn. In the text below, you will find the description of the book, including a link to get a copy for yourself.
