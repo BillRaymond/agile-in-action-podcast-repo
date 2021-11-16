@@ -24,7 +24,7 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/21176951
 
 ---
-James Shore is the author of The Art of Agile Development. Today, he is announcing the generally availability of the book and shares what you will learn. In the text below, you will find the description of the book, including a link to get a copy for yourself.
+Veteran guest on the Agile in Action Podcast, James Shore returns to announce the general availability of his new book, The Art of Agile Development, the Second Edition. James shares what you will learn and how development teams can benefit from the book, including walking through the Fluency Model. In the text below, you will find the book's description, including a link to get a copy for yourself.
 
 Most companies developing software employ something they call "Agile." But there's widespread misunderstanding of what Agile is and how to use it. If you want to improve your software development team's agility, this comprehensive guidebook's clear, concrete, and detailed guidance explains what to do and why, and when to make trade-offs.
 
