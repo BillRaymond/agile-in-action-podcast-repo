@@ -8,7 +8,15 @@ guest-details:
 - guest-name: Adam Jennison
   guest-title: Enterprise Agile Consultant
   guest-photo: "/uploads/headshot_small.jpeg"
-  guest-links: []
+  guest-links:
+  - guest-link-label: 'Leading Agile '
+    guest-link-url: https://www.leadingagile.com
+  - guest-link-label: A Word on Velocity
+    guest-link-url: https://www.leadingagile.com/2021/05/a-word-on-velocity/
+  - guest-link-url: https://www.linkedin.com/in/ajennison/
+    guest-link-label: LinkedIn
+  - guest-link-label: Da Vinci Code
+    guest-link-url: https://www.amazon.com/Vinci-Code-Tom-Hanks/dp/B000KKQNRO
 libsynUrl: ''
 
 ---
