@@ -7,7 +7,7 @@ title: An introduction to agile team planning and velocity
 guest-details:
 - guest-name: Adam Jennison
   guest-title: Enterprise Agile Consultant
-  guest-photo: ''
+  guest-photo: "/uploads/headshot_small.jpeg"
   guest-links: []
 libsynUrl: ''
 
