@@ -17,7 +17,7 @@ guest-details:
     guest-link-label: LinkedIn
   - guest-link-label: Da Vinci Code
     guest-link-url: https://www.amazon.com/Vinci-Code-Tom-Hanks/dp/B000KKQNRO
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/21304640
 
 ---
 In today's lively conversation with Adam Jennison, Enterprise Agile Consultant, you will learn how agile teams estimate their work and track how well they performed based on the estimate. You will also learn how to implement these concepts in your team, no matter what type of work you do.
