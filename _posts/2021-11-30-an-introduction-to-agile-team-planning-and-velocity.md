@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: https://www.leadingagile.com/2021/05/a-word-on-velocity/
   - guest-link-url: https://www.linkedin.com/in/ajennison/
     guest-link-label: LinkedIn
-  - guest-link-label: Da Vinci Code
+  - guest-link-label: The Da Vinci Code
     guest-link-url: https://www.amazon.com/Vinci-Code-Tom-Hanks/dp/B000KKQNRO
 libsynUrl: https://directory.libsyn.com/episode/index/id/21304640
 
