@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: https://www.mountaingoatsoftware.com/
   - guest-link-label: Agile Estimating and Planning Book
     guest-link-url: https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/21386594
 
 ---
 Agile teams often think differently than more traditional project planning efforts. Gone are months-long project schedules with tasks, milestones, and resource plans. In place of that are autonomous teams that define a value-driven backlog of work, and they schedule that work in short iterations (or sprints) over 1-4 weeks.
