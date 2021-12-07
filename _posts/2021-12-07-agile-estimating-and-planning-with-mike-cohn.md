@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2021-12-07
-title: Agile estimating and planning with Mike Cohn
+title: 'Agile estimating and planning '
 guest-details:
 - guest-name: Mike Cohn
   guest-title: CEO of Mountain Goat Software and author of Agile Estimating and Planning
