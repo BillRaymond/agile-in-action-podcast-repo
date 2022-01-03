@@ -17,7 +17,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/james-plunkett-a1472827/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/jamestplunkett
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/21658058
 
 ---
 Developing governmental policies can be a long and arduous task. At Citizens Advice, they streamline that process and use agile techniques to share ideas sooner, improve feedback loops, and focus on outputs.
