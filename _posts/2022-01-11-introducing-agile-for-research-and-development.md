@@ -24,6 +24,6 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/21722390
 ---
 Laura Pirro came to learn some agile concepts taking a course while at Ghent University. The course teacher said agile is primarily for software development and did not apply to R&D. Laura decided to learn more about agile and found that R&D projects could benefit from the ideas.
 
-Without using the word ""agile,"" Laura started implementing some of the modern ideas brought to us by organizations like Scrum.org. Laura introduced regular, shorter meetings with the leads on projects (also called standup meetings). Laura also started developing smaller pieces of the overall R&D work with her colleagues by writing smaller, manageable elements of the comprehensive paper and then iterating on that (also called MVPs, or minimum viable products).
+Without using the word "agile," Laura started implementing some of the modern ideas brought to us by organizations like Scrum.org. Laura introduced regular, shorter meetings with the leads on projects (also called standup meetings). Laura also started developing smaller pieces of the overall R&D work with her colleagues by writing smaller, manageable elements of the comprehensive paper and then iterating on that (also called MVPs, or minimum viable products).
 
 Now working for Yara International, Laura shares insights and real-world examples that may inspire you as a student or working in the private sector.
