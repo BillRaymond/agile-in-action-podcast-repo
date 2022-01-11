@@ -16,7 +16,7 @@ guest-details:
   - guest-link-label: Manifesto for Agile Software Development
     guest-link-url: https://agilemanifesto.org/
   - guest-link-label: SCRUM
-    guest-link-url: Scrum.org
+    guest-link-url: https://www.scrum.org/
   - guest-link-label: KanBan board
     guest-link-url: https://www.agilealliance.org/glossary/kanban-board/
 libsynUrl: https://directory.libsyn.com/episode/index/id/21722390
