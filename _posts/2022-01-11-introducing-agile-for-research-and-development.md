@@ -7,7 +7,7 @@ title: Introducing Agile for Research and Development
 guest-details:
 - guest-name: Laura Pirro, PhD
   guest-title: R&D Engineer, Chemical Engineer
-  guest-photo: ''
+  guest-photo: "/uploads/pirro.jpg"
   guest-links:
   - guest-link-label: How agile project management can work for your research
     guest-link-url: https://www.nature.com/articles/d41586-019-01184-9
