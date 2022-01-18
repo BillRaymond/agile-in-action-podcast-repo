@@ -5,7 +5,7 @@ author: Bill Raymond
 date: 2022-01-18
 title: Dealing with Ambiguity in the workplace
 guest-details:
-- guest-name: Linda Varrell, APR
+- guest-name: Linda Varrell, President Broad Reach Public Relations
   guest-photo: "/uploads/varrell-square.png"
   guest-links:
   - guest-link-label: LinkedIn
