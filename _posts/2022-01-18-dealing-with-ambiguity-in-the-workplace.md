@@ -12,7 +12,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/lindavarrell/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/brprprez
-  - guest-link-label: Broadreach Public Communications
+  - guest-link-label: Broadreach Public Relations
     guest-link-url: https://www.broadreachpr.com/
   - guest-link-label: Five Dysfunctions of a Team
     guest-link-url: https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756/ref=asc_df_0787960756/?tag=hyprod-20&linkCode=df0&hvadid=266023323049&hvpos=&hvnetw=g&hvrand=2957041648475880299&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031939&hvtargid=pla-487653304767&psc=1
