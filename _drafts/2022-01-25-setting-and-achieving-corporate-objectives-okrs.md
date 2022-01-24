@@ -9,14 +9,14 @@ guest-details:
   guest-title: ''
   guest-photo: ''
   guest-links:
-  - guest-link-label: Measure what matters book
-    guest-link-url: https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221/ref=sr_1_2?crid=2D42DEP3S5Y42&keywords=jack+doerr+measure+what+matters&qid=1642663985&sprefix=jack+doerr+measure+what+matters%2Caps%2C157&sr=8-2
-  - guest-link-label: Twitter
-    guest-link-url: glenngow1
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/glenngow/
   - guest-link-label: Website
     guest-link-url: glenngow.com
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/glenngow1
+  - guest-link-label: '"Measure What Matters"'
+    guest-link-url: https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221/ref=sr_1_2?crid=2D42DEP3S5Y42&keywords=jack+doerr+measure+what+matters&qid=1642663985&sprefix=jack+doerr+measure+what+matters%2Caps%2C157&sr=8-2
 libsynUrl: ''
 
 ---
