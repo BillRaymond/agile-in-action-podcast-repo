@@ -12,7 +12,7 @@ guest-details:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/glenngow/
   - guest-link-label: Website
-    guest-link-url: glenngow.com
+    guest-link-url: https://www.glenngow.com/
   - guest-link-label: Twitter
     guest-link-url: https://twitter.com/glenngow1
   - guest-link-label: '"Measure What Matters"'
