@@ -9,7 +9,7 @@ guest-details:
   guest-title: ''
   guest-photo: "/uploads/chris-jones.jpeg"
   guest-links: []
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/21973406
 
 ---
 Today, Chris Jones, partner at Silicon Valley Product Group and co-author of the book Empowered joins us to talk about the shift to agility and a product-focused culture.
