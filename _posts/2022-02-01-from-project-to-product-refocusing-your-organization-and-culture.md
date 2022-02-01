@@ -9,8 +9,6 @@ guest-details:
   guest-title: ''
   guest-photo: "/uploads/chris-jones.jpeg"
   guest-links:
-  - guest-link-url: ''
-    guest-link-label: ''
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/christopherjones6/
   - guest-link-label: '"Empowered"'
