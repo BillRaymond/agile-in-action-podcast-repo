@@ -5,9 +5,9 @@ author: Bill Raymond
 date: 2022-02-08
 title: Introducing organizational agility
 guest-details:
-- guest-name: Linda Parker Gates
-  guest-title: Software Acquisition Initiative Lead at the Software Engineering Institute
+- guest-name: Linda Parker Gates, Software Acquisition Initiative Lead at the Software Engineering Institute
     at Carnegie Mellon University
+  guest-title: ''
   guest-photo: "/uploads/lpgnew.jpg"
   guest-links:
   - guest-link-label: LinkedIn
