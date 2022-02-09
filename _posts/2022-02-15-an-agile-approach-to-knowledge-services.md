@@ -11,7 +11,7 @@ guest-details:
   guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/emily-g-disque/
-- guest-name: Laura Pike Seeley, Knowledge Program Lead, HKS
+- guest-name: Laura Pike Seeley, Knowledge Program Manager, HKS
   guest-title: ''
   guest-links:
   - guest-link-label: LinkedIn
