@@ -1,118 +1,57 @@
 ---
 layout: shell
 ---
-
 {% comment %} 
-TEMPLATE
-1 guest:
-  python3 share-card-creator.py --title "A day in the life of a Product Manager" --photo "guest/albert.jpg" --guests "Albert Chen" --card_file "card1.png" 
-2 guests:
-  python3 share-card-creator.py --title "The power of an agile operating model in the manufacturing supply chain" --photo "guest/spady.jpeg,guest/joshua-hinkel.jpg" --guests "Richard Spady and Joshua Hinkel" --card_file "card2.png" 
-3 guests:
-  python3 share-card-creator.py --title "Adapting agile to human resources" --photo "guest/natal-head-shot.jpg,guest/farlik.png,guest/maarten.jpeg" --guests "Natal Dank, Dr. John Farlick, and Maarten Dalmjin" --card_file "card3.png"
-4 guests
-  python3 share-card-creator.py --title "Transform Your Conversations, Transform Your Culture" --photo "guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg" --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais" --card_file "card4.png"
-MISC
-  python3 share-card-creator.py --title "Labore nulla tempor culpa non aliquip occaecat incididunt Velit reprehenderit Incididunt dolor sit sint laboris id. nostrud deserunt quis esse esse quis duis qui ad." --photo "guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg" --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais" --card_file "card5.png"
+  Creates a shell script to create social sharing cards.
+  One card will include a play icon (script.py) and the other will not (script-no-play.py)
+  See jekyll-script/create-cards.html for more details.
 {% endcomment %}
 
-{% comment %}
-Structure:
-python3 share-card-creator.py 
-  --title "Transform Your Conversations, Transform Your Culture"
-  --photo "guest/d-squirrel.jpg,guest/j-Fredrick.jpg,guest/william-morgan-headshot.jpg,guest/loretta.jpg"
-  --guests "Douglas Squirrel, Jeffrey Fredrick, Jesse Fewell, Loretta Harland, and Manuel Pais"
-  --card_file "card4.png"
-{% endcomment %}
+{% comment %} Process all cards or just latest and future? {% endcomment %}
+{% comment %} Setting located in _data/configs.yml {% endcomment %}
+{%- assign use-latest-cards = site.data.configs.latest-share-cards-only -%}
 
-{% comment %} Start the shell command {% endcomment %}
-{% comment %} Only get posts with a guest/photo structure {% endcomment %}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
-{%- assign switch = '&#45;&#45;' -%}
-{%- for post in posts -%}
-  {% comment %} create the python script element {% endcomment %}
-  {%- assign shell = 'python3 script.py ' -%}
-  {% comment %} Add the title to the shell command {% endcomment %}
-  {%- assign title = post.title -%}
-  {%- assign shell = shell | append: switch | append: 'title=&apos;' | append: title | append: '&apos; ' -%}
-
-  {% comment %} Add the photo files and guest photos to the shell command {% endcomment %}
-  {%- assign shell = shell | append: photo -%}
-  {%- assign photo-text = ' ' | append: switch | append: 'photo=&apos;' -%}
-  {%- assign guest-text = ' ' | append: switch | append: 'guests=&apos;' -%}
-
-  {% comment %} Create the rest of the shell script {% endcomment %}
-  {%- assign guest-details = post.guest-details -%}
-  {%- assign total-guests = guest-details.size -%}
-  {%- for guest-detail in guest-details -%}
-    {%- assign guest-name = guest-detail.guest-name -%}
-    {%- assign guest-photo = guest-detail.guest-photo -%}
-
-    {% comment %} You can only put 4 guests on the social sharing card {% endcomment %}
-    {%- assign index-id = forloop.index -%}
-    {%- if index-id == 5 -%}
-      {% break %}
-    {%- endif -%}
-
-    {% comment %} If there is only one guest, just add the guest details {% endcomment %}
-    {%- if total-guests == 1  -%}
-      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
-      {%- assign guest-text = guest-text | append: guest-name -%}
-    {%- endif -%}
-
-    {% comment %} If there are two guests, add a comma or the word "and" for the guests {% endcomment %}
-    {%- if total-guests == 2 -%}
-      {%- if index-id == 2 -%}
-        {%- assign photo-text = photo-text | append: ',' -%}
-        {%- assign guest-text = guest-text | append: ' and ' -%}
-      {%- endif -%}
-      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
-      {%- assign guest-text = guest-text | append: guest-name -%}
-    {%- endif -%}
-
-    {% comment %} If there are three guests, add a comma or the word ", and" for the guests {% endcomment %}
-    {%- if total-guests == 3 -%}
-      {%- if index-id == 2 -%}
-        {%- assign photo-text = photo-text | append: ','-%}
-        {%- assign guest-text = guest-text | append: ', ' -%}
-      {%- endif -%}
-      {%- if index-id == 3 -%}
-        {%- assign photo-text = photo-text | append: ','-%}
-        {%- assign guest-text = guest-text | append: ', and ' -%}
-      {%- endif -%}
-      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
-      {%- assign guest-text = guest-text | append: guest-name -%}
-    {%- endif -%}
-
-    {% comment %} If there are four guests, add a comma or the word ", and" for the guests {% endcomment %}
-    {%- if total-guests == 4 -%}
-      {%- if index-id == 2 -%}
-        {%- assign photo-text = photo-text | append: ',' -%}
-        {%- assign guest-text = guest-text | append: ', ' -%}
-      {%- endif -%}
-      {%- if index-id == 3 -%}
-        {%- assign photo-text = photo-text | append: ',' -%}
-        {%- assign guest-text = guest-text | append: ', ' -%}
-      {%- endif -%}
-      {%- if index-id == 4 -%}
-        {%- assign photo-text = photo-text | append: ',' -%}
-        {%- assign guest-text = guest-text | append: ', and ' -%}
-      {%- endif -%}
-      {%- assign photo-text = photo-text | append: '..' | append: guest-photo -%}
-      {%- assign guest-text = guest-text | append: guest-name -%}
-    {%- endif -%}
-
-    {% comment %} Finalize the shell command {% endcomment %}
-    {%- if index-id == total-guests -%}
-      {%- assign shell = shell | append: photo-text | append: '&apos;' -%}
-      {%- assign shell = shell | append: guest-text | append: '&apos;' -%}
-      {%- assign card-filename = post.path | split: '/' | last | split: '.' | first | append: '.png' -%}
-      {%- assign card-filename = card-filename | prepend: '../uploads/' -%}
-      {%- assign shell = shell | append: ' ' | append: switch | append: 'card_file=&apos;' | append: card-filename | append: '&apos;' -%}
-{% capture final-shell %}
-{{ shell }}
-{% endcapture %}
-{{ final-shell }}
-    {%- endif -%}        
+{% comment %} Only create cards for future posts and the most current {% endcomment %}
+{%- if use-latest-cards == true -%}
+  {% comment %} Get future posts {% endcomment %}
+  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date >= site.time' -%}
+  {%- for post in posts -%}
+    {%- assign append = '' -%}
+    {%- assign shell = 'python3 script.py ' -%}
+    {%- include_relative jekyll-script/create-cards.html -%}
   {%- endfor -%}
-{%- endfor -%}
+  {%- for post in posts -%}
+    {%- assign append = '-no-play-icon' -%}
+    {%- assign shell = 'python3 script-no-play.py ' -%}
+    {%- include_relative jekyll-script/create-cards.html -%}
+  {%- endfor -%}
+
+  {% comment %} Get latest active post {% endcomment %}
+  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date <= site.time' -%}
+  {%- for post in posts limit: 1 offset: 0-%}
+    {%- assign append = '' -%}
+    {%- assign shell = 'python3 script.py ' -%}
+    {%- include_relative jekyll-script/create-cards.html -%}
+  {%- endfor -%}
+  {%- for post in posts limit: 1 offset: 0-%}
+    {%- assign append = '-no-play-icon' -%}
+    {%- assign shell = 'python3 script-no-play.py ' -%}
+    {%- include_relative jekyll-script/create-cards.html -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{% comment %} # Generate cards for all past, current, and future posts {% endcomment %}
+{%- if use-latest-cards == false -%}
+  {% comment %} Get future posts {% endcomment %}
+  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
+  {%- for post in posts -%}
+    {%- assign append = '' -%}
+    {%- assign shell = 'python3 script.py ' -%}
+    {%- include_relative jekyll-script/create-cards.html -%}
+  {%- endfor -%}
+  {%- for post in posts -%}
+    {%- assign append = '-no-play-icon' -%}
+    {%- assign shell = 'python3 script-no-play.py ' -%}
+    {%- include_relative jekyll-script/create-cards.html -%}
+  {%- endfor -%}
+{%- endif -%}
