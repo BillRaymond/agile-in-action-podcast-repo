@@ -14,7 +14,7 @@ layout: shell
 {% comment %} Only create cards for future posts and the most current {% endcomment %}
 {%- if use-latest-cards == true -%}
   {% comment %} Get future posts {% endcomment %}
-  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date >= site.time' -%}
+  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date > site.time' -%}
   {%- for post in posts -%}
     {%- assign append = '' -%}
     {%- assign shell = 'python3 script.py ' -%}
@@ -27,7 +27,7 @@ layout: shell
   {%- endfor -%}
 
   {% comment %} Get latest active post {% endcomment %}
-  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date <= site.time' -%}
+  {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date < site.time' -%}
   {%- for post in posts limit: 1 offset: 0-%}
     {%- assign append = '' -%}
     {%- assign shell = 'python3 script.py ' -%}
