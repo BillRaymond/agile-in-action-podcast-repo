@@ -44,9 +44,9 @@ sh -c "ls -lta"
 cat $SHELL_FILE
 echo "Execute $SHELL_FILE"
 sh -c "./$SHELL_FILE"
-cat $SHELL_FILE_NO_PLAY
-echo "Execute $SHELL_FILE_NO_PLAY"
-sh -c "./$SHELL_FILE_NO_PLAY"
+# cat $SHELL_FILE_NO_PLAY
+# echo "Execute $SHELL_FILE_NO_PLAY"
+# sh -c "./$SHELL_FILE_NO_PLAY"
 
 cd ..
 
