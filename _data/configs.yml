@@ -27,4 +27,4 @@ browser-not-supported-script: /scripts/browser-not-supported.js
 ## Share Card Creator
 # By default, only create current and newer podcast guest share card images
 # To build all of them (usually 15-20 minutes), set to false
-latest-share-cards-only: false
+latest-share-cards-only: true
