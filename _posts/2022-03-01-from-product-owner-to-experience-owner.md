@@ -15,6 +15,8 @@ guest-details:
     guest-link-url: https://jurgenappelo.com
   - guest-link-label: Startup, Scaleup, Screwup (book)
     guest-link-url: https://shiftup.work/product/startup-scaleup-screwup-book/
+  - guest-link-label: 'Recommended reading: Team Topologies'
+    guest-link-url: https://teamtopologies.com
 libsynUrl: https://directory.libsyn.com/episode/index/id/22251662
 
 ---
