@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: https://jurgenappelo.com
   - guest-link-label: Startup, Scaleup, Screwup (book)
     guest-link-url: https://shiftup.work/product/startup-scaleup-screwup-book/
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/22251662
 
 ---
 Content goes here
