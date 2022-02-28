@@ -20,4 +20,4 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/22251662
 
 ---
-Content goes here
+As you improve your products, so should the customer experience. Today, Jurgen Appelo and Bill Raymond talk about the need for customer experience leadership.
