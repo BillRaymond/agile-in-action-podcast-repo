@@ -9,6 +9,6 @@ guest-details:
   guest-title: ''
   guest-photo: ''
   guest-links: []
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/22342586
 
 ---
