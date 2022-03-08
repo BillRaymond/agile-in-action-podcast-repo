@@ -7,12 +7,12 @@ title: Avoid being your own worst enemy
 guest-details:
 - guest-name: Becky Winkler, Corporate Psychologist
   guest-title: ''
-  guest-photo: ''
+  guest-photo: "/uploads/becky.png"
   guest-links:
-  - guest-link-label: Improve Your Ability to Learn
-    guest-link-url: https://hbr.org/2015/06/improve-your-ability-to-learn
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/becky-winkler-010683/
+  - guest-link-label: Improve Your Ability to Learn
+    guest-link-url: https://hbr.org/2015/06/improve-your-ability-to-learn
 libsynUrl: https://directory.libsyn.com/episode/index/id/22342586
 
 ---
