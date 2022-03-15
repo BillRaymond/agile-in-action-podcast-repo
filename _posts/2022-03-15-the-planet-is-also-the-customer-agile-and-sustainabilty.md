@@ -7,7 +7,7 @@ title: 'The planet is also the customer: Agile and sustainability'
 guest-details:
 - guest-name: Jutta Eckstein
   guest-title: ''
-  guest-photo: ''
+  guest-photo: "/uploads/jutta.jpg"
   guest-links:
   - guest-link-label: 'Article: Leveraging the Agile Manifesto for More Sustainability'
     guest-link-url: https://www.infoq.com/articles/agile-manifesto-sustainability/
