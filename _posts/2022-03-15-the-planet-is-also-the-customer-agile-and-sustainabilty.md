@@ -22,3 +22,4 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/22445048
 
 ---
+On today's podcast, Bill speaks with Jutta Eckstein, who shares her passion for sustainability and concerns that agile may increase our carbon footprint. Jutta shares how you can make a difference in your personal life and career using the three pillars of sustainability: People, Planet, and Profit.
