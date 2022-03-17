@@ -1,8 +1,27 @@
 #!/bin/bash
+# Exit immediately if a command exits with a non-zero status.
 set -e
+
+# if arguments aren't set, the environment variables are expected to be set
+if [ -z "${GITHUB_ACTOR}" ];
+then
+GITHUB_ACTOR=$env_github_actor
+fi
+
+if [ -z "${GITHUB_TOKEN}" ];
+then
+GITHUB_TOKEN=$env_github_token
+fi
+
+if [ -z "${USER_SITE_REPOSITORY}" ];
+then
+USER_SITE_REPOSITORY=$env_user_site_repository
+fi
 
 USER_NAME="${GITHUB_ACTOR}"
 MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
+
+echo "${USER_NAME} - ${MAIL}"
 
 gem install bundler
 
@@ -20,8 +39,11 @@ echo "Install imagemagick"
 
 sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
 
-sh -c "chmod 777 /github/workspace/*"
-sh -c "chmod 777 /github/workspace/.*"
+echo "#################################################"
+echo "workspace_directory: $env_workspace_directory"
+
+sh -c "chmod 777 $env_workspace_directory/*"
+sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
 echo "Starting the Jekyll Action"
@@ -29,7 +51,7 @@ echo "Starting the Jekyll Action"
 sh -c "bundle install"
 sh -c "jekyll build --future"
 
-cp -f _site/share-card-creator/shell.sh $SCRIPTS_DIR
+cp -f $env_workspace_directory/_site/share-card-creator/shell.sh $SCRIPTS_DIR
 sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
 sh -c "chmod +x $SCRIPTS_DIR/script.py"
 # cp -f _site/share-card-creator/shell-no-play.sh $SCRIPTS_DIR
@@ -64,13 +86,13 @@ git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll b
 git reset --hard
 
 rm -rf $SCRIPTS_DIR
-rm -rf _site
+rm -rf $env_workspace_directory/_site
 
 echo "#################################################"
-echo "Add ./_site as submodule"
+echo "Add $env_workspace_directory/_site as submodule"
 
 git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
-cd ./_site
+cd $env_workspace_directory/_site
 git checkout main
 git pull
 
@@ -78,8 +100,8 @@ echo "#################################################"
 echo "Added submodule"
 
 cd ..
-sh -c "chmod 777 /github/workspace/*"
-sh -c "chmod 777 /github/workspace/.*"
+sh -c "chmod 777 $env_workspace_directory/*"
+sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
 echo "Starting the Jekyll Action a second time"
@@ -92,7 +114,7 @@ echo "#################################################"
 echo "Now publishing"
 
 ls -ltar
-cd ./_site
+cd $env_workspace_directory/_site
 ls -ltar
 git log -2
 git remote -v
