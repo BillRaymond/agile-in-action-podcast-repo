@@ -5,13 +5,21 @@ author: Bill Raymond
 date: 2022-03-22
 title: How team self-selection helps people excel
 guest-details:
+- guest-name: David Mole
+  guest-title: Agile Coach, Trainer, and co-Author of Creating Great Teams
+  guest-photo: "/uploads/david-mole.jpeg"
+  guest-links:
+  - guest-link-label: 'Creating Great Teams: How Self-Selection Lets People Excel'
+    guest-link-url: https://www.amazon.com/Creating-Great-Teams-Self-Selection-People/dp/1680501283
+  - guest-link-label: Website
+    guest-link-url: https://nomad8.com/about-us
 - guest-name: Sandy Mamoli
   guest-title: Agile Coach, Trainer, and co-Author of Creating Great Teams
   guest-photo: "/uploads/sandy-mamoli.jpeg"
   guest-links:
   - guest-link-label: 'Creating Great Teams: How Self-Selection Lets People Excel'
     guest-link-url: https://www.amazon.com/Creating-Great-Teams-Self-Selection-People/dp/1680501283
-  - guest-link-label: Nomad8
+  - guest-link-label: Website
     guest-link-url: https://nomad8.com
 libsynUrl: ''
 
