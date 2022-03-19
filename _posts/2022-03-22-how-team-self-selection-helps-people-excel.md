@@ -21,7 +21,7 @@ guest-details:
     guest-link-url: https://www.amazon.com/Creating-Great-Teams-Self-Selection-People/dp/1680501283
   - guest-link-label: Website
     guest-link-url: https://nomad8.com/about-us
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/22502348
 
 ---
 In today's Agile in Action podcast, Bill Raymond talks with Sandy Mamoli and David Mole about helping people excel through the process of team self-selection.
