@@ -49,6 +49,7 @@ echo "#################################################"
 echo "Starting the Jekyll Action"
 
 sh -c "bundle install"
+sh -c "bundle update"
 sh -c "jekyll build --future"
 
 cp -f $env_workspace_directory/_site/share-card-creator/shell.sh $SCRIPTS_DIR
