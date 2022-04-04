@@ -13,7 +13,7 @@ guest-details:
     guest-link-url: https://www.researchgate.net/publication/333312662_Towards_Risk-Driven_Security_Requirements_Management_in_Agile_Software_Development
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/dan-ionita/
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/22680197
 
 ---
 Dan Ionita, a Researcher with a Ph.D. in risk assessment, shares a model for integrated security into modern agile software management teams. Dan shares case studies and practical guidance for assessing and prioritizing security needs in your organization's culture. More importantly, Dan shares why organizations must incorporate security into their culture.
