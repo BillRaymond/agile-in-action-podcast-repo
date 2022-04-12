@@ -8,7 +8,7 @@ guest-details:
 - guest-name: " Marsha Acker, CEO at Team Catapult and Author of The Art and Science
     of Facilitation"
   guest-title: ''
-  guest-photo: "/uploads/marsha.jpg"
+  guest-photo: "/uploads/marsha-acker.png"
   guest-links:
   - guest-link-label: Book
     guest-link-url: https://www.amazon.com/Art-Science-Facilitation-Effective-Collaboration/dp/1735655406/ref=asc_df_1735655406/?tag=hyprod-20&linkCode=df0&hvadid=475811913007&hvpos=&hvnetw=g&hvrand=16786788015951684996&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033128&hvtargid=pla-1130990391101&psc=1
