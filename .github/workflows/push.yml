@@ -13,7 +13,7 @@ jobs:
     name: generate and push
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master # pull the code
+      - uses: actions/checkout@v3 # pull the code
         with:
           ref: main
       - uses: ./ # runs Dockerfile, which calls entrypoint.sh
