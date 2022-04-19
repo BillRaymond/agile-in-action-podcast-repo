@@ -18,30 +18,30 @@ RUN apk update
 
 RUN apk add --no-cache build-base gcc bash cmake git python3
 
-RUN echo "env_workspace_directory"
-RUN echo ${env_workspace_directory}
-RUN echo "workspace_directory"
-RUN echo ${workspace_directory}
+echo "env_workspace_directory"
+echo ${env_workspace_directory}
+echo "workspace_directory"
+echo ${workspace_directory}
 
 # install both bundler 1.x and 2.x incase you're running
 # old gem files
 # https://bundler.io/guides/bundler_2_upgrade.html#faq
-RUN echo "gem update bundler && gem install bundler jekyll"
+echo "gem update bundler && gem install bundler jekyll"
 RUN gem update bundler && gem install bundler jekyll
 
 ENV JEKYLL_ENV: production
 WORKDIR ${env_workspace_directory}
 
-RUN echo "COPY . ${env_workspace_directory}"
+echo "COPY . ${env_workspace_directory}"
 COPY . ${env_workspace_directory}
 
-RUN echo "apk add --no-cache git"
+echo "apk add --no-cache git"
 RUN apk add --no-cache git
 
-RUN echo "ADD entrypoint.sh /"
+echo "ADD entrypoint.sh /"
 ADD entrypoint.sh /
-run echo "RUN chmod +x /entrypoint.sh"
+echo "RUN chmod +x /entrypoint.sh"
 RUN chmod +x /entrypoint.sh
 
-RUN echo "ENTRYPOINT entrypoint.sh"
+echo "ENTRYPOINT entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]

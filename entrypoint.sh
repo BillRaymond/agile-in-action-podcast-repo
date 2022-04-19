@@ -2,6 +2,10 @@
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
+# configure git
+echo "Run a command required by GitHub Actions"
+git config --global --add safe.directory /github/workspace
+
 # if arguments aren't set, the environment variables are expected to be set
 if [ -z "${GITHUB_ACTOR}" ];
 then
