@@ -1,5 +1,5 @@
 name: tweet from json
-reads json file and parses them into tweets to be sent to twitter
+# reads json file and parses them into tweets to be sent to twitter
 
 on:
   schedule:
