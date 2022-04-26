@@ -1,0 +1,32 @@
+name: tweet from json
+reads json file and parses them into tweets to be sent to twitter
+
+on:
+  schedule:
+    - cron: '00 17 * * *' # triggers workflow every day at 10 am
+  workflow_dispatch: # allows for manual trigger
+        
+jobs:
+    run_python_script_to_tweet:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout repo content
+              uses: actions/checkout@v2
+              
+            - name: setup python
+              uses: actions/setup-python@v2
+              with:
+                python-version: '3.7.7'
+                
+            - name: install python packages
+              run: |
+                python -m pip install --upgrade pip
+                pip install tweepy
+            
+            - name: execute python script
+              env:
+                TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+                TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+                TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+                TWITTER_CONSUMER_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_SECRET_KEY }}
+              run: python tweet.py
