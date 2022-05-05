@@ -17,7 +17,7 @@ api=tweepy.API(auth)
 #open JSON file 
 f = open("twitter-card-creator/tweet.json",)
 print("tweet.json contents:")
-print str(f)
+print(f.read())
 
 #store JSON string as a dictionary 
 tweets = json.load(f) 
