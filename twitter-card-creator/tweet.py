@@ -15,7 +15,7 @@ auth.set_access_token(access_token,access_token_secret)
 api=tweepy.API(auth)
 
 #open JSON file 
-f = open("./tweet.json",)
+f = open("/twitter-card-creator/tweet.json",)
 
 #store JSON string as a dictionary 
 tweets = json.load(f) 
