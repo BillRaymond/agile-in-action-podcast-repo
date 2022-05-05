@@ -50,6 +50,15 @@ fields:
     required: true
   label: Podcast title
   description: A short title to describe the podcast
+- name: twitter-text
+  type: text
+  config:
+    required: false
+    min: 0
+    max: 100
+  label: Twitter text
+  description: Type the text to appear in a tweet. The URL and a listen now emoji
+    will send, so do not add those here.
 - name: guest-details
   type: field_group_list
   fields:
