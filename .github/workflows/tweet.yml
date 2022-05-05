@@ -29,4 +29,4 @@ jobs:
                 TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
                 TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
                 TWITTER_CONSUMER_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_SECRET_KEY }}
-              run: python tweet.py
+              run: python twitter-card-creator/tweet.py
