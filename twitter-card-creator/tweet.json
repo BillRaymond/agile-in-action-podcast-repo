@@ -22,7 +22,7 @@ Tweet structure:
     {% assign postUrl = post.url | absolute_url %}
     {% assign postEmoji = "👇" %}
     {% if siteDate == postDate %}
-        "{{postNum}}":{"{{post.twitter-text}} {{postEmoji}} {{postUrl}}"}
+        "{{postNum}}":{"{{post.twitter-text}} {{postEmoji}} {{postUrl}}":""}
     {% endif %}
 
     {%- assign postNum = postNum | plus: 1 -%}
