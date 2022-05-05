@@ -55,7 +55,7 @@ fields:
   config:
     required: false
     min: 0
-    max: 100
+    max: 250
   label: Twitter text
   description: Type the text to appear in a tweet. The URL and a listen now emoji
     will send, so do not add those here.
