@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2022-04-12
+date: 2022-05-05
 title: The Art and Science of Facilitation
 guest-details:
 - guest-name: " Marsha Acker, CEO at Team Catapult and Author of The Art and Science
@@ -15,6 +15,10 @@ guest-details:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/marsha-acker-3486a72/
 libsynUrl: https://directory.libsyn.com/episode/index/id/22764974
+twitter-text: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt explicabo
+  maxime aut sequi sint obcaecati quos quo numquam, corrupti, fugiat aliquam blanditiis
+  odit nisi neque praesentium architecto animi! Cum architecto vero ea quas asperiores
+  mo
 
 ---
 In today's podcast, Marsha Acker shares the art and science of facilitation. Marsha shares stories and ideas that will help you run more efficient, outcome-driven meetings.
