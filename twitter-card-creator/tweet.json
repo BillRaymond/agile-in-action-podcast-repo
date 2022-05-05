@@ -1,3 +1,44 @@
+---
+layout: shell
+---
+{% comment %} 
+Tweet structure:
+ - 280 characters max
+ - Url = 23 characters
+ - emoji = 2 characters
+ - format:
+    tweet text + [space] + emoji + [space] + url
+ - Available space for text = 253 characters (rounding down to 250)
+{% endcomment %}
+
+{% assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' %}
+{% assign postNum = 1 %}
+
 {
-    "1":{"The planet is also the customer: #Agile and #sustainability. @billraymonde Listen now 👇 https://agileinaction.com/agile-in-action-podcast/2022/03/15/the-planet-is-also-the-customer-agile-and-sustainabilty.html":""}
+
+{% for post in posts %}
+    {% assign siteDate = site.time | date: "%Y-%m-%d" %}
+    {% assign postDate = post.date | date: "%Y-%m-%d" %}
+    {% assign postUrl = post.url | absolute_url %}
+    {% assign postEmoji = "👇" %}
+    {% if siteDate == postDate %}
+        "{{postNum}}":{"{{post.twitter-text}} {{postEmoji}} {{postUrl}}"}
+    {% endif %}
+
+    {%- assign postNum = postNum | plus: 1 -%}
+{% endfor %}
+
 }
+
+{% comment %} Get latest active post {% endcomment %}
+{% comment %} {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' | where_exp: 'post', 'post.date == site.time' -%}
+{
+{%- assign postNum = 1 -%}
+{%- for post in posts -%}
+    "{{postNum}}":{"The planet is also the customer: #Agile and #sustainability. @billraymonde Listen now 👇 https://agileinaction.com/agile-in-action-podcast/2022/03/15/the-planet-is-also-the-customer-agile-and-sustainabilty.html":""}
+    {%- assign postNum = postNum | plus: 1 -%}
+{%- endfor -%}
+} {% endcomment %}
+{% comment %}
+"1":{"The planet is also the customer: #Agile and #sustainability. @billraymonde Listen now 👇 https://agileinaction.com/agile-in-action-podcast/2022/03/15/the-planet-is-also-the-customer-agile-and-sustainabilty.html":""}
+{% endcomment %}
