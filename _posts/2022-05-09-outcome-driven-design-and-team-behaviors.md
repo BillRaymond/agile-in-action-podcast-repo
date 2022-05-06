@@ -12,6 +12,8 @@ guest-details:
   guest-links:
   - guest-link-label: Website
     guest-link-url: https://www.joshuaseiden.com/
+  - guest-link-label: Twitter
+    guest-link-url: https://twitter.com/jseiden
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/jseiden/
 libsynUrl: ''
