@@ -16,6 +16,6 @@ guest-details:
     guest-link-url: https://twitter.com/jseiden
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/jseiden/
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/23025539
 
 ---
