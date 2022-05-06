@@ -8,8 +8,12 @@ twitter-text: ''
 guest-details:
 - guest-name: Josh Seiden, Designer, Product Guy and Author
   guest-title: ''
-  guest-photo: ''
-  guest-links: []
+  guest-photo: "/uploads/seiden-1.jpg"
+  guest-links:
+  - guest-link-label: Website
+    guest-link-url: https://www.joshuaseiden.com/
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/jseiden/
 libsynUrl: ''
 
 ---
