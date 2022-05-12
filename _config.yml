@@ -45,9 +45,6 @@ author: Bill Raymond
 # plugins:
 #  - jekyll-feed
 
-# future posts will not appear until the publish date/time
-future: false
-
 # Collections defined for this site
 # For each collection, create a root folder with an underscore for a prefix.
 # Ex:
