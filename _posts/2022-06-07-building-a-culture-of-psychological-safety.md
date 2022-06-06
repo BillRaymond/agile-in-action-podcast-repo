@@ -17,7 +17,7 @@ guest-details:
     guest-link-url: https://www.spokeandwheel.co/
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/in/allaweinberg/
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/23335928
 
 ---
 Building a culture of psychological safety reduces fear, celebrates failures, and provides a safe space for your teams to communicate. In today's podcast, Bill speaks with Alla Weinberg, where they share the importance of physical, emotional, and psychological safety in the workplace.
