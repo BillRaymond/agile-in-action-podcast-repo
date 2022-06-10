@@ -7,9 +7,10 @@ title: What it means to become nimble
 twitter-text: ''
 guest-details:
 - guest-name: Christina Wodtke
-  guest-title: ''
-  guest-photo: ''
-  guest-links: []
+  guest-title: 'Lecturer at Stanford University, Author, and Speaker '
+  guest-links:
+  - guest-link-label: LinkedIn
+    guest-link-url: https://www.linkedin.com/in/christinawodtke/
 libsynUrl: ''
 
 ---
