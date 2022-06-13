@@ -28,3 +28,14 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/23407589
 
 ---
+Today, I am excited to share a conversation with Christina Wodtke, a celebrity in agile leadership and team dynamics. Christina is the author of popular books like The Team that Managed Itself and Radical Focus.
+
+Christina brings a wealth of agile knowledge in the agile space, having worked with tech companies like LinkedIn, Zynga, and Yahoo!, not to mention having founded three startups.
+
+Christina is an executive leadership coach who teaches techniques to create high-performing teams at the prestigious Stanford University.
+
+I am excited to share that Christina will share her new thoughts and ideas concerning nimble and stable teams.
+
+In this conversation, you will hear Christina talk about the importance of Psychological Safety. If you are unfamiliar with the topic, I suggest you locate the podcast just before the one you are listening to now. It is titled Building a Culture of Psychological Safety and contains a fantastic conversation with Alla Weinberg as an introduction to the topic.
+
+Christina will also talk frequently about OKRs -- or objectives and key results. If you are unfamiliar with the topic, you can listen to my conversation with Christina's friend and colleague, Jeff Gothelf. You can find that conversation in the Agile in Action podcast titled "Introducing Objectives and Key Results."
