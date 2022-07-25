@@ -23,7 +23,7 @@ Shifting to organizational agility can mean making a tectonic shift in how you s
 
 ## Full Transcription
 
-Bill Raymond: Hi and welcome to the podcast. Today, I'm joined by Dr. Thomas Grisham - agilist, consultant and author. Hi Thomas, how are you today?
+Bill Raymond: Hi and welcome to the podcast. Today, I'm joined by Dr. Thomas Grisham - agilist, consultant, and author. Hi Thomas, how are you today?
 
 Thomas Grisham: Doing fine, Bill. How are you?
 
@@ -81,7 +81,7 @@ Thomas Grisham: So if you just do the math, you can't cope with it. You can't do
 
 Thomas Grisham: And so between technology and leadership, the communication and knowledge needs to flow easily through a company. And so for companies like, oh think of the Swedish guys. Their internet company, the challenge they had was that they were having people learning lessons in Kenya that were really important to the overall company and needed to get that information from Kenya to Japan. And the problem was, again, if it goes email up the chain, across, down, by the time they get it, it's old, it's stale. Shelf life's gone. 
 
-Thomas Grisham: And so the key to it is, you have to be as fast doing what you do as the speed of changes. That is not designed for 21st century organization. You can't do this hierarchically.
+Thomas Grisham: And so the key to it is, you have to be as fast doing what you do as the speed of changes. That is not designed for 21st-century organization. You can't do this hierarchically.
 
 Hire people that share your vision and values
 
@@ -147,7 +147,7 @@ Dual responsibilities
 
 \---
 
-Thomas Grisham: So you go back and you look at a way to make one first step. We need, let's take the Operations group and let's merge it with R&amp;D. Just as an example. And so we're going to give those people dual responsibilities. You may have technical layout guys, for example, if you're a pharmaceutical firm, you may have technical geneticists, for example, that you hire, but you don't want three layers on top of them. So that if they see a problem, for example, oh, we're starting on this genetic test, but the problem was, we just realized that there's a new variant to the virus out there. Oh my God, should we stop? Should we continue? What should we do? 
+Thomas Grisham: So you go back and you look at a way to make one first step. We need, let's take the Operations group and let's merge it with R&D. Just as an example. And so we're going to give those people dual responsibilities. You may have technical layout guys, for example, if you're a pharmaceutical firm, you may have technical geneticists, for example, that you hire, but you don't want three layers on top of them. So that if they see a problem, for example, oh, we're starting on this genetic test, but the problem was, we just realized that there's a new variant to the virus out there. Oh my God, should we stop? Should we continue? What should we do? 
 
 Thomas Grisham: In order for a decision to be made that quickly, somebody has to know how to interpret what they're saying.
 
@@ -155,7 +155,7 @@ I'm sorry, I'm not a geneticist, I'm a finance guy, what the hell are you talkin
 
 Thomas Grisham: So the dilemma is what you need are a couple of layers of people who are more like a Renaissance woman, someone who's trained with one background, but has been put into the system. 
 
-Thomas Grisham: Give you one example, 3M, the company that makes sticky stuff, they move people from accounting into R&amp;D. Why in the hell would you do that as a company? And the reason is. Because they walk in with stupid questions. What does this do? And instead of giving them an explanation of, well, yeah, just the polymetric structure of this and the chemistry, blah, blah, blah, blah, blah. No, no, my question is, what does it do? Does it stick for good or is it like a Post It note where it comes off? 
+Thomas Grisham: Give you one example, 3M, the company that makes sticky stuff, they move people from accounting into R&D. Why in the hell would you do that as a company? And the reason is. Because they walk in with stupid questions. What does this do? And instead of giving them an explanation of, well, yeah, just the polymetric structure of this and the chemistry, blah, blah, blah, blah, blah. No, no, my question is, what does it do? Does it stick for good or is it like a Post-It note where it comes off? 
 
 Thomas Grisham: And likewise, the R&amp;D guys that go into bookkeeping got no clue. But what happens at the end of it is, now you have a different world year. 
 
@@ -211,7 +211,7 @@ Thomas Grisham: You can do it, but it requires the leadership, the XLQ to know. 
 
 Thomas Grisham: And the second piece is to inspire achievement beyond expectations. And what I mean is, the expectations of the person who I'm leading. So if I work for Bill and Bill knows Tom's not the brightest tack in the box, he could be a whole lot better at writing code than he is. And you give me a new piece of work to do, and I'm terrified. You can tell. But you support me. You let me experience it, you permit me to fail if I have to. That requires the kind of leadership that the C-suite people need to see and imbue in an organization. That's not easy.
 
-Bill Raymond: No, it's definitely not. And then I think about the fact that, you know, very often when we're talking about organizational agility, when we get to companies that are that size of 10,000 or larger, globally-dispersed,the number of levels in the organization seems to increase exponentially. 
+Bill Raymond: No, it's definitely not. And then I think about the fact that, you know, very often when we're talking about organizational agility, when we get to companies that are that size of 10,000 or larger, globally-dispersed, the number of levels in the organization seems to increase exponentially. 
 
 What does a flat organization look like in terms of numbers?
 
@@ -373,7 +373,7 @@ Bill Raymond: And I remembered when I was hearing that my team wasn't too happy 
 
 Bill Raymond: And so I was able to step back and just say, okay, I'm doing actions that are reducing the capability of my team. And so sometimes that looking in the mirror can be hard without really know what people are thinking. 
 
-Bill Raymond: I like your diary idea as well, just kind of writing these things down. It gives you a self inflection point. So I really appreciate that. 
+Bill Raymond: I like your diary idea as well, just kind of writing these things down. It gives you a self-inflection point. So I really appreciate that. 
 
 Closing
 
