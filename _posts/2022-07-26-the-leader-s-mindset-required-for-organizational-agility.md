@@ -7,9 +7,11 @@ title: The leader's mindset required for organizational agility
 twitter-text: ''
 guest-details:
 - guest-name: Thoms Grisham
-  guest-title: ''
-  guest-photo: ''
-  guest-links: []
+  guest-title: Agilist, Consultant, and Author
+  guest-photo: "/uploads/thomas-grisham.jpeg"
+  guest-links:
+  - guest-link-label: Website
+    guest-link-url: https://thomasgrisham.com
 libsynUrl: ''
 
 ---
