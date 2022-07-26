@@ -6,7 +6,7 @@ date: 2022-07-26
 title: The leader's mindset required for organizational agility
 twitter-text: ''
 guest-details:
-- guest-name: Dr. Thoms Grisham
+- guest-name: Dr. Thomas Grisham
   guest-title: Agilist, Consultant, and Author
   guest-photo: "/uploads/thomas-grisham.jpeg"
   guest-links:
