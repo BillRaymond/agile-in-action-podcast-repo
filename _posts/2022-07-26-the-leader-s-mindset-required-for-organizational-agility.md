@@ -16,7 +16,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/dr-thomas-grisham-b247b629/
   - guest-link-label: Website
     guest-link-url: https://thomasgrisham.com
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/23856678
 
 ---
 Shifting to organizational agility can mean making a tectonic shift in how you structure your business and empower teams. In today's podcast, leading author and Agilist, Dr. Thomas Grisham shares proven examples to help leaders through their transformation to agility.
