@@ -14,7 +14,7 @@ jobs:
       - name: Step 1 - Echo out a GitHub Actions Secret to the logs
         run: |
           echo "The GitHub Action Secret will be masked:  "
-          echo ${{ secrets.SECRET_TOKEN }}
+          echo ${{ secrets.JEKYLL_PAT }}
           echo "Trick to echo GitHub Actions Secret:  "
-          echo ${{secrets.SECRET_TOKEN}} | sed 's/./& /g' 
+          echo ${{secrets.JEKYLL_PAT}} | sed 's/./& /g' 
 
