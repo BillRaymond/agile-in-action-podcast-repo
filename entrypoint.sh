@@ -95,7 +95,7 @@ rm -rf $env_workspace_directory/_site
 
 echo "#################################################"
 echo "Add $env_workspace_directory/_site as submodule"
-
+echo "git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site"
 git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
 cd $env_workspace_directory/_site
 git checkout main
