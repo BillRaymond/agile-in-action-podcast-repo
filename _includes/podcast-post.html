@@ -28,8 +28,7 @@
         {%- endfor -%}
         </div>
         <h2>{{- page.title -}}</h2>
-        {{- content -}}
-
+        {% comment %} Display links pertinent to this podcast {% endcomment %}
         <h2>Links</h2>
         {%- assign guests = page.guest-details -%}
         {%- for guest in guests -%}
@@ -43,8 +42,11 @@
                 </li>
             {%- endfor -%}
             </ul>
-           
         {%- endfor -%}
+
+        {% comment %} Display podcast content, like transcriptions {% endcomment %}
+        {{- content -}}
+
         {% comment %} Display the podcast footer fromt he footers collection  {% endcomment %}
         {%- assign footers = site.footers | where: "type", "podcast-post" -%}
         {%- for footer in footers -%}
