@@ -105,7 +105,9 @@ echo "#################################################"
 echo "Added submodule"
 
 cd ..
+echo "sh -c "chmod 777 $env_workspace_directory/*""
 sh -c "chmod 777 $env_workspace_directory/*"
+echo "sh -c "chmod 777 $env_workspace_directory/.*""
 sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
