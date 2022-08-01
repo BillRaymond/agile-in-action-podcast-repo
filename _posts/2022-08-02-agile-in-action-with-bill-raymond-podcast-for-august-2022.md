@@ -3,12 +3,12 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2022-08-02
-title: Agile in Action with Bill Raymond Podcast for August 2022
+title: Exciting Agile in Action news
 twitter-text: ''
 guest-details:
-- guest-name: Big announcements
+- guest-name: Bill Raymond
   guest-title: 10,000 active listeners, 2nd anniversary, transcriptions, and more
-  guest-photo: "/uploads/balloons.jpg"
+  guest-photo: "/uploads/balloons2.png"
   guest-links:
   - guest-link-label: LinkedIn
     guest-link-url: https://www.linkedin.com/company/agile-in-action-with-bill-raymond-podcast/
