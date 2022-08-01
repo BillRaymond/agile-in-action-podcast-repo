@@ -3,10 +3,11 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2022-08-02
-title: Exciting Agile in Action news
+title: Exciting Agile in Action podcast news
 twitter-text: ''
 guest-details:
-- guest-name: Bill Raymond
+- guest-name: Bill Raymond, founder and host of the Agile in Action with Bill Raymond
+    Podcast
   guest-title: 10,000 active listeners, 2nd anniversary, transcriptions, and more
   guest-photo: "/uploads/balloons2.png"
   guest-links:
