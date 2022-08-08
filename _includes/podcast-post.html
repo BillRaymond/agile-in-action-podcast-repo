@@ -29,10 +29,10 @@
         </div>
         <h2>{{- page.title -}}</h2>
         {% comment %} Display links pertinent to this podcast {% endcomment %}
-        <h2>Links</h2>
+        <h3>Links</h3>
         {%- assign guests = page.guest-details -%}
         {%- for guest in guests -%}
-            <h3>{{- guest.guest-name -}}</h3>
+            <h4>{{- guest.guest-name -}}</h4>
             <ul>
             {%- for link in guest.guest-links -%}
                 <li>
