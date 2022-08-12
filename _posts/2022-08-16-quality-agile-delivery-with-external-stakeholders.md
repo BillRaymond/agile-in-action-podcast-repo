@@ -11,10 +11,10 @@ guest-details:
     at Worldwide Technology
   guest-photo: "/uploads/mark-balbes.jpeg"
   guest-links:
-  - guest-link-label: Mark's writings on Application Development Trends Magazine (ADTMag)
-    guest-link-url: https://adtmag.com/agile
   - guest-link-label: Dr. Mark Balbes on LinkedIn
     guest-link-url: https://www.linkedin.com/in/mark-balbes/
+  - guest-link-label: Mark's writings on Application Development Trends Magazine (ADTMag)
+    guest-link-url: https://adtmag.com/agile
 libsynUrl: ''
 
 ---
