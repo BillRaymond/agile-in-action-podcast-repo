@@ -23,7 +23,7 @@ guest-details:
     guest-link-url: https://www.scrum.org
   - guest-link-label: Kanban
     guest-link-url: https://en.wikipedia.org/wiki/Kanban_(development)
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/24063921
 
 ---
 External technology firms can complement your internal expertise and result in a lasting partnership. In today's podcast, Mark Balbes, Ph.D., shares how World Wide Technology builds mutual trust with its customers to deliver positive outcomes.
