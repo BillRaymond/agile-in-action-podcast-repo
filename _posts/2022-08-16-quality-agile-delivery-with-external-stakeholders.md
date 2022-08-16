@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/mark-balbes/
   - guest-link-label: Mark's writings on Application Development Trends Magazine (ADTMag)
     guest-link-url: https://adtmag.com/agile
-  - guest-link-label: Worldwide Technology
+  - guest-link-label: World Wide Technology
     guest-link-url: https://www.wwt.com
   - guest-link-label: The Manifesto for Agile Software Development
     guest-link-url: https://agilemanifesto.org
