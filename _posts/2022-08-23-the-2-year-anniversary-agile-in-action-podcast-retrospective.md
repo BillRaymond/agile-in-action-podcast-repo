@@ -17,6 +17,6 @@ guest-details:
     guest-link-url: https://agileinaction.com/agile-in-action-podcast/2021/01/11/agile-teams-embracing-company-culture-while-working-remotely.html
   - guest-link-label: Pastabiz
     guest-link-url: https://www.pastabiz.com
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/24110391
 
 ---
