@@ -15,7 +15,7 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/nate-greenberg-7581b723/
   - guest-link-url: https://www.monocounty.ca.gov/economic/page/mammoth-lakes
     guest-link-label: Mono County and Mammoth Lakes, California
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/24179187
 
 ---
 Nate Greenberg, Director of Information Technology for Mono County and the town of Mammoth Lakes, California, joins the podcast today. Nate shares how he and his team operated before and after the pandemic and shares essential lessons from the drastic changes he and his team had to make.
