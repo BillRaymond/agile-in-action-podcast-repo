@@ -11,6 +11,8 @@ guest-details:
     Mammoth Lakes, California
   guest-photo: "/uploads/nate-greenberg.jpg"
   guest-links:
+  - guest-link-label: Quickbase low code plaform used by Nate's team
+    guest-link-url: https://www.quickbase.com
   - guest-link-label: Nate Greenberg on LinkedIn
     guest-link-url: https://www.linkedin.com/in/nate-greenberg-7581b723/
   - guest-link-url: https://www.monocounty.ca.gov/economic/page/mammoth-lakes
