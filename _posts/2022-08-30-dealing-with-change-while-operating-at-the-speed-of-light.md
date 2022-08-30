@@ -13,7 +13,7 @@ guest-details:
   guest-links:
   - guest-link-label: Nate Greenberg on LinkedIn
     guest-link-url: https://www.linkedin.com/in/nate-greenberg-7581b723/
-  - guest-link-label: Quickbase low code plaform used by Nate's team
+  - guest-link-label: Quickbase low code platform used by Nate's team
     guest-link-url: https://www.quickbase.com
   - guest-link-url: https://www.monocounty.ca.gov/economic/page/mammoth-lakes
     guest-link-label: Mono County and Mammoth Lakes, California
