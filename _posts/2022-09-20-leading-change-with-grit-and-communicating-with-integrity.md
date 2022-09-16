@@ -24,7 +24,7 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/24377604
 ---
 Successful change management is the result of navigating people through resistance. Laurie Sudbrink makes the case that leadership must come from a place of GRIT: generosity, respect, integrity, and truth.
 
-Laurie shares that GRIT is not a formula but takes the form of empathy, vulnerability, taking part in the change, understanding emotional responses, and taking conscious actions based on your beliefs.
+Laurie shares that GRIT is more than a formula; it takes the form of empathy, vulnerability, taking part in the change, understanding emotional responses, and taking conscious actions based on your beliefs.
 
 ## About Laurie Sudbrink
 
