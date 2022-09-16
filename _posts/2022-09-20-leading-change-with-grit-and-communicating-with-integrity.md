@@ -15,10 +15,14 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/lauriesudbrink/
   - guest-link-url: https://www.amazon.com/Leading-GRIT-Inspiring-Accountability-Generosity/dp/1736207008/ref=asc_df_1736207008/?tag=hyprod-20&linkCode=df0&hvadid=509245866633&hvpos=&hvnetw=g&hvrand=8968233298294693961&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031954&hvtargid=pla-1364013821881&psc=1
     guest-link-label: 'Laurie Sudbrink''s book: Leading with GRIT'
+  - guest-link-label: Laurie's resource and template library
+    guest-link-url: https://www.lauriesudbrink.com/resource-library
   - guest-link-label: Unlimited Coaching Solutions
     guest-link-url: http://unlimitedcoaching.com
   - guest-link-label: Laurie Sudbrink's website
     guest-link-url: https://www.lauriesudbrink.com
+  - guest-link-label: DISC
+    guest-link-url: http://unlimitedcoaching.com/disc
 libsynUrl: https://directory.libsyn.com/episode/index/id/24377604
 
 ---
