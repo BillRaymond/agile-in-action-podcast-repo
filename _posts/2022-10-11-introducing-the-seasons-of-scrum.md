@@ -7,7 +7,7 @@ title: Introducing the Seasons of SCRUM
 twitter-text: ''
 guest-details:
 - guest-name: Bill Raymond
-  guest-photo: "/uploads/bill-raymond.png"
+  guest-photo: "/uploads/seasons-of-scrum.png"
   guest-links:
   - guest-link-label: The Agile in Action Podcast page on LinkedIn
     guest-link-url: https://www.linkedin.com/company/agile-in-action-with-bill-raymond-podcast/
@@ -46,5 +46,4 @@ And I want you to be aware that we are doing this because of your feedback that 
 
 **Bill Raymond:** If you are in a podcast app right now, I would really appreciate it if you Comment, Like, and Subscribe to the podcast. This way, you never miss any of the great content that's coming your way.
 
-**Bill Raymond:** So thank you once again, and we'll see you next week! 
-
+**Bill Raymond:** So thank you once again, and we'll see you next week!
