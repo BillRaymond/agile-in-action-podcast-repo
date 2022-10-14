@@ -30,7 +30,7 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/24692511
 
 ---
-Description text goes here
+Description text goes here.
 
 ## Transcript
 
