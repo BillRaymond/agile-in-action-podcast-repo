@@ -8,7 +8,7 @@ twitter-text: ''
 guest-details:
 - guest-name: Bill Raymond
   guest-title: Host of the Agile in Action podcast
-  guest-photo: "/uploads/bill-raymond.png"
+  guest-photo: "/uploads/fall-scenery.png"
   guest-links:
   - guest-link-url: https://www.linkedin.com/in/williamraymond/
     guest-link-label: Bill's personal LinkedIn
