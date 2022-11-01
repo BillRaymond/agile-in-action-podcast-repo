@@ -14,7 +14,7 @@ guest-details:
     guest-link-label: Bill's personal LinkedIn
   - guest-link-url: https://www.linkedin.com/company/agile-in-action-with-bill-raymond-podcast
     guest-link-label: Agile in Action podcast link
-libsynUrl: ''
+libsynUrl: 'https://directory.libsyn.com/episode/index/id/24862260'
 
 ---
 ## Transcript
