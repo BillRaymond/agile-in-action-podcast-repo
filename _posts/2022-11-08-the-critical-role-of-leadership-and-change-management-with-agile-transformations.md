@@ -11,16 +11,16 @@ guest-details:
     agile coach, and author
   guest-photo: "/uploads/1667225105007.jpeg"
   guest-links:
-  - guest-link-label: SAFe
-    guest-link-url: https://www.scaledagileframework.com
-  - guest-link-label: Scrum.org
-    guest-link-url: https://www.scrum.org
+  - guest-link-label: Hrishikesh on LinkedIn
+    guest-link-url: https://www.linkedin.com/in/hkarekar/
   - guest-link-label: Hrishikesh on Medium
     guest-link-url: https://hrishikeshkarekar.medium.com
   - guest-link-url: https://www.linkedin.com/company/capgemini/
     guest-link-label: Capgemini
-  - guest-link-label: Hrishikesh on LinkedIn
-    guest-link-url: https://www.linkedin.com/in/hkarekar/
+  - guest-link-label: Scrum.org
+    guest-link-url: https://www.scrum.org
+  - guest-link-label: SAFe
+    guest-link-url: https://www.scaledagileframework.com
 - guest-name: 'Sponsor: Spoke and Wheel'
   guest-photo: "/uploads/ad-spoke-and-wheel.png"
   guest-links:
@@ -316,4 +316,3 @@ when I first started to learn agile on one of the larger efforts that I was on m
 **Outro:** Thank you for listening to the Agile in Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Canas LLC and our executive producer is Ri Yama Daon.
 
 **Outro:** If there is a topic you would like Bill to cover, contact him via the https://agileinaction.com.
-
