@@ -21,6 +21,12 @@ guest-details:
     guest-link-label: Capgemini
   - guest-link-label: Hrishikesh on LinkedIn
     guest-link-url: https://www.linkedin.com/in/hkarekar/
+- guest-name: 'Sponsor: Spoke and Wheel'
+  guest-photo: "/uploads/ad-spoke-and-wheel.png"
+  guest-links:
+  - guest-link-label: Get 10% off a Psychological Safety Assessment
+    guest-link-url: https://www.spokeandwheel.co/assess
+  guest-title: Get 10% off a Psychological Safety Assessment
 libsynUrl: https://directory.libsyn.com/episode/index/id/24900183
 
 ---
