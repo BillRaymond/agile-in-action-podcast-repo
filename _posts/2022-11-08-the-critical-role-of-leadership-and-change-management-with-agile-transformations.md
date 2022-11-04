@@ -30,12 +30,24 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/24900183
 
 ---
-Podcast details go here...
+When someone says they are amidst a 200,000-person agile transformation effort, you ask for their advice, so we did!
+
+Today's guest, Hrishikesh Karekar is an Agile Leader at Capgemini India, author, and serial Medium contributor. Hrishikesh is here to share how leaders can enable successful agile transformations. 
+
+Hrishikesh and Bill Raymond talk about the critical success factors that drive success change, including:
+
+✅ Building successful agile transformation teams
+
+✅ Creating and communicating a flexible roadmap
+
+✅ Defining and aligning KPIs that reflect the goals of the business
+
+✅ Advice for executives starting their agile transformation journey
 
 ## Transcript
 
 (transcripts are auto-generated, so please excuse the brevity)
-**Hrishikesh Kareka:** Focusing on those problems is crucial for the success. If your goal is to just implement SCRUM or SAFe or any other framework, then you're not achieving value. If the software engineering techniques are bad, no amount of framework, whether it is SCRUM or SAFe, however good they are, aren't going to help you. 
+**Hrishikesh Karekar:** Focusing on those problems is crucial for the success. If your goal is to just implement SCRUM or SAFe or any other framework, then you're not achieving value. If the software engineering techniques are bad, no amount of framework, whether it is SCRUM or SAFe, however good they are, aren't going to help you. 
 
 
 
@@ -80,7 +92,7 @@ Surely.
 
 **Hrishikesh Kareka:** It does not mean that you would go from zero to a hundred very quickly or overnight, but definitely, a transformation that is successful sees the progress moving forward. For example, lead time could be one of the challenges you aim to solve. The root cause could be that your products don't have a modern architecture or your teams are not scaled enough.
 
-**Hrishikesh Kareka:** Focusing on those problems is crucial for the success. If your goal is to just implement SCRUM or SAFe or any other framework, then you're not achieving value. If the software engineering techniques are bad, no amount of framework, whether it is SCRUM or SAFe, however good they are, aren't going to help you. 
+**Hrishikesh Karekar:** Focusing on those problems is crucial for the success. If your goal is to just implement SCRUM or SAFe or any other framework, then you're not achieving value. If the software engineering techniques are bad, no amount of framework, whether it is SCRUM or SAFe, however good they are, aren't going to help you. 
 
 **Hrishikesh Kareka:** Last, but not the least, we have to always remember that transformation should create value and not overhead. And that is where most of them struggle. 
 
