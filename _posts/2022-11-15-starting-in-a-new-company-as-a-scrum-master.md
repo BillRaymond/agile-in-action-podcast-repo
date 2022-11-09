@@ -18,6 +18,13 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/crystalsystem/
   - guest-link-url: https://www.linkedin.com/in/aysegul-onal-b7033315/
     guest-link-label: Aysegul on LinkedIn
+- guest-name: Sponsor
+  guest-title: Spoke and Wheel
+  guest-photo: "/uploads/ad-spoke-and-wheel.png"
+  guest-links:
+  - guest-link-url: https://www.spokeandwheel.co/assess
+    guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
+      safety assessment
 libsynUrl: https://directory.libsyn.com/episode/index/id/24959592
 
 ---
