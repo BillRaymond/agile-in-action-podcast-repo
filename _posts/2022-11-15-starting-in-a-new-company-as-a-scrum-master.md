@@ -40,11 +40,9 @@ In today's Agile in Action podcast, Aysegul shares a 30, 60, and 90-day roadmap 
 
 ✅ **Advice** on how to build trust with your team, meeting with stakeholders, having one-on-ones, reading whatever you can to enhance your knowledge, and gathering feedback to increase confidence in your credibility
 
-  
-**## Transcript**
-
+## **Transcript**
 _(transcripts are auto-generated, so please excuse the brevity)_
-**Aysegul Onal:** I meet with each team member spend time with them and connect personally. **I introduce myself, but I never start with a change at the beginning.**
+**Aysegul Onal:** I meet with each team member spend time with them and connect personally. **I introduce myself, but I never start with a change at the beginning.** 
 
 **Intro:** Welcome to the Agile In Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
@@ -52,11 +50,12 @@ _(transcripts are auto-generated, so please excuse the brevity)_
 
 **Aysegul Onal:** Fine, fine, Bill. And how are you today?
 
-**Bill Raymond:** I'm doing great, thank you. Today, we're going to talk about an interesting subject, and it's not something we've covered on this podcast before, which is how you can integrate into a new team when you're starting a new company.
+**Bill Raymond:** I'm doing great, thank you. Today, we're going to talk about an interesting subject, and it's not something we've covered on this podcast before, which is how you can integrate into a new team when you're starting a new company. 
 
-**Bill Raymond:** And today, from this perspective, it's going to be from a SCRUM master's perspective. But I think we'll learn a lot from Aysegul, even if you're not just starting as a SCRUM master. So I'm excited about the topic.
+**Bill Raymond:** And today, from this perspective, it's going to be from a SCRUM master's perspective. But I think we'll learn a lot from Aysegul, even if you're not just starting as a SCRUM master. So I'm excited about the topic. 
 
-## About Aysegul
+
+### About Aysegul
 
 **Bill Raymond:** Before we get started, Aysegul, could you tell us a little bit about yourself?
 
@@ -64,21 +63,23 @@ _(transcripts are auto-generated, so please excuse the brevity)_
 
 **Aysegul Onal:** Then I'm fan of the agile mindset, and now I'm working as a dedicated SCRUM master in an international company.
 
-## Crystal Systems
+
+### Crystal Systems
 
 **Bill Raymond:** And can you talk a little bit about that company?
 
 **Aysegul Onal:** Yes, it's Crystal Systems. It's a Romanian company. It's actually a SAP integrator company. We have customers all around the world and yeah, we are serving customized solutions for our clients.
 
-We're going to be talking specifically about how a SCRUM Master might integrate into an organization.
+We're going to be talking specifically about how a SCRUM Master might integrate into an organization. 
 
-## The role of a SCRUM master
+
+### The role of a SCRUM master
 
 Can you give us a broad overview as to what the role of a SCRUM master is?
 
 **Aysegul Onal:** Actually, a SCRUM master is a psychologist of the team. They understand the motivations, the problems of the team. And it's like a road cleaner and yeah, we clean the impediments, remove all the impediments, so the team can drive easily. And we try to establish a trustworthy environment so that everybody can work effectively and motivated.
 
-**Aysegul Onal:** And we are coaching people so that they can easily implement agile and work more motivated. Andwe try to drive transparency, and this is one of the pillars of the agile framework also. Because if we are implementing transparency, everybody can be more visible and the work is more visible and everybody's happier. This is an important part of agile also.
+**Aysegul Onal:** And we are coaching people so that they can easily implement agile and work more motivated. Andwe try to drive transparency, and this is one of the pillars of the agile framework also. Because if we are implementing transparency, everybody can be more visible and the work is more visible and everybody's happier. This is an important part of agile also. 
 
 **Aysegul Onal:** A SCRUM master is also a change agent actually in the organization. We are acting as a change agent. We develop a culture that helps everybody to react to changes quickly, because in recent years, our lives are changed so rapidly and we started working remotely.
 
@@ -86,13 +87,14 @@ Can you give us a broad overview as to what the role of a SCRUM master is?
 
 **Bill Raymond:** And we want to focus our team to our sprint goals. It's like we are guards of the team and protectors of the team. We are protecting our team, also the product, so that they can focus on their own work and do the best of theirselves. And we are protecting the team from interruptions so that they can easily reach their goals and objectives. So, I guess that protection of the team kind of goes hand in hand with the transparency. So I have to imagine a lot of the potential challenges with people coming into the team is asking lots of questions about what's going on. So the SCRUM master tries just to take care of some of those, if you will, answer those questions on behalf of the team, is that what you're referring to?
 
-**Aysegul Onal:** Yeah, And there are a lot of dependencies, and we are also organizing and guiding these dependencies between teams, between people and also, we are helping supporting the product owner.
+**Aysegul Onal:** Yeah, And there are a lot of dependencies, and we are also organizing and guiding these dependencies between teams, between people and also, we are helping supporting the product owner. 
 
 **Aysegul Onal:** Product owner mainly, they're responsible for managing the relationship with the stakeholders, but also a SCRUM master is helping product owners in their roles and coaching sometimes there and the team to protect theirselves also from the interruptions coming outside, or inside of the team sometimes.
 
 That's quite a bit of work that a SCRUM master needs to do. And I can understand why it must be hard to integrate into a new organization when you have all these people that you need to interact with that you may have never met before. Maybe you did in an interview, but you haven't actually worked with them yet.
 
-## Coming into an organization
+
+### Coming into an organization
 
 So could you maybe talk a little bit about what it's like coming into an organization as a SCRUM master?
 
@@ -108,51 +110,55 @@ So could you maybe talk a little bit about what it's like coming into an organiz
 
 **Aysegul Onal:** Yes, it takes time. And also you should understand everybody's objective and goal and their habits so that you can openly discuss with them. And it is sometimes takes time. But I always suggest to start with coffee breaks, have some sessions without you speak about business, but it's a like calm sessions and you get a real relationship, human relationship built, try to build a human relationship with the team members so that you can understand the pain points of the team members,where they struggle and how can you help them, support them, coach them, so that they can openly discuss with you their problems and their motivations.
 
-**Bill Raymond:** Yeah, that's really good advice. Building those relationships does take time, and as much as you might be willing to just open up and share and be there for whoever you need to work with, you know, those other people still need to do that, and there could be some hesitancy at the beginning. And I completely understand that.
+**Bill Raymond:** Yeah, that's really good advice. Building those relationships does take time, and as much as you might be willing to just open up and share and be there for whoever you need to work with, you know, those other people still need to do that, and there could be some hesitancy at the beginning. And I completely understand that. 
 
-## Other challenges
+
+### Other challenges
 
 **Bill Raymond:** So that's one challenge of starting with a new organization. What are some of the other challenges that you see when you're starting a new SCRUM role?
 
-**Aysegul Onal:** sometimes you have multiple teams and you should spend a lot of time with different teams and your teams like me could be distributed and you could face time zone problems. Because now, in recent years, it is very common to have distributed teams and all of us working remotely. And in distributed teams, there are people, team members from different cultures, from different countries, and their habit is different, their acceptance, their ideas are different cultures.And a next topic can be also time boxes. Because people are not adapted to having meetings in time boxes. Normally, before SCRUM, maybe they had longer meetings, but for SCRUM, you should be prepared before your meetings so that the meeting is more effective.
+**Aysegul Onal:** sometimes you have multiple teams and you should spend a lot of time with different teams and your teams like me could be distributed and you could face time zone problems. Because now, in recent years, it is very common to have distributed teams and all of us working remotely. And in distributed teams, there are people, team members from different cultures, from different countries, and their habit is different, their acceptance, their ideas are different cultures.And a next topic can be also time boxes. Because people are not adapted to having meetings in time boxes. Normally, before SCRUM, maybe they had longer meetings, but for SCRUM, you should be prepared before your meetings so that the meeting is more effective. 
 
 **Aysegul Onal:** And to have meetings, sometimes also challenging for the team members, because they don't want to be interrupted by the meetings. I'm doing my work, please don't call me for the meeting. And we should coach them, tell them the effectiveness of the meeting and show them the results. If they join this meeting, they will have an easier life and they will support other team members actually.
 
-**Aysegul Onal:** And it's a goodplace to engage with the rest of the team also. Maybe I can also tell the mindsets, agile mindset. Sometimes the organization is not very welcome with the agile mindset, because leaders sometimes do not believe in themselves, they are controlling, checking everything and they have different metrics, but we are implementing different metrics. Therefore, our objectives are not similar and sometimes we have crashing objectives.
+**Aysegul Onal:** And it's a goodplace to engage with the rest of the team also. Maybe I can also tell the mindsets, agile mindset. Sometimes the organization is not very welcome with the agile mindset, because leaders sometimes do not believe in themselves, they are controlling, checking everything and they have different metrics, but we are implementing different metrics. Therefore, our objectives are not similar and sometimes we have crashing objectives. 
 
 **Aysegul Onal:** Also, talking with them, discussing with them and coming good people together, and organization into a agile ways of working, this will take time, but with time,from my experience, I can say that the results show that we could move to an agile way of working. And if we take the right actions, people see the right results and they adapt more easily.
 
 I think what I'm hearing is, SCRUM master role might be something that can be documented, but it's going to be different in any company you go into.
 
-**Aysegul Onal:** Yes. Yes, because the structure, the size of the company also, the culture, everything can change. For example, I work for big companies and there are lots of processes, lots of hierarchies, and you should align with this structure. But for a startup company, you can easily add up changes. You get less approval if you want to implement a new change. There are some companies, you should be aligned with the regulations and there are other rules usually to be obeyed and for example for international companies, it is also a different culture because most of the team members, their native language is not English. Sometimes you have language barriers also. And this, the cultural differences also is not mentioned in the user guide of SCRUM and you face and you are having these challenges during your daily life.
+**Aysegul Onal:** Yes. Yes, because the structure, the size of the company also, the culture, everything can change. For example, I work for big companies and there are lots of processes, lots of hierarchies, and you should align with this structure. But for a startup company, you can easily add up changes. You get less approval if you want to implement a new change. There are some companies, you should be aligned with the regulations and there are other rules usually to be obeyed and for example for international companies, it is also a different culture because most of the team members, their native language is not English. Sometimes you have language barriers also. And this, the cultural differences also is not mentioned in the user guide of SCRUM and you face and you are having these challenges during your daily life. 
 
 **Aysegul Onal:** But with the agile mindset, I think this is the most important part of being a SCRUM master, to have this really agile mindset and understand the background of it. And this is the most important part, I guess.
 
 This kind of gets to the heart of our conversation, because what you just described, a SCRUM master needs to not just work within a team. They're supposed to be removing impediments for the team, which means that they need to talk with a number of different people to solve problems.
 
-You're saying that they have time zone challenges that they need to work through. You're saying that there's cultural issues. Then there's all these policies and legal things that they might need to go through. And then they have stakeholders of people that are paying for all of this that you also need to communicate with, and you're constantly trying to make sure that what you're doing is transparent.
+You're saying that they have time zone challenges that they need to work through. You're saying that there's cultural issues. Then there's all these policies and legal things that they might need to go through. And then they have stakeholders of people that are paying for all of this that you also need to communicate with, and you're constantly trying to make sure that what you're doing is transparent. 
 
-**Bill Raymond:** This is a lot. And so this could get overwhelming if you start in a brand new company and actually, this is how we found out about you. Because you wrote a Medium article and it was titled, "Integrating as a SCRUM Master in a New Company." And I think what I really liked about your article and what we're going to talk about now, is the way you've kind of thought it through to say, Well, you know, those are a lot of things that you need to do as a SCRUM master, but let's just sort of break this down into 30, 60, 90-day plans. A little bit of a roadmap if you will, for starting in a new organization.
+**Bill Raymond:** This is a lot. And so this could get overwhelming if you start in a brand new company and actually, this is how we found out about you. Because you wrote a Medium article and it was titled, &quot;Integrating as a SCRUM Master in a New Company.&quot; And I think what I really liked about your article and what we're going to talk about now, is the way you've kind of thought it through to say, Well, you know, those are a lot of things that you need to do as a SCRUM master, but let's just sort of break this down into 30, 60, 90-day plans. A little bit of a roadmap if you will, for starting in a new organization.
 
-## The roadmap
+
+### The roadmap
 
 Let's go ahead and talk about that now. Maybe you could just introduce the concept and then we can go through those 30, 60, 90 days.
 
-Yeah, I considered writing a blog post regarding integrating as a SCRUM master in a new company, because I had the same challenges and also thoughts when I started in several companies as a new SCRUM master. Maybe it'll also help other SCRUM masters. Also, we can discuss maybe later how we can improve this blog post, becauseit's like a roadmap, but SCRUM is based on empiricism andthe roadmap can be renewed and improved actually. Because, as I mentioned before, every company has a different style and different structure.
+Yeah, I considered writing a blog post regarding integrating as a SCRUM master in a new company, because I had the same challenges and also thoughts when I started in several companies as a new SCRUM master. Maybe it'll also help other SCRUM masters. Also, we can discuss maybe later how we can improve this blog post, becauseit's like a roadmap, but SCRUM is based on empiricism andthe roadmap can be renewed and improved actually. Because, as I mentioned before, every company has a different style and different structure. 
 
-**Aysegul Onal:** But mainly, if you have a roadmap and if you define what you are expecting in three months, you can have a better visibility and your expectations, and also the company's expectations are more clear for everybody.
+**Aysegul Onal:** But mainly, if you have a roadmap and if you define what you are expecting in three months, you can have a better visibility and your expectations, and also the company's expectations are more clear for everybody. 
 
-## The first month
 
-**Aysegul Onal:** For the first month, yeah, it is the most difficult month maybe. You don't know people, you don't know the company, but it's also opportunity you come together with people. You observe, gather information about team, about product, about organization, stakeholders, processes, tools, and your main goal, my advice will be, is actually to understand what's happening in the company and what your team is doing for their goals and what's their history actually. From my experience, I meet with each team member individually, talk with them, spend time with them and connect personally. Also I have one on one meetings with the team members, **I introduce myself, but I never start with a change at the beginning.**
+### The first month
+
+**Aysegul Onal:** For the first month, yeah, it is the most difficult month maybe. You don't know people, you don't know the company, but it's also opportunity you come together with people. You observe, gather information about team, about product, about organization, stakeholders, processes, tools, and your main goal, my advice will be, is actually to understand what's happening in the company and what your team is doing for their goals and what's their history actually. From my experience, I meet with each team member individually, talk with them, spend time with them and connect personally. Also I have one on one meetings with the team members, **I introduce myself, but I never start with a change at the beginning.** 
 
 **Aysegul Onal:** First month is like observation month and I participate in a lot of meetings and try to read everything I found and I observe the ways of working actually, and the motivation of the team members, the motivation of the stakeholders, and understand the product roadmap also, so that I have a vision of the next month actually.
 
 **Aysegul Onal:** AndI gather information about the workflows of my team. I review all the tools, all the metrics, if they are implemented already agile, and understand how agile the organization also. And I want to also gain their respect and trust if I can so that they feel that I can be their teammate also.
 
-**Aysegul Onal:** And if it's possible, we are working now remotely, therefore I want to build some maybe team building exercises so that we have some fun time together. And I listen to my team and I take my notes, actually. This is what I've done also in my current company, because first, when I started in my current company, there are small handover processes, but then I start having one-to-one sessions with my team members. And they are from different cultures and it was also fun for me to learn from them because they are from different countries. They have different histories. Their story is very interesting also for me. And this is the fun part of my business life.
+**Aysegul Onal:** And if it's possible, we are working now remotely, therefore I want to build some maybe team building exercises so that we have some fun time together. And I listen to my team and I take my notes, actually. This is what I've done also in my current company, because first, when I started in my current company, there are small handover processes, but then I start having one-to-one sessions with my team members. And they are from different cultures and it was also fun for me to learn from them because they are from different countries. They have different histories. Their story is very interesting also for me. And this is the fun part of my business life. 
 
-## Alla Weinberg and Spoke and Wheel Sponsored Advertisement
+
+### Alla Weinberg and Spoke and Wheel Sponsored Advertisement 
 
 **Sponsor:** The future of work is, shall we say, stormy, and it looks like things are not changing anytime soon. So how do you weather these storms and stay competitive while continuing to innovate? Well, it turns out that the most innovative companies invest in a solid cultural foundation of psychological safety.
 
@@ -162,7 +168,7 @@ Yeah, I considered writing a blog post regarding integrating as a SCRUM master i
 
 **Sponsor:** When the sprint is complete, you'll receive actionable. Evidence-based recommendations for increasing your organization's psychological safety levels. If you're ready to improve organizational and team performance, I suggest you set up a free 20 minute call with ALA and the spoke and wheel team. During that call, ALA and her team will determine how best to serve you in delivering their assessment.
 
-**Sponsor:** You can access this free call by visiting www.spokeandwheel.co/assess. That's like the spokes on a bicycle wheel, www.spokeandwheel.co/assess. When you sign up for the free call, mention the Agile and Action Podcast to receive a 10% discount on your psychological safety assessment. We here at the Agile Inaction Podcast, want to thank Ala Weinberg and the spoke and wheel team for supporting this podcast so it remains free for you to enjoy every week.
+**Sponsor:** You can access this free call by visiting www.spokeandwheel.co/assess. That's like the spokes on a bicycle wheel, www.spokeandwheel.co/assess. When you sign up for the free call, mention the Agile and Action Podcast to receive a 10% discount on your psychological safety assessment. We here at the Agile Inaction Podcast, want to thank Ala Weinberg and the spoke and wheel team for supporting this podcast so it remains free for you to enjoy every week. 
 
 **Aysegul Onal:** In the second month, based on my observation,I try to notice and find where can I improve, what changes I can do, and so that we have a better team and we canhave more motivated people that we can work more effectively. I can also discuss with my team members and maybe we can change the sprint length, the agile ways of working and our user story structure.
 
@@ -180,17 +186,18 @@ This depends on the circumstances. What do you have during your daily routines. 
 
 **Aysegul Onal:** Yes. Yes. Yes. We experiment because there is no one truth. Sometimes it works, but sometimes we implement some changes and it doesn't work, but you could not see this at the beginning. This is one of the best parts of the agile, you can always test, try, and improve your processes also, otherwise you will stay in your safe zone and you will not implement the changes and you will never challenge yourself and your team also. And this staying in the comfort zone is actually not providing improvement.
 
-## The third month
+
+### The third month
 
 We covered the first 30 days where you're observing and making introductions and then by 60 days, you're experimenting with improvements. Where do we go in the 90-day area?
 
 90 day, you have the observation, then you make your experiments, but you see the results of your experiments probably after two, three months. You can see these experiments are working, maybe you make some changes. For example, I have this experience in one of my companies.
 
-We changed our framework to Kanban and we started using Kanban board because it is more suitable for our team. Andwe are guiding and changing our ways of working according to the feedbacks of the stakeholders, of the product owners, of the leaders, we can improve our productivity and could increase the confidence in the team also.
+We changed our framework to Kanban and we started using Kanban board because it is more suitable for our team. Andwe are guiding and changing our ways of working according to the feedbacks of the stakeholders, of the product owners, of the leaders, we can improve our productivity and could increase the confidence in the team also. 
 
-**Aysegul Onal:** We can sustain the good practices, but also we can leave the not working ones or change them a little bit. And actually, my aim will be to create a workplace that people work happily and motivated. This is a win-win situation because if people are motivated, they produce better and they work effectively and the productivity increases also. And everybody comes to work happy and we can check also the happiness level of the team. And this improves also their performance.
+**Aysegul Onal:** We can sustain the good practices, but also we can leave the not working ones or change them a little bit. And actually, my aim will be to create a workplace that people work happily and motivated. This is a win-win situation because if people are motivated, they produce better and they work effectively and the productivity increases also. And everybody comes to work happy and we can check also the happiness level of the team. And this improves also their performance. 
 
-**Aysegul Onal:** If people start trusting you, and if they see what you have done until now is working and it is supporting them, they will trust more into you, and they have more freedom to innovate. If you work in a trustworthy environment space, then you are more open to communicate your problems, your ideas, and you are also more free to innovate. And in recent years, it's very, very important to be innovative because you know, a lot of companies are on the market and there is a lot of challenge, change, and we should adapt, we should innovate lots of things.
+**Aysegul Onal:** If people start trusting you, and if they see what you have done until now is working and it is supporting them, they will trust more into you, and they have more freedom to innovate. If you work in a trustworthy environment space, then you are more open to communicate your problems, your ideas, and you are also more free to innovate. And in recent years, it's very, very important to be innovative because you know, a lot of companies are on the market and there is a lot of challenge, change, and we should adapt, we should innovate lots of things. 
 
 **Aysegul Onal:** And yeah, after the three months, we have a better communication with the team. We can understand the stakeholders better and the dependencies, a SCRUM master can manage the dependencies better, coach the teams better. Also, you can come with other SCRUM master agile coaches together to share your ideas, your experiences, and learn from them.
 
@@ -208,25 +215,26 @@ We changed our framework to Kanban and we started using Kanban board because it 
 
 **Aysegul Onal:** Yes, every team member gets happier and we see the results and also we result in company objectives and we are implementing OKR, we have a better completion rate in our OKRs.
 
-## Advice for new SCRUM masters
+
+### Advice for new SCRUM masters
 
 I would also like to ask you for some advice that you might give to a new SCRUM master. So, whether you're starting a SCRUM master role, and this is your first time, or you're moving into a new SCRUM master role in another organization, do you have some advice that you can share?
 
-**Aysegul Onal:** Yeah, sure. For the first, I can tell, attend a lot of meetings so you can understand the domain, the framework, people, stakeholders, and the organization better. Try to involve as many things as you can, and sometimes you get lost, but after a while, you will see a bigger picture. And have a lot of one-on-one meetings that you can also connect with people personally and ask them questions. Sometimes the questions are stupid, because you are not, that's not a problem. Be stupid, ask a lot of questions, try to understand, dig deeper.
+**Aysegul Onal:** Yeah, sure. For the first, I can tell, attend a lot of meetings so you can understand the domain, the framework, people, stakeholders, and the organization better. Try to involve as many things as you can, and sometimes you get lost, but after a while, you will see a bigger picture. And have a lot of one-on-one meetings that you can also connect with people personally and ask them questions. Sometimes the questions are stupid, because you are not, that's not a problem. Be stupid, ask a lot of questions, try to understand, dig deeper. 
 
 **Aysegul Onal:** And small talks with everybody, coffee breaks, have lunch with people, if you are in the office. And come together with the product owner, with the stakeholders. Find documentation, if it's available, read all of them and try to help people with small things that you can do and helps to build trust.
 
-**Aysegul Onal:** Yeah, they will believe you. If you coach them, support them, then with time, the trust, the relationship between you will be built. And have some fun with the team also. Our job is not always... Have some fun with the team members, play games with team members to build team spirit, some ice breakers. Sometimes stop talking about business, discuss about your dog, about your life and try to understand people and their motivation, what's hindering them, being a better worker, better colleague. Understand.
+**Aysegul Onal:** Yeah, they will believe you. If you coach them, support them, then with time, the trust, the relationship between you will be built. And have some fun with the team also. Our job is not always... Have some fun with the team members, play games with team members to build team spirit, some ice breakers. Sometimes stop talking about business, discuss about your dog, about your life and try to understand people and their motivation, what's hindering them, being a better worker, better colleague. Understand. 
 
-**Aysegul Onal:** Sometimes if you understand the background of people, you can support and help them easily. Sometimes it is only a small problem, but they could not openly discuss or talk this problem.
+**Aysegul Onal:** Sometimes if you understand the background of people, you can support and help them easily. Sometimes it is only a small problem, but they could not openly discuss or talk this problem. 
 
-**Aysegul Onal:** Be in touch with people, be in touch with the organization and understand the structure of the organization, the agile maturity of your team, and also the organization. And also connect with the other SCRUM masters in your organization, discuss their practices, their experiences, so you can adapt more easily and you don't waste your time. Yeah, because they have experience maybe with this organization, and if you have learned their experiences, you can have a picture of the organization. If maybe you can also Google the company, try to find on social media, maybe you can find on social media some posts about your company.
+**Aysegul Onal:** Be in touch with people, be in touch with the organization and understand the structure of the organization, the agile maturity of your team, and also the organization. And also connect with the other SCRUM masters in your organization, discuss their practices, their experiences, so you can adapt more easily and you don't waste your time. Yeah, because they have experience maybe with this organization, and if you have learned their experiences, you can have a picture of the organization. If maybe you can also Google the company, try to find on social media, maybe you can find on social media some posts about your company. 
 
 **Aysegul Onal:** And you can read also forums and what the stakeholders are thinking, understand their motivation. And maybe you can understand also the nature of the product.
 
 **Bill Raymond:** Yeah, it's very interesting because sometimes when you're starting in a new company, the company will talk about things one way internally, and then you hear them marketing it differently. And it takes a little time to get used to that.
 
-**Aysegul Onal:** Yes. Yes. Every company has a different communication method and you should get used with them also. Some companies, like they always communicate with open video cameras and some prefer all closed video cameras. And this is also a challenge for you and new for you. And maybe you should also adapt to this.
+**Aysegul Onal:** Yes. Yes. Every company has a different communication method and you should get used with them also. Some companies, like they always communicate with open video cameras and some prefer all closed video cameras. And this is also a challenge for you and new for you. And maybe you should also adapt to this. 
 
 **Aysegul Onal:** But you can also change this. For example, one of my companies always, they use camera closed and I prefer that we see each other because I don't want to speak in front of a black screen. And maybe try to motivate people to participate also in the meeting with open cameras and change the communication style sometimes.
 
@@ -242,12 +250,13 @@ I would also like to ask you for some advice that you might give to a new SCRUM 
 
 **Aysegul Onal:** LinkedIn.
 
-All right. We'll make sure that we include your LinkedIn profile on the agileinaction.com website. If you're listening in a podcast app right now, just go into the show notes, the description, and you'll see the link there. And of course, we did find you through that article. The medium article is titled, "Integrating as a SCRUM Master in a New Company." That link will also be on the agileinaction.com website and in your podcast app. And of course, I would recommend that you follow to make sure that you could catch up with any new articles that Aysegul posts as well. Thank you so much for your time today.
+All right. We'll make sure that we include your LinkedIn profile on the agileinaction.com website. If you're listening in a podcast app right now, just go into the show notes, the description, and you'll see the link there. And of course, we did find you through that article. The medium article is titled, &quot;Integrating as a SCRUM Master in a New Company.&quot; That link will also be on the agileinaction.com website and in your podcast app. And of course, I would recommend that you follow to make sure that you could catch up with any new articles that Aysegul posts as well. Thank you so much for your time today.
 
 **Bill Raymond:** I really appreciate it.
 
-**Aysegul Onal:** Yeah, I appreciate it so much. Thank you for your time also, Bill.
+**Aysegul Onal:** Yeah, I appreciate it so much. Thank you for your time also, Bill. 
 
 Thank you for listening to the Agile in Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Canas LLC and our executive producer is Ri Yama Daon.
 
 If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileandaction.com.
+
