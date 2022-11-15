@@ -25,6 +25,9 @@ guest-details:
   - guest-link-url: https://www.spokeandwheel.co/assess
     guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
       safety assessment
+- guest-name: Season's of Scrum
+  guest-title: ''
+  guest-photo: "/uploads/seasons-of-scrum.png"
 libsynUrl: https://directory.libsyn.com/episode/index/id/24959592
 
 ---
@@ -259,4 +262,3 @@ All right. We'll make sure that we include your LinkedIn profile on the agileina
 Thank you for listening to the Agile in Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Canas LLC and our executive producer is Ri Yama Daon.
 
 If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileandaction.com.
-
