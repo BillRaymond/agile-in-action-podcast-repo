@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2022-11-22
-title: Update for November 2002
+title: Update for November 2022
 twitter-text: ''
 guest-details:
 - guest-name: Bill Raymond
