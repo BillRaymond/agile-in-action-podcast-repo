@@ -8,7 +8,7 @@ twitter-text: ''
 guest-details:
 - guest-name: Bill Raymond
   guest-title: Founder, Agile in Action Podcast
-  guest-photo: "/uploads/jed-owen-npbnwe1o07i-unsplash.jpg"
+  guest-photo: "/uploads/holiday-dinner.png"
   guest-links:
   - guest-link-label: Agile in Action Podcast
     guest-link-url: https://agileinaction.com
