@@ -6,13 +6,6 @@ date: 2022-12-06
 title: The Importance of psychological safety in the workplace
 twitter-text: ''
 guest-details:
-- guest-name: Sponsor
-  guest-title: Spoke and Wheel
-  guest-photo: "/uploads/ad-spoke-and-wheel.png"
-  guest-links:
-  - guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
-      safety assessment
-    guest-link-url: http://spokeandwheel.co/assess
 - guest-name: Richard McLean
   guest-title: Senior Product Director at Elsevier
   guest-photo: "/uploads/richard-mclean.jpeg"
@@ -23,7 +16,14 @@ guest-details:
     guest-link-url: https://mcleanonline.medium.com
   - guest-link-label: Richard McLean on Twitter
     guest-link-url: https://twitter.com/mcleanonline
-libsynUrl: https://directory.libsyn.com/episode/index/id/25195479
+- guest-name: Sponsor
+  guest-title: Spoke and Wheel
+  guest-photo: "/uploads/ad-spoke-and-wheel.png"
+  guest-links:
+  - guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
+      safety assessment
+    guest-link-url: http://spokeandwheel.co/assess
+libsynUrl: https://directory.libsyn.com/episode/index/id/25203462
 
 ---
 Description goes here
