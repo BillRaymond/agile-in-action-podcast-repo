@@ -26,40 +26,59 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25203462
 
 ---
-Description goes here
+How do teams deliver their best?
+
+By feeling safe to be authentically you.
+
+In today's podcast, we are excited to introduce Richard McLean, Senior Product Director at Elsevier, who shares the importance of workplace psychological safety.
+
+In the podcast, Richard and Bill Raymond share stories and real-world examples to help you learn the importance of psychological safety in the workplace. Here are the topics they cover:
+
+✅ Defining workplace psychological safety
+
+✅ The benefits of psychological safety
+
+✅ The importance of a diversity of viewpoints
+
+✅ How leaders can improve psychological safety in the workplace
+
+✅ How teams and individuals can improve their communication for improved team dynamics
+
+✅ How organizations can measure psychological safety in the workplace
+
+✅ Leadership Guidance
 
 ## Transcript
+
 (transcripts are auto-generated, so please excuse the brevity)
 
 ### Introductions
 
 **Bill Raymond:** Hi, and welcome to the podcast.
 
-**Bill Raymond:** Today, I'm joined by Richard McClean, senior product director at Elsevier. 
+**Bill Raymond:** Today, I'm joined by Richard McClean, senior product director at Elsevier.
 
 **Bill Raymond:** Hi Richard, how are you today?
 
 **Richard McLean:** Hi, Bill, I'm good, thanks. Good to be here with you.
 
-We're going to be talking about the importance of psychological safety in the workplace. And just like many of the podcasts that we do here on the Agile in Action Podcast, this isn't the first time we've covered it, but I think it's important that we look at these things from different angles, and I'm very excited to hear your thoughts and to share how we can improve psychological safety when we're working in the office or even remotely. 
-
+We're going to be talking about the importance of psychological safety in the workplace. And just like many of the podcasts that we do here on the Agile in Action Podcast, this isn't the first time we've covered it, but I think it's important that we look at these things from different angles, and I'm very excited to hear your thoughts and to share how we can improve psychological safety when we're working in the office or even remotely.
 
 ### About Richard
 
 **Bill Raymond:** Before we get started, can you share a little bit about yourself?
 
-**Richard McLean:** Sure. I've been managing people in teams for 20 plus years now. I've had quite a varied career. I have a lot of experience in the public sector, first as a teacher and later working in the senior civil service in the UK. 
+**Richard McLean:** Sure. I've been managing people in teams for 20 plus years now. I've had quite a varied career. I have a lot of experience in the public sector, first as a teacher and later working in the senior civil service in the UK.
 
-**Richard McLean:** I'm currently a product leader, as you said, at Elsevier, which is a global information, data and analytics company. Elsevier is part of RELX, which is a global provider of information based analytics and decision toolsAt Elsevier we've got over 2000 digital technologists and product professionals working in small agile teams. We create products that help scientists make breakthroughs and health professionals improve the lives of patients. 
+**Richard McLean:** I'm currently a product leader, as you said, at Elsevier, which is a global information, data and analytics company. Elsevier is part of RELX, which is a global provider of information based analytics and decision toolsAt Elsevier we've got over 2000 digital technologists and product professionals working in small agile teams. We create products that help scientists make breakthroughs and health professionals improve the lives of patients.
 
 **Richard McLean:** In my role, I support about 90 agile teams to do their best work, and to create products that our customers love and that work for our business. I live at home in Cambridge, here in the UK and work with a global team.
 
-I know that we are going to be sharing a lot of experience and some of it may or may not be coming from Elsevier, but you're not representing the company today. That's right 
+I know that we are going to be sharing a lot of experience and some of it may or may not be coming from Elsevier, but you're not representing the company today. That's right
 
-**Bill Raymond:** So let's go ahead and get started. 
+**Bill Raymond:** So let's go ahead and get started.
 
 No matter what the topic is on this podcast, there's always some assumption that we might make when we talk about a particular topic. So I'd love to hear what psychological safety means to you.
-
 
 ### Textbook definition
 
@@ -74,7 +93,6 @@ No matter what the topic is on this podcast, there's always some assumption that
 **Bill Raymond:** Yeah.
 
 **Richard McLean:** Not even just in work, in all different situations, to be able to open yourself up that much isn't always easy.
-
 
 ### What are the benefits of opening up?
 
@@ -92,7 +110,6 @@ I think it's important for different people and in different ways and not just f
 
 **Richard McLean:** And it's different in different situations as well, because your level of psychological safety is always an interpersonal dynamic. So it isn't a constant through your life. It is entirely context-dependent. Do you feel safe with this group of people at this time? And that will be more in some situations and less in others.
 
-
 ### Psychological safety in organizationsx
 
 Can you drill down into why you feel so passionate about this psychological safety from an organizational perspective?
@@ -107,12 +124,11 @@ Can you drill down into why you feel so passionate about this psychological safe
 
 **Richard McLean:** So if you are an organizational leader concerned about business results, then you should care about psychological safety. If you are an individual, you've obviously concerned about it from an individual point of view. If you are a team leader, you want your team to perform. So it is this sort of, that's why I was saying it's a win, win, win because everyone's got a motivation towards it. The barriers that can be put in place, but you can rely on these things and which is when the magic happens.
 
-
 ### What are the signals that suggest you may not have psychological safety in your working environment?
 
 **Bill Raymond:** Yeah, I appreciate that, and we've just heard the definition of it and why it's important to an organization. But I think sometimes we might feel that we have that already. You might say,my team seem to be working well, you know, I go into these meetings, it seems like we're getting things done. But what are maybe some of those signals that suggest that you may not have psychological safety in your working environment?
 
-**Richard McLean:** Yeah, and if I can just share a personal bugbear, it's when a team leader stands up in front of the team and says, this is a safe environment. The team leader doesn't get to choose whether or not it's a safe environment. The team members individually feel for themselves whether or not it's safe for them individually. So it's about creating the conditions, and not about making a declaration as a team leader. 
+**Richard McLean:** Yeah, and if I can just share a personal bugbear, it's when a team leader stands up in front of the team and says, this is a safe environment. The team leader doesn't get to choose whether or not it's a safe environment. The team members individually feel for themselves whether or not it's safe for them individually. So it's about creating the conditions, and not about making a declaration as a team leader.
 
 **Richard McLean:** And as a team leader, there are some real clear signals that you can pick up that will indicate whether you've got a team who are feeling psychologically safe or not. And it's mainly around people speaking up, whether they're asking questions, whether they're offering ideas. And I think the easiest way to think about this is to put yourself in a, let's create a hypothetical team, Bill, you and I are in this team. And we are in this meeting together with other team members. Now, feel yourself in that situation and new topics come up, I don't want to feel ignorant, I don't want to look silly in front of the rest of the team.
 
@@ -130,17 +146,15 @@ Yep. Exactly. And I think that's some good stories that we just shared there. Yo
 
 **Richard McLean:** And that exemplifies, on the one hand, you're tapping into deep stuff and you're tapping into that stuff that, as I was saying, you know, as an individual, you know what it's like when you've not got it and you know what it's like when you've got it and you know quite clearly, which feels better.
 
-**Bill Raymond:** Yeah, I guess there is a sort of element of not only do you feel good when you leave work, but are you maybe thinking about, do your coworkers feel good when they leave work too? 
+**Bill Raymond:** Yeah, I guess there is a sort of element of not only do you feel good when you leave work, but are you maybe thinking about, do your coworkers feel good when they leave work too?
 
 **Richard McLean:** Open discussion.
 
 **Bill Raymond:** Yeah. Right, so that does go back, I guess to your point where we do need to maybe open up and share a little bit more than we might feel comfortable doing.
 
-
 ### Opening up
 
 **Bill Raymond:** How might you start doing something like that?
-
 
 ### Pay attention to the team leader
 
@@ -150,7 +164,6 @@ if we go back to that situation I was just describing, you're not sure whether t
 
 **Richard McLean:** And I suppose a simple thing is talk less and listen more.
 
-
 ### What do you think?
 
 this also comes with experience as well, There are people of course, that just love to hear what other people say and it just comes very natural. For me, I'm a very reactive person. Someone says something and I just start reacting to it and talking about it.
@@ -159,7 +172,7 @@ this also comes with experience as well, There are people of course, that just l
 
 **Bill Raymond:** You have to kind of interpret it a little bit. And sometimes if we just immediately interpret it by way of reacting to it, it can deflate a conversation.
 
-**Richard McLean:** Yes. Tip of the iceberg, sometimes, the words. But I like what you're saying about people are different, and how they contribute to conversations. You've got people who are what are almost sort of verbal thinkers, so they help themselves with the thinking process by speaking. 
+**Richard McLean:** Yes. Tip of the iceberg, sometimes, the words. But I like what you're saying about people are different, and how they contribute to conversations. You've got people who are what are almost sort of verbal thinkers, so they help themselves with the thinking process by speaking.
 
 **Richard McLean:** Other people will take more time to think before they speak. And there's no right or wrong here, it's part the beauty and the dynamic of a team. But I think everybody can check their behavior. Everybody can be conscious, not only of their own behavior, but also on how are other people interacting. How are were the people in this dynamic at the moment? Is there someone from whom we've not heard yet? And again, this is where everybody can take that. You don't need to wait for the team leader. You can also ask, Bill, we've not heard from you yet. What do you think? Therefore, very powerful words, what do you think?
 
@@ -169,8 +182,7 @@ this also comes with experience as well, There are people of course, that just l
 
 **Richard McLean:** And then someone just introduces a different perspective, a different way of thinking that you just hadn't thought of before or considered, and it's wonderful.
 
-we've talked a little bit about what psychological safety means, if you will, the definition, and we've shared some stories about, you know, what it looks like if you don't have psychological safety. 
-
+we've talked a little bit about what psychological safety means, if you will, the definition, and we've shared some stories about, you know, what it looks like if you don't have psychological safety.
 
 ### What can you do to improve?
 
@@ -188,7 +200,7 @@ we've talked a little bit about what psychological safety means, if you will, th
 
 **Richard McLean:** Again, depends how you frame these things and you have to be sensitive to that with people. But sharing some of that sort of historical, I don't really want to call it baggage that you come with, but certainly your personal history that you come with or just sharing something that's going on in your life at the moment. And again, it's just extraordinary, the power of this in creating that trust between people and it's that trust that comes and it's very reciprocal. Once one person shows trust in one, in someone else, it's very much easier to reciprocate. And so it can build in a lovely way in a team. And so that sort of trust building is a very powerful technique as well.
 
-And it does help people understand you a little bit better. I can understand that. certainly over the years, working with different teams, have really come to more appreciate what goes on in other people's lives. 
+And it does help people understand you a little bit better. I can understand that. certainly over the years, working with different teams, have really come to more appreciate what goes on in other people's lives.
 
 **Bill Raymond:** I know when I first started many years ago working,I was young, just kind of coming out of college and ready to go, and in some ways almost feeling like unstoppable, right? Like, I'm going to get this stuff done. Come hell or high water, it's going to get done. And very often what I was doing was ignoring some signs that I was not, I was impacting people in different ways and I never wanted to go out afterwards for drinks and I didn't like going to the team parties to celebrate someone's birthday. I was very work-focused. And so this was a big aha moment for me fairly early in my career, that I realized that I was doing everything for myself and not recognizing what was going on around me with my team members.
 
@@ -198,7 +210,7 @@ And it does help people understand you a little bit better. I can understand tha
 
 **Richard McLean:** Beautiful, and here it is in action. So you've just shared that story with me, I'm going to share one with you. Again, management early, many, many years ago, managing a team, and I was a terrible manager at that time. Very work-focused, like what you were saying, and also I was very compartmentalized, so I sort of didn't, I grew quite rigid boundaries between one aspect of my life and another aspect of my life.
 
-**Richard McLean:** So in this work situation, managing this small team, I was just focused on the work and getting the work done. Again, like what you were saying, got some feedback. Now for me, this was through a 360-degree feedback exercise. 
+**Richard McLean:** So in this work situation, managing this small team, I was just focused on the work and getting the work done. Again, like what you were saying, got some feedback. Now for me, this was through a 360-degree feedback exercise.
 
 **Richard McLean:** And just the perception of how this was received by other people was just something I was completely blind to, and it was really eyeopening to get that feedback that it came across as just, well, you're not really caring about what we are doing.
 
@@ -212,20 +224,19 @@ And it does help people understand you a little bit better. I can understand tha
 
 **Richard McLean:** At least there haven't been a complete breakdown of safety. There was some level of willingness to speak up. Although for my example, unlike yours, it took a sort of formal feedback exercise to get it, it was, you know, how wonderful that someone actually just took you to a side and just had a word.
 
-**Bill Raymond:** Yeah, and I think that there's two aspects to that. There are people that felt safe to communicate that to you. So there's something about you that allowed that to happen, I guess. But then the other piece to that is, how do you accept the feedback? What is if we want to to have a psychologically safe environment, very often we talk about how you treat others, right? But in that example, we're also talking about how others treated you. They communicated this back to you. 
+**Bill Raymond:** Yeah, and I think that there's two aspects to that. There are people that felt safe to communicate that to you. So there's something about you that allowed that to happen, I guess. But then the other piece to that is, how do you accept the feedback? What is if we want to to have a psychologically safe environment, very often we talk about how you treat others, right? But in that example, we're also talking about how others treated you. They communicated this back to you.
 
 **Bill Raymond:** So what made that a place for you to take that in and do something with it? And how do you do it in such a way that you just don't wreak havoc because you don't agree with it?
 
-Well, I suppose, I fundamentally believe that what another person feels is their truth. And so it isn't something that you can comment on that's right or wrong. It's what they feel. And this is where I was talking about my bugbear. You can say this is a safe environment, but it isn't if they don't feel it. And that's personal to them. 
+Well, I suppose, I fundamentally believe that what another person feels is their truth. And so it isn't something that you can comment on that's right or wrong. It's what they feel. And this is where I was talking about my bugbear. You can say this is a safe environment, but it isn't if they don't feel it. And that's personal to them.
 
 **Richard McLean:** And I'm thinking, you know, the question again, what can you do when this is happening and you get some feedback like, it's recognizing that in a positive way that's reinforcing And really, I suppose where you are trying to get to, I think, is that you don't need someone to call you out outside the meeting.
 
 **Richard McLean:** You don't need to wait to my example for 360 to be formal exercise. The more, if you take it to the other end of the spectrum, positive dynamic is where this is happening live in person in the meeting and people can just say, you know, Hey Richard, I heard you say this, I don't agree with that, or, Hey, I saw you doing that and that's great.
 
-**Bill Raymond:** Yeah, those are great ideas. Thank you, I appreciate that. I think this is an important topic, and one of the ways we can do this as you're clearly stating, is to start with the teams, right? The teams are the people that have to work every day together, and they're the ones that need to be highly effective. And you can't be effective if you don't have that place of psychological safety, I think you've made that quite clear. 
+**Bill Raymond:** Yeah, those are great ideas. Thank you, I appreciate that. I think this is an important topic, and one of the ways we can do this as you're clearly stating, is to start with the teams, right? The teams are the people that have to work every day together, and they're the ones that need to be highly effective. And you can't be effective if you don't have that place of psychological safety, I think you've made that quite clear.
 
 **Bill Raymond:** So how do we maybe look at this at an organizational level? Because we did talk about how leaders, uh, need to lead by example. We talked about the importance of making space for folks and sharing personal stories and things of that nature.
-
 
 ### Measuring the psychological safety in the organization
 
@@ -243,11 +254,11 @@ Well, I suppose, I fundamentally believe that what another person feels is their
 
 **Richard McLean:** Absolutely. Absolutely.
 
-**Bill Raymond:** And your managers are part of a team. Very often in the agile world, we talk about teams and those are the, if you will, the people in the trenches, 
+**Bill Raymond:** And your managers are part of a team. Very often in the agile world, we talk about teams and those are the, if you will, the people in the trenches,
 
 **Bill Raymond:** But actually, we're all teams. And we all need to provide psychological safety at all levels.
 
-**Richard McLean:** Yeah, and I'm fortunate in having worked with top management teams in different organizations and I've seen firsthand very different levels of psychological safety within those teams where one end of the spectrum, very senior people who run their own organizations of hundreds of people, are then in somebody else's team, and they're not psychologically safe. 
+**Richard McLean:** Yeah, and I'm fortunate in having worked with top management teams in different organizations and I've seen firsthand very different levels of psychological safety within those teams where one end of the spectrum, very senior people who run their own organizations of hundreds of people, are then in somebody else's team, and they're not psychologically safe.
 
 **Richard McLean:** So it's not a quality that's linked to seniority. You shouldn't make that assumption at all. It doesn't matter where you are in the organization, and this was the sort of dynamic nature of it that I was mentioning earlier, that it's always context specific. I've also seen top teams where they have a very high level of psychological safety, and the difference is that they've worked at it. They've consciously done it. They've talked about their ways of working, they've looked to improve it, and that's made a difference as well as the tone from the top, certainly.
 
@@ -257,7 +268,7 @@ Well, I suppose, I fundamentally believe that what another person feels is their
 
 **Richard McLean:** So these are the sort of qualitative measures you might pick up on. You could do the sort of retro that I was alluding to earlier. You'd hear things from people, you'd get feedback from people. You can also measure it with numbers. A model that I've used builds on, and we mentioned earlier, Amy Edmondson, who's written the Bible about psychological safety and work. And she has a questionnaire that she designed, which is based around seven questions. And if you ask those seven questions of every team member and you ask them to score it, then you will get a score. Now again, I've seen people do this in very different ways, some of which I do agree with and some of which I don't agree with.
 
-If you are asking people live in a meeting, and let's again, let's put ourselves in the meeting, Bill. So you and I are in the team and we've got a boss, and the boss asks us whether we feel psychologically safe. And you know, the fist of five technique for scoring, everybody on the team's asked to put up a hand and you show the number of fingers whether you are showing five fingers, then you are five. You just show a fist, it's a zero. You can hold up any number of fingers that you want to indicate the score 1, 2, 3, or 4. And so you go around the room and you instantly get, everybody puts up their fists and fingers. Are you feeling psychologically safe? Nought to five. 
+If you are asking people live in a meeting, and let's again, let's put ourselves in the meeting, Bill. So you and I are in the team and we've got a boss, and the boss asks us whether we feel psychologically safe. And you know, the fist of five technique for scoring, everybody on the team's asked to put up a hand and you show the number of fingers whether you are showing five fingers, then you are five. You just show a fist, it's a zero. You can hold up any number of fingers that you want to indicate the score 1, 2, 3, or 4. And so you go around the room and you instantly get, everybody puts up their fists and fingers. Are you feeling psychologically safe? Nought to five.
 
 **Richard McLean:** Well, Bill, you are in this meeting, you aren't feeling psychologically safe, are you going to put up your fists and have no fingers showing?
 
@@ -281,7 +292,7 @@ When used like that, data is an entry point into supporting the team, to support
 
 **Bill Raymond:** And now people are worried about their job. And now we want the people that are still there to do more with less. And you know, if we think that not putting psychological safety first right now isn't important because you have these financial goals or roadmaps that just have to be done, I think you'd be sorely mistaken. You know, there were very famous case studies of companies that have had terrible disasters where, when the investigation's been done after the event to look at, well, what happened? People in the organization knew that things were going wrong ahead of time, but they didn't speak up. They didn't share what they knew that there was something happening that was going terribly wrong. And this has been found, and again, Amy Edmondson's got a great collection of these stories in her book, where from a nuclear power plant disaster to a space shuttle disaster, people in the organization knew that things were going wrong, but haven't reported it.
 
-**Richard McLean:** Now, why they weren't speaking up? And if you think of this, she tells wonderful examples in a healthcare setting where there were logs kept, where some procedure's not been followed, there's something gone wrong under quite sort of perhaps minor level. 
+**Richard McLean:** Now, why they weren't speaking up? And if you think of this, she tells wonderful examples in a healthcare setting where there were logs kept, where some procedure's not been followed, there's something gone wrong under quite sort of perhaps minor level.
 
 **Richard McLean:** In teams of higher psychological safety, it looks like more mistakes are being made. More reports of incidents are being made. So why are these numbers so high? That was the question she asked. And when she looked into it, it was because they were openly sharing. They wanted to learn. They wanted to improve. Now, that's a wonder when you've got a team that wants to improve and wants to learn, that's magic. Why wouldn't you want that as a boss?
 
@@ -307,7 +318,7 @@ When used like that, data is an entry point into supporting the team, to support
 
 I will make sure that those links for reaching Richard McClean, for Twitter, for Medium, and LinkedIn are all available on the agileinaction.com website.
 
-**Bill Raymond:** And of course, if you're listening to this podcast in an app right now, just scroll down to the description, the show notes, and you'll find those links there as well. 
+**Bill Raymond:** And of course, if you're listening to this podcast in an app right now, just scroll down to the description, the show notes, and you'll find those links there as well.
 
 **Bill Raymond:** Richard, it was great talking to you today. Thank you so much.
 
