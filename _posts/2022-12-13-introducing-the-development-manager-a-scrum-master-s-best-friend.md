@@ -12,7 +12,7 @@ guest-details:
   guest-links:
   - guest-link-label: Ender on LinkedIn
     guest-link-url: https://www.linkedin.com/in/enderyuksel/
-  - guest-link-label: Scrum Alliance artcile
+  - guest-link-label: Agile Alliance article
     guest-link-url: https://www.agilealliance.org/wp-content/uploads/2020/05/E.Yuksel.M.Lohmann.Development-Manager-A-Scrum-Master’s-Best-Friend.pdf
   - guest-link-label: 'Book recommendation: The Fifth Discipline'
     guest-link-url: https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254
@@ -23,7 +23,7 @@ guest-details:
   - guest-link-label: Martin on LinkedIn
     guest-link-url: https://www.linkedin.com/in/martin-lohmann-a469854/
   - guest-link-url: https://www.agilealliance.org/wp-content/uploads/2020/05/E.Yuksel.M.Lohmann.Development-Manager-A-Scrum-Master’s-Best-Friend.pdf
-    guest-link-label: Agile Alliance artcle
+    guest-link-label: Agile Alliance article
 - guest-name: Seasons of Scrum
   guest-title: ''
   guest-photo: "/uploads/seasons-of-scrum-text.png"
@@ -310,7 +310,4 @@ I've met some great managers over my life, my career, and sometimes they are so 
 
 **Ender Yuksel:** Thank you for having us.
 
-**Martin Lohmann:** Thank you, Bill, for having us. 
-
-
-
+**Martin Lohmann:** Thank you, Bill, for having us.
