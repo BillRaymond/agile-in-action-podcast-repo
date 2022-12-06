@@ -16,6 +16,14 @@ guest-details:
     guest-link-url: https://mcleanonline.medium.com
   - guest-link-label: Richard McLean on Twitter
     guest-link-url: https://twitter.com/mcleanonline
+  - guest-link-label: 'Article: Measuring psychological safety'
+    guest-link-url: https://mcleanonline.medium.com/measuring-psychological-safety-81dd1da91915?source=friends_link&sk=7d0b73093fa15b258962f3df79595742
+  - guest-link-label: 'Article: Building psychological safety'
+    guest-link-url: https://mcleanonline.medium.com/building-psychological-safety-c46844cb918?source=friends_link&sk=87bbcf3a3e14e29202e7d5b025b823fb
+  - guest-link-label: 'Article: Fostering psychological safety in the workplace'
+    guest-link-url: https://mcleanonline.medium.com/answering-8-questions-on-fostering-psychological-safety-in-the-workplace-5513c86084fd?source=friends_link&sk=72f71420f0cf58a416ce79e76195fcc8
+  - guest-link-label: 'Article: Inclusive leadership'
+    guest-link-url: https://mcleanonline.medium.com/inclusive-leadership-efbc6c46aac2?source=friends_link&sk=67fab1b9b6df825a57a0c491b02f7851
 - guest-name: 'Sponsor: Spoke and Wheel'
   guest-title: ''
   guest-photo: "/uploads/ad-spoke-and-wheel.png"
@@ -323,5 +331,3 @@ I will make sure that those links for reaching Richard McClean, for Twitter, for
 **Bill Raymond:** Richard, it was great talking to you today. Thank you so much.
 
 **Richard McLean:** Thank you, bill!
-
- 
