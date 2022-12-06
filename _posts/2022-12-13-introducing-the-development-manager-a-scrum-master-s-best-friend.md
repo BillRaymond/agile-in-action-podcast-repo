@@ -16,7 +16,7 @@ guest-details:
     guest-link-url: https://www.agilealliance.org/wp-content/uploads/2020/05/E.Yuksel.M.Lohmann.Development-Manager-A-Scrum-Master’s-Best-Friend.pdf
   - guest-link-label: 'Book recommendation: The Fifth Discipline'
     guest-link-url: https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254
-- guest-name: Martin Lohmann
+- guest-name: Martin Lohmann, PhD
   guest-title: Agile Coach at Alm Brand
   guest-photo: "/uploads/martin-lohmann.jpeg"
   guest-links:
@@ -24,6 +24,8 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/martin-lohmann-a469854/
   - guest-link-url: https://www.agilealliance.org/wp-content/uploads/2020/05/E.Yuksel.M.Lohmann.Development-Manager-A-Scrum-Master’s-Best-Friend.pdf
     guest-link-label: Agile Alliance article
+  - guest-link-label: 'Book recommendation: Enterprise Agile Coaching'
+    guest-link-url: https://www.amazon.com/Enterprise-Agile-Coaching-Organizational-Invitational/dp/B09JBKS1FB/ref=asc_df_B09JBKS1FB/?tag=hyprod-20&linkCode=df0&hvadid=532701074352&hvpos=&hvnetw=g&hvrand=18209497017720520133&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031951&hvtargid=pla-1455284240374&psc=1
 - guest-name: Seasons of Scrum
   guest-title: ''
   guest-photo: "/uploads/seasons-of-scrum-text.png"
