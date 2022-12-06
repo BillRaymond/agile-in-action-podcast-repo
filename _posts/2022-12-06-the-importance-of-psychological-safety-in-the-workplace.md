@@ -16,8 +16,8 @@ guest-details:
     guest-link-url: https://mcleanonline.medium.com
   - guest-link-label: Richard McLean on Twitter
     guest-link-url: https://twitter.com/mcleanonline
-- guest-name: Sponsor
-  guest-title: Spoke and Wheel
+- guest-name: 'Sponsor: Spoke and Wheel'
+  guest-title: ''
   guest-photo: "/uploads/ad-spoke-and-wheel.png"
   guest-links:
   - guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
