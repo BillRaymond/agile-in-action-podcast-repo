@@ -34,26 +34,16 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25203462
 
 ---
-How do teams deliver their best?
-
-By feeling safe to be authentically you.
-
-In today's podcast, we are excited to introduce Richard McLean, Senior Product Director at Elsevier, who shares the importance of workplace psychological safety.
-
-In the podcast, Richard and Bill Raymond share stories and real-world examples to help you learn the importance of psychological safety in the workplace. Here are the topics they cover:
-
-✅ Defining workplace psychological safety
-
-✅ The benefits of psychological safety
-
-✅ The importance of a diversity of viewpoints
-
-✅ How leaders can improve psychological safety in the workplace
-
-✅ How teams and individuals can improve their communication for improved team dynamics
-
-✅ How organizations can measure psychological safety in the workplace
-
+How will your organization succeed, especially in these uncertain times? [Richard McLean](https://www.linkedin.com/in/ACoAAAogSjwBr6la3l9q2y2j1B_2TekWD8dKu3c), Senior Product Director at [Elsevier](https://www.linkedin.com/company/elsevier/), believes workplace psychological safety is critical to success ⤵️  
+  
+In the podcast, Richard and [Bill Raymond](https://www.linkedin.com/in/ACoAAAAPt84BdYw8xxN6d-NLcogNAcQ4Y0g-f0I) share stories and real-world examples to help you learn the importance of psychological safety in the workplace. Here are the topics they cover:  
+  
+✅ Defining workplace psychological safety  
+✅ The benefits of psychological safety  
+✅ The importance of a diversity of viewpoints  
+✅ How leaders can improve psychological safety in the workplace  
+✅ How teams and individuals can improve their communication for improved team dynamics  
+✅ How organizations can measure psychological safety in the workplace  
 ✅ Leadership Guidance
 
 ## Transcript
