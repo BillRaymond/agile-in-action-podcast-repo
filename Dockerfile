@@ -1,4 +1,4 @@
-FROM ruby:alpine as jekyll
+FROM ruby:3.1.3-alpine3.17
 
 # default values for environment variables
 # they can be overriden while building an image:
