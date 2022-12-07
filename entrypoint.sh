@@ -50,6 +50,11 @@ sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
+echo "Experimental Ruby 3.1 YJIT feature to improve liquid template rendering"
+
+export RUBYOPT="--enable=yjit"
+
+echo "#################################################"
 echo "Starting the Jekyll Action"
 
 sh -c "bundle install"
