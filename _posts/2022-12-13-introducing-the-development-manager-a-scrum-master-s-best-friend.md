@@ -44,7 +44,9 @@ Introductory text goes here
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity
-**Ender Yuksel:** There is a very natural instinct when the team is discussing, or sharing a challenge or a problem, then you need to stop yourself from taking actions or giving directions to the team, because then you are actually blocking the possibility of team to, to learn how to solve their challenges.
+You need to stop yourself from taking actions or giving directions to the team, because then you are actually blocking the team to, to learn how to solve their challenges.
+
+
 
 **Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Martin Lohmann, agile coach at Alm. Brand and Ender Yüksel, director, development manager at SimCorp. Hi, how are you today?
 
@@ -68,14 +70,14 @@ Introductory text goes here
 One of the things that we really try to focus here on the podcast is taking a look at different angles, how people approach agile. 
 
 
-## The article
+### The article
 
 **Bill Raymond:** And this one really stood out for us because you both wrote an article and we found it on the Agile Alliance, and we'll provide a link to that in the show notes for the podcast. And it's titled, &quot;The Development Manager: A SCRUM Master's Best Friend.&quot; And we read it with great interest because one of the challenges that organizations have, and I know you're going to talk about this in the podcast, is we go and we say, we're going to do agility. And then we maybe take some sort of a framework like SCRUM or you know, pick a framework. And it says, here is how you should work together. And so you define how you're going to work together and how you're going to do things like sprints and things like that. But what we don't get into is how you actually organize yourselves. And it might be very different than what it looked like before and roles might change.
 
 **Bill Raymond:** And this is what we're excited about because you talked about the management role, because I think a lot of leaders and managers start to wonder, where do we fit when we start implementing these frameworks?
 
 
-## Martin's Role at Alm. Brand
+### Martin's Role at Alm. Brand
 
 **Bill Raymond:** Before we do get started on this, maybe Martin, you can tell a little bit about your current work that you're doing as an agile coach. And then I'll talk a little bit about you, Ender, and your role. And Martin, maybe you could also touch on some of the work that you are also doing at SimCorp that's related to this particular topic.
 
@@ -86,7 +88,7 @@ One of the things that we really try to focus here on the podcast is taking a lo
 **Martin Lohmann:** But just recently, we also came to the conclusion that we need some leadership or management around our squads or our team. So we are currently establishing a new leadership model where we have a group of managers, a group of chapter leads taking responsible for a group of teams. So it's kind of the same thing as a development manager we hear about today, but spread out across a couple of managers. And it just has told me that even though you have this Spotify model, you always need some leadership or management around your team, someone to support the team. And that's what I'm working on right now, we are rolling out that new leadership modelfor 30 teams.
 
 
-## Ender' Work at SimCorp
+### Ender' Work at SimCorp
 
 **Bill Raymond:** Wow, that's great. Thank you. Ender, can you share a little bit about your work at SimCorp?
 
@@ -103,7 +105,7 @@ We do cover a lot about SCRUM and this next season of the podcast, we're going t
 **Bill Raymond:** But I do like to make sure that anyone that might be listening to the podcast for the first time maybe understands the general concepts, in case they haven't listened and heard about SCRUM before.
 
 
-## High-level SCRUM Overview
+### High-level SCRUM Overview
 
 **Bill Raymond:** So could we get a quick brief overview as to kind of, what SCRUM is at a very high level, along with why that was selected for SimCorp?
 
@@ -120,7 +122,7 @@ We do cover a lot about SCRUM and this next season of the podcast, we're going t
 **Martin Lohmann:** Exactly. Yeah.
 
 
-## Project Management vs Product Management
+### Project Management vs Product Management
 
 **Bill Raymond:** Wonderful. Now with everything that you just said, you said that you used to be waterfall, which is something that we tend to refer to as traditional or maybe project management, as opposed to product management.
 
@@ -135,14 +137,14 @@ And then the development teams, developers were receiving the work from them and
 **Ender Yuksel:** And the feedback cycles were very long. So indeed, this is really where we are coming from and part of the motivation, but it spans a lot more points and details, surely.
 
 
-## Organizational Changes Because of SCRUM
+### Organizational Changes Because of SCRUM
 
 **Bill Raymond:** Right. Thank you for that. I really appreciate it. So you decided to go down this path and you've already kind of alluded to the fact that you maybe have teams that are in different locations and you also have a sort of structure in place for how that work gets done. So when you decided that you wanted to move to SCRUM, were there any organizational changes you had to make?
 
 **Ender Yuksel:** Yeah, there were to be honest, plenty of organizational changes. So let's start with the management levels, which is probably most relevant to our topic today. With the adoption of agile ways of working, we actually scrapped two levels of management. In the article, we also explained that before we had traditional manager levels and then we removed those andinstead of you know, simply converting titles to new agile roles, like now you are a SCRUM master, now you are release train engineer or something else, we actually asked everyone to apply to these roles and they went into interviews. 
 
 
-## The Four Quadrants
+### The Four Quadrants
 
 **Ender Yuksel:** And then **suddenly, we realized that the traditional managers, depending on their interests, they actually picked different paths, because in the agile leadership, we actually divided this into four areas. Sometimes we call it four quadrants. So people and organization is one of them, obviously. Product is another. Technology is the third one, and process and ways of working is the fourth one**. 
 
@@ -157,17 +159,17 @@ And then the development teams, developers were receiving the work from them and
 You went through quite a change process there, and you have mentioned development manager a few times now. So it would be a good time to introduce this role. One of the things that I think is interesting is, I don't think that we have a development manager role in our SCRUM or skilled frameworks or kanban.
 
 
-## The People Quadrant is Missing in SCRUM
+### The People Quadrant is Missing in SCRUM
 
 **Martin Lohmann:** And I think I can add more details to the development role in SimCorp. But just, you already said that we don't have much about these in the original frameworks. And Ender talked about these four quadrants of leadership. And when I introduced SCRUM, I talked about process, product and technology. But the last quadrant, the people side, is kind of missing within SCRUM. And maybe in the ideal world with a very mature team, maybe the team can take care of all these things by themselves, education, conflict resolution, strategy, but in reality, you need, at least in the beginning and for a long time, I think in an agile transition or transformation, you need some leadership around people. And that was kind of what we saw in SimCorp was missing. And that's how the development role came into play.
 
 
-## People, Learning and Strategy
+### People, Learning and Strategy
 
 **Bill Raymond:** And I think you have listed three different areas, of people, learning and strategy. Could we cover each of those at a high level?
 
 
-## People
+### People
 
 **Ender Yuksel:** Sure. So people is perhaps the easiest part, because we already talked about that. So what we want is the development and growth of our people. Our teams are not second class citizens compared to business commitments or deadlines and so on. So we want them to be prioritized and they need a specific leadership role for that.
 
@@ -176,7 +178,7 @@ Obviously, we want to have wholesome teams. As our atomic unit is teams, so we w
 **Ender Yuksel:** There is super shortly the people role, the people side of the triangle. 
 
 
-## Learning
+### Learning
 
 **Ender Yuksel:** And then comes the learning side. But I actually need to add that the development manager is actually line manager for a whole SCRUM team together with product owner, SCRUM master and developers. And then if there are also other roles, like technical writer and user experience specialists, also them. But it is sort of utopic and unrealistic to expect that a development manager can help all of these different roles in their growth. Because in the traditional teams, let's say if it was a team full of developers or full of testers, then probably the traditional manager was a former tester or a former developer who could very well help with the growth and career planning of the employees.
 
@@ -187,7 +189,7 @@ Obviously, we want to have wholesome teams. As our atomic unit is teams, so we w
 **Ender Yuksel:** There is the learning bit, and that's also very important. We sort of mimic SCRUM roles there, so like product owner in SCRUM, we have learning owner, which kind of decides on the learning priorities.
 
 
-## Advertisement - Spoke and Wheel Psychological Safety Assessment
+### Advertisement - Spoke and Wheel Psychological Safety Assessment
 
 **Sponsor:** The future of work is, shall we say, stormy, and it looks like things are not changing anytime soon. So how do you weather these storms and stay competitive while continuing to innovate? Recent studies have shown that when you put psychological safety first, people will work at their highest IQ and be capable of analytical thinking and collaborative problem solving. Do you want to see these improvements in your organization? If so, I want to introduce you to Alla Weinberg, founder of Spoke and Wheel.
 
@@ -198,7 +200,7 @@ Obviously, we want to have wholesome teams. As our atomic unit is teams, so we w
 **Sponsor:** You can access this free call by visiting www.spokeandwheel.co/assess. That's like the spokes on a bicycle wheel, www.spokeandwheel.co/assess. When you sign up for the free call, mention the Agile In Action Podcast to receive a 10% discount on your psychological safety assessment.
 
 
-## Strategy
+### Strategy
 
 **Ender Yuksel:** The third corner of the triangle is the strategy and that's a very important topic because in a midsize or large corporate translating and localizing strategy, which is defined on the top level and when it comes to the team level, this is not something easy, and it might lose or fade out until it hits the team level.
 
@@ -219,7 +221,7 @@ Obviously, we want to have wholesome teams. As our atomic unit is teams, so we w
 **Ender Yuksel:** So we mean it when we say they are best friends.
 
 
-## How Many Teams for a Development Manager?
+### How Many Teams for a Development Manager?
 
 **Bill Raymond:** How many teams does a development manager manage?
 
@@ -240,7 +242,7 @@ Obviously, we want to have wholesome teams. As our atomic unit is teams, so we w
 **Ender Yuksel:** I also would like to say that this was not merely a problem of line management when SimCorp came up with the development manager role. It was also about, we needed agile leaders to meet the change and have a long term focus. So this is kind of how it is in the organization.
 
 
-## What is the SCRUM Master role?
+### What is the SCRUM Master role?
 
 I think it would be useful before we get into how the development manager and the SCRUM master work together, could you define for us at a high level, what the SCRUM master role is?
 
@@ -251,7 +253,7 @@ So the product owner decides what the team should work on, but the SCRUM master 
 you can look at the SCRUM master as kind of being a manager for that team in some ways, because they do tend to help remove roadblocks. They do tend to be someone that you might go to in order to help make some improvements. 
 
 
-## How the Development Manager and SCRUM Master Work Together
+### How the Development Manager and SCRUM Master Work Together
 
 **Bill Raymond:** And so can you talk a little bit about how the development manager and the SCRUM master role work together?
 
@@ -278,7 +280,7 @@ Is that the approach that you were taking with this role?
 **Martin Lohmann:** So now actually with this role, we are looking for someone with excellent people skills and the ability to grow people.
 
 
-## Takeaways
+### Takeaways
 
 We always like to give some sort of a takeaway, some sort of thoughts on what you might be able to do. 
 
@@ -312,4 +314,7 @@ I've met some great managers over my life, my career, and sometimes they are so 
 
 **Ender Yuksel:** Thank you for having us.
 
-**Martin Lohmann:** Thank you, Bill, for having us.
+**Martin Lohmann:** Thank you, Bill, for having us. 
+
+
+
