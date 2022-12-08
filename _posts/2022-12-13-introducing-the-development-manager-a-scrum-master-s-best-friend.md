@@ -44,8 +44,9 @@ Introductory text goes here
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity
-You need to stop yourself from taking actions or giving directions to the team, because then you are actually blocking the team to, to learn how to solve their challenges.
 
+**Clip from the podcast**
+You need to stop yourself from taking actions or giving directions to the team, because then you are actually blocking the team to, to learn how to solve their challenges.
 
 
 **Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Martin Lohmann, agile coach at Alm. Brand and Ender Yüksel, director, development manager at SimCorp. Hi, how are you today?
@@ -150,7 +151,7 @@ And then the development teams, developers were receiving the work from them and
 
 **Ender Yuksel:** So for example, if a traditional manager was very much hands-on and technical, some of them took architect roles or technical leadership roles.
 
-**Ender Yuksel:** For those of them that were more into people, they applied for development manager role or ways of working roles. We also to be honest, lost some of the colleagues, because some of them also wanted to continue in the traditional ways of working. So this was one of the organizational changes. 
+**Ender Yuksel:** For those of them that were more into people, they applied for development manager role or ways of working roles. We also to be honest, lost some of the colleagues, because some of them also wanted to continue in the traditional ways So this was one of the organizational changes. 
 
 **Ender Yuksel:** When we set up the teams, obviously, now we talk about SCRUM, but as I said, what we picked was a scaling framework, which was actually relying on SCRUM teams and kanban teams. So we also had very few, but also kanban teams. Anyways, these teams, regardless of the approach, they were cross-functional. And I just mentioned that we were functionally separated. So meaning that you couldn't find these different roles in the same location.
 
@@ -173,7 +174,7 @@ You went through quite a change process there, and you have mentioned developmen
 
 **Ender Yuksel:** Sure. So people is perhaps the easiest part, because we already talked about that. So what we want is the development and growth of our people. Our teams are not second class citizens compared to business commitments or deadlines and so on. So we want them to be prioritized and they need a specific leadership role for that.
 
-Obviously, we want to have wholesome teams. As our atomic unit is teams, so we want to grow healthy and happy teams, and we need to provide them vision, guidance and support they need. We also need to unlearn a lot of the traditional things and reflexes. So for example, we must have trust in people and we must provide room and psychological safety for people to thrive.
+Obviously, we want to have awesome teams. As our atomic unit is teams, so we want to grow healthy and happy teams, and we need to provide them vision, guidance and support they need. We also need to unlearn a lot of the traditional things and reflexes. So for example, we must have trust in people and we must provide room and psychological safety for people to thrive.
 
 **Ender Yuksel:** There is super shortly the people role, the people side of the triangle. 
 
@@ -233,13 +234,13 @@ Obviously, we want to have wholesome teams. As our atomic unit is teams, so we w
 
 **Ender Yuksel:** So that is one thing. Another thing is obviously, when you look at other companies or other organizations, how they solve line management, then you might see a lot of different examples. So one example is line manager per role. So manager for developers, manager for SCRUM masters, so on. 
 
-**Ender Yuksel:** Another example could be the location, could be geographical location, so manager for this city or this town and manager for the other. And it can also be levels, like manager and team level, managing in agile release train level. 
+**Ender Yuksel:** Another example could be the location, could be geographical location, so manager for this city or this town and manager for the other. And it can also be levels, like manager in team level, managing in agile release train level. 
 
 **Ender Yuksel:** So there were many examples, but this was what SimCorp decided, And we still keep this role. 
 
 **Ender Yuksel:** Where it is in the organization, it's also a good question. You asked me, it is both in team level, working with the teams, but also close to the upper management. And I think that there's a healthy balance in there. 
 
-**Ender Yuksel:** I also would like to say that this was not merely a problem of line management when SimCorp came up with the development manager role. It was also about, we needed agile leaders to meet the change and have a long term focus. So this is kind of how it is in the organization.
+**Ender Yuksel:** I also would like to say that this was not merely a problem of line management when SimCorp came up with the development manager role. It was also about, we needed agile leaders to lead the change and have a long term focus. So this is kind of how it is in the organization.
 
 
 ### What is the SCRUM Master role?
@@ -314,7 +315,4 @@ I've met some great managers over my life, my career, and sometimes they are so 
 
 **Ender Yuksel:** Thank you for having us.
 
-**Martin Lohmann:** Thank you, Bill, for having us. 
-
-
-
+**Martin Lohmann:** Thank you, Bill, for having us.
