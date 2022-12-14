@@ -12,7 +12,7 @@ guest-details:
   guest-links:
   - guest-link-label: Agile in Action Podcast
     guest-link-url: https://agileinaction.com
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/25099968
 
 ---
 We are taking the remainder of November off for the holidays and will return Tuesday, December 6, 2022.
