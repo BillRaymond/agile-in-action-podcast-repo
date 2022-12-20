@@ -36,54 +36,61 @@ Sharing relatable stories and solid examples, Jeff and @Bill Raymond cover the f
 ✅ Leadership advice to successfully implement OKRs
 
 ## Transcript
+(transcripts are auto-generated, so please excuse the brevity)
 
 ### Introducing the most listened-to podcast in 2022
 
-Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really excited to share this rebroadcast of our most listened-to podcast. It's called Introducing. Objectives and key results or OKRs with Jeff Gothelf. I hope you enjoy this podcast. And next week I will give you a little bit of an update on where things are going for 2023. Alright, let's start the podcast!
+**Bill Raymond:** Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really excited to share this rebroadcast of our most listened to podcast. It's called introducing. Objectives and key results or OKRs with Jeff Gothelf. I hope you enjoy this podcast. And next week I will give you a little bit of an update on where things are going for 2023. Alright let's start the podcast! 
+
 
 ### Topic introduction
 
-**audioBillRaymond21395309060:** Hi, this is Bill Raymond. I recently worked with a client that creates software for large enterprise customers. What their software is considered best in class. My clients struggled with customer satisfaction and adoption rates due to the steep learning curve to configuring their product.
+**BillRaymond:** Hi, this is bill Raymond. I recently worked with a client that creates software for large enterprise customers. What their software is considered best in class. My clients struggled with customer satisfaction and adoption rates due to the steep learning curve to configuring their product. 
 
-**audioBillRaymond21395309060:** I was tasked with an objective. To build video training material directly into the application. The purpose of the training material was to explain how to fill out a field how certain buttons worked And the purpose of various screens
+**BillRaymond:** I was tasked with an objective. To build video training material directly into the application. The purpose of the training material was to explain how to fill out a field how certain buttons worked And the purpose of various screens
 
-**audioBillRaymond21395309060:** Now i produce a lot of training materials so if you will please allow me to geek out for a moment
+**BillRaymond:** Now i produce a lot of training materials so if you will please allow me to geek out for a moment
 
-**audioBillRaymond21395309060:** To create a professional training video. You need to write a script record the exact steps on the screen. And perhaps even have a person on screen. Once that is complete. You must Polish the audio and the video, pass it through one or more review procedures. And potentially reshoot the content if it does not meet the expected standards
+**BillRaymond:** To create a professional training video. You need to write a script record the exact steps on the screen. And perhaps even have a person on screen. Once that is complete. You must Polish the audio and the video, pass it through one or more review procedures. And potentially reshoot the content if it does not meet the expected standards
 
-**audioBillRaymond21395309060:** Here's a little context. Have you ever taken a professional online training course? You may have noticed that each learning objective is a short six to 10 minute video. Believe it or not that six minute video probably took anywhere from four to 12 hours to produce
+**BillRaymond:** Here's a little context. Have you ever taken a professional online training course? You may have noticed that each learning objective is a short six to 10 minute video. Believe it or not that six minute video probably took anywhere from four to 12 hours to produce 
 
-**audioBillRaymond21395309060:** so now going back to my client, requesting training videos in their product. You can likely see my sense of concern. Imagine the software developers just adding a new field on a screen or creating a brand new screen or using new terminology. That means one or even dozens of videos would require a complete reshoot from beginning to end. Worse the software had different versions so then we would also have to link each one of these videos to various versions of the product
+**BillRaymond:** so now going back to my client, requesting training videos in their product. You can likely see my sense of concern. Imagine the software developers just adding a new field on a screen or creating a brand new screen or using new terminology. That means one or even dozens of videos would require a complete reshoot from beginning to end. Worse the software had different versions so then we would also have to link each one of these videos to various versions of the product
 
-**audioBillRaymond21395309060:** I went back to my client and asked them if we could change my objective. Rather than create training videos for the product. I would instead investigate ways to improve customer adoption after all. That's what they're trying to get after. And the training videos was just an idea, really. After a bit of negotiation i was given the freedom to work on that customer adoption problem
+**BillRaymond:** I went back to my client and asked them if we could change my objective. Rather than create training videos for the product. I would instead investigate ways to improve customer adoption after all. That's what they're trying to get after. And the training videos was just an idea, really. After a bit of negotiation i was given the freedom to work on that customer adoption problem 
 
-**audioBillRaymond21395309060:** so, what are some of the things that I did? Well, I interviewed both satisfied and dissatisfied customers to. Learn how the things were successful and how others were not. I attended the training classes that my client provides to their customers. And i talked to my clients employees to get their perspective as well
+**BillRaymond:** so, what are some of the things that I did? Well, I interviewed both satisfied and dissatisfied customers to. Learn how the things were successful and how others were not. I attended the training classes that my client provides to their customers. And i talked to my clients employees to get their perspective as well
 
-**audioBillRaymond21395309060:** What I learned through that process was that the client loved to get deep into the technical weeds of how the product worked and all the cool things that it could do.
+**BillRaymond:** What I learned through that process was that the client loved to get deep into the technical weeds of how the product worked and all the cool things that it could do. 
 
-**audioBillRaymond21395309060:** As you can imagine the successful customers were the ones that treated. Did the effort. Effort to implement. The software as a digital transformation. Effort. They brought in cross-functional teams. That no one understand their business and map that to how the product works.
+**BillRaymond:** As you can imagine the successful customers were the ones that treated. Did the effort. Effort to implement. The software as a digital transformation. Effort. They brought in cross-functional teams. That no one understand their business and map that to how the product works. 
 
-**audioBillRaymond21395309060:** The customers that we're struggling with adoption. We're trying to implement the technology. But we're getting a little lost in translating that to how it works with the business users.
+**BillRaymond:** The customers that we're struggling with adoption. We're trying to implement the technology. But we're getting a little lost in translating that to how it works with the business users. 
 
-**audioBillRaymond21395309060:** That insight alone gave us what we needed to build our first hypothesis, which is that the customer needed a roadmap. They needed a guide of some sort that explained the process that they need to go through in order to implement the software.
+**BillRaymond:** That insight alone gave us what we needed to build our first hypothesis, which is that the customer needed a roadmap. They needed a guide of some sort that explained the process that they need to go through in order to implement the software. 
 
-**audioBillRaymond21395309060:** So over the course of a few weeks, we built a high level version of this roadmap and shared it internally. And with some interested customers,
+**BillRaymond:** So over the course of a few weeks, we built a high level version of this roadmap and shared it internally. And with some interested customers, 
 
-**audioBillRaymond21395309060:** The feedback was absolutely amazing. And immediate people asked for a copy of the deck. People were asking us to help them with their projects. So we knew we were on to something.
+**BillRaymond:** The feedback was absolutely amazing. And immediate people asked for a copy of the deck. People were asking us to help them with their projects. So we knew we were on to something. 
 
-**audioBillRaymond21395309060:** We continue to iterating. Building a roadmap though is an end to end solution for how you implement the product successfully. Considering change management. The business user's perspective, the technical configuration person's perspective and operations as well. We also created training tracks that people could take so they could get certified in the product and that further helped us with adoption and customer satisfaction
 
-**audioBillRaymond21395309060:** that story brings me to today's conversation, which is around OKR is or objectives and key results. If you recall, my client gave me an objective to create training videos. So customers would know how to use their product. They told me what they needed, rather than just challenging me to define how to improve product adoption and customer satisfaction. By using OKR is you determine what you want to accomplish. Allowing your teams, the freedom to define how to accomplish it.
 
-**audioBillRaymond21395309060:** Today's guest is Jeff gut health. A prolific author and speaker Jeff shares his experience on the topic of OKR is, and agility. I really hope you enjoy this lively conversation as much as I did.
+**BillRaymond:** We continue to iterating. Building a roadmap though is an end to end solution for how you implement the product successfully. Considering change management. The business user's perspective, the technical configuration person's perspective and operations as well. We also created training tracks that people could take so they could get certified in the product and that further helped us with adoption and customer satisfaction
 
-**audioBillRaymond21395309060:** Let's get started
+**BillRaymond:** that story brings me to today's conversation, which is around OKR is or objectives and key results. If you recall, my client gave me an objective to create training videos. So customers would know how to use their product. They told me what they needed, rather than just challenging me to define how to improve product adoption and customer satisfaction. By using OKR is you determine what you want to accomplish. Allowing your teams, the freedom to define how to accomplish it.
+
+**BillRaymond:** Today's guest is Jeff gut health. A prolific author and speaker Jeff shares his experience on the topic of OKR is, and agility. I really hope you enjoy this lively conversation as much as I did. 
+
+**BillRaymond:** Let's get started
+
+
+
 
 ### Podcast
 
 **BillRaymond:** Hi and welcome to the podcast today. I'm joined by Jeff gut health author, consultant and speaker. Hi, Jeff. How are you?
 
-**JeffGothelf:** I'm doing great bill. Thanks so much for having me.
+**JeffGothelf:** I'm doing great bill. Thanks so much for having me. 
 
 **BillRaymond:** I'm looking forward to this conversation about objectives and key results before we get started. Could you introduce yourself a little bit?
 
@@ -93,13 +100,13 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** Lean UX. And then since then I've written a few other books, like sense and respond lean versus agile versus design thinking. And then most recently a book called forever employable. And these days I work with mostly large and mid-sized organizations, helping them build great products and then helping their executive teams build the cultures that build great products.
 
-**JeffGothelf:** And that really focuses on agility, customer centricity. And evidence-based decision-making.
+**JeffGothelf:** And that really focuses on agility, customer centricity. And evidence-based decision-making. 
 
 **BillRaymond:** Thank you very much and book, by the way. I did read your lean UX book. I'm not a designer, but I did want to catch up on what you wrote. And it was a great.
 
-**JeffGothelf:** Thank you. And the cool thing about that is that it's been the, book's been effort decade at this point. And Josh and I recently got to release the third edition. So it's actually been very recently within the last 12 months, rewritten for the 2020s, if you will, and super proud of that book and the fact that it's the longevity that it's had in the impact.
+**JeffGothelf:** Thank you. And the cool thing about that is that it's been the, book's been effort decade at this point. And Josh and I recently got to release the third edition. So it's actually been very recently within the last 12 months, rewritten for the 2020s, if you will, and super proud of that book and the fact that it's the longevity that it's had in the impact. 
 
-**audioBillRaymond21395309060:** That is such an accomplishment. Congratulations. You've done a lot to progress this concept of agility in organizations. You also talk about the importance of okr is or objectives and key results let's start with the basics can you share how you define okay R's.
+**audioBillRaymond21395309060:** That is such an accomplishment. Congratulations. You've done a lot to progress this concept of agility in organizations. You also talk about the importance of okr is or objectives and key results let's start with the basics can you share how you define okay R's. 
 
 **JeffGothelf:** Absolutely. So it's a way it's an, is a way to set goals. I almost said it's a new way to set goals. It's not new. That would have been a lie. It actually this idea has been around for 40 years. It's just that it's having its moment in the sun Right. now for a variety of reasons. Some of which are some of the biggest.
 
@@ -131,21 +138,21 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** We're going to build a mobile app this year, right? Those are features, right? Those are things. Those are actual things that you're going to make for this target audience, because you expect that to be helpful to them, but you've removed the measurement of helpful from that, right?
 
-**JeffGothelf:** The measure of success when you've got output. In your key results is deploying the thing, deploying the mobile app, deploying the seven step onboarding process. Did it make vendors more successful? Did it reduce vendor onboarding time? Did it increase completion rates on first attempt? You don't know, and you don't care because it's not in there, Right, it's not your measure of success. The measure of success is binary ship. The thing, celebrate it. Move onto the next.
+**JeffGothelf:** The measure of success when you've got output. In your key results is deploying the thing, deploying the mobile app, deploying the seven step onboarding process. Did it make vendors more successful? Did it reduce vendor onboarding time? Did it increase completion rates on first attempt? You don't know, and you don't care because it's not in there, Right, it's not your measure of success. The measure of success is binary ship. The thing, celebrate it. Move onto the next. 
 
 **BillRaymond:** Okay. I think I get that. So basically what we're doing is setting these okay. Ours to set a direction with some measures of success, without necessarily telling people how they're going to do it. And the people that are closer to the ground and know how to accomplish that.
 
 **BillRaymond:** find there their ways to meet those. Okay. Ours. Is that what you're saying?
 
-**JeffGothelf:** That's exactly right. And this is where things get. Interesting.
+**JeffGothelf:** That's exactly right. And this is where things get. Interesting. 
 
 **JeffGothelf:** Because leadership is very used to telling teams what to do. Go build this thing, deploy the mobile app, deploy seven step onboarding, teams are used to receiving that direction. That very prescriptive, requirement.
 
 **JeffGothelf:** That's the word I was looking for. Requirement from leadership. If done correctly, we take that conversation out of the goal setting work that the teams are doing. And it becomes a really interesting next step because the teams now have, Hey, I want to be, I want them, I'm building the most vendor friendly system and I'm trying to reduce onboarding time by 50%.
 
-**JeffGothelf:** Cool. What should we build? No one told me. And it becomes really interesting, right? Because it teams are not used to not having that direction. And so then they, there, there is more work for them to do to then hypothesize how they might achieve the behavior change that they seek those key results.
+**JeffGothelf:** Cool. What should we build? No one told me. And it becomes really interesting, right? Because it teams are not used to not having that direction. And so then they, there, there is more work for them to do to then hypothesize how they might achieve the behavior change that they seek those key results. 
 
-**audioBillRaymond21395309060:** Um, it sounds like there are two pieces to that. First. I can see how an OTR might feel a little ambiguous, but I suppose I can work within the confines. I. I hesitate to use the word confined, but the confines of our team to figure out how to accomplish that objective. Then the second is understanding how that OKR came to be in the first place.
+**audioBillRaymond21395309060:** Um, it sounds like there are two pieces to that. First. I can see how an OTR might feel a little ambiguous, but I suppose I can work within the confines. I. I hesitate to use the word confined, but the confines of our team to figure out how to accomplish that objective. Then the second is understanding how that OKR came to be in the first place. 
 
 **audioBillRaymond21395309060:** Where does the OKR process startup? What level of the organization does the okr get defined
 
@@ -165,15 +172,15 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** right? Not at the individual level, but at the team level, they communicate them up and then leadership approves them and they say, yes, that makes sense, strategically.
 
-**JeffGothelf:** your key result is ambitious enough. So we're going to approve that goal, go forth and figure out to do that. so that's the process that works best. And it's it. the one that empowers the team's most effective.
+**JeffGothelf:** your key result is ambitious enough. So we're going to approve that goal, go forth and figure out to do that. so that's the process that works best. And it's it. the one that empowers the team's most effective. 
 
-**audioBillRaymond21395309060:** So the OKR as a team defines might look different than a corporate OKR, but they are still attempting to meet the same common objective.
+**audioBillRaymond21395309060:** So the OKR as a team defines might look different than a corporate OKR, but they are still attempting to meet the same common objective. 
 
 **JeffGothelf:** Yeah.
 
-**JeffGothelf:** Let's use an example. Let's
+**JeffGothelf:** Let's use an example. Let's 
 
-**BillRaymond:** Yeah.
+**BillRaymond:** Yeah. 
 
 **JeffGothelf:** right. So we're carrying this context of vendor onboarding, vendor management onboarding, so you've got sort of a business unit or a product level, or even a corporate level goal to become the most vendor friendly vendor management system in financial services.
 
@@ -183,7 +190,7 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** So we're supporting the goal in that sense as well. So that's the kind of work that I would expect to see at the team level, setting a goal that is within their sphere of influence. And that functions as a leading indicator of the corporate goal.
 
-**BillRaymond:** so then from that comes a number of problems to solve, to address those. And then you start putting those onto your roadmap to start building that capability.
+**BillRaymond:** so then from that comes a number of problems to solve, to address those. And then you start putting those onto your roadmap to start building that capability. 
 
 **JeffGothelf:** yeah. And it becomes really interesting, because what we've, what we're explicitly. And it becomes very obvious for teams who are doing OTRs for the first time Is that we are not sure we're not a hundred percent certain what.
 
@@ -197,11 +204,11 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** Now, remember the measure of success for us is not, did we successfully deploy the idea in the hypothesis? Our measure of success? Our new goal is did we change customer behavior? Did we reduce password reset requests by 90%? If we didn't. Then whatever we came up with didn't work, no matter how much we love it, no matter how great we thought it would be, no matter how brilliant the idea was, if it did not reduce password reset requests by 90%, which is our success criteria, then we have to pivot or kill that idea and move on to something else.
 
-**JeffGothelf:** And that is a difficult concept for a lot of teams to grasp.
+**JeffGothelf:** And that is a difficult concept for a lot of teams to grasp. 
 
-**BillRaymond:** I can absolutely see that because, usually, if someone says, Hey, how are we doing on this objective? What they really mean is how are you doing right now, writing that mobile app that we really want, even though we didn't say it
+**BillRaymond:** I can absolutely see that because, usually, if someone says, Hey, how are we doing on this objective? What they really mean is how are you doing right now, writing that mobile app that we really want, even though we didn't say it 
 
-**JeffGothelf:** Exactly.
+**JeffGothelf:** Exactly. 
 
 **BillRaymond:** get out of that kind of conversation has to be a fairly difficult one.
 
@@ -211,17 +218,17 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** I think even to this day, it's been a while since I've checked their site, they've morphed a little bit, but when I worked there, it was a job board for people who made a hundred thousand dollars or more. And the employers looking to hire them, basically a matchmaking service, like a dating site, but for executive jobs, we put together a team and this w and one of the things that we're trying to create is these serendipitous connections between employers and job seekers the executive level. We recognize the problem in our system. The problem was that the job seeker response rate, which is the PR the number of times that a job seeker, the percentage that a job seeker responds to an employer communication in our system was 14%, which is a abysmal, right?
 
-**JeffGothelf:** You've got two parties trying to find each other, both paying to be in the system. And when one party reaches out to the other. 14% of the time they get a response,
+**JeffGothelf:** You've got two parties trying to find each other, both paying to be in the system. And when one party reaches out to the other. 14% of the time they get a response, 
 
 **JeffGothelf:** Which means 86% of the time they're getting nothing back. That's bad. That's a bad user experience. That's a bad value proposition and we're going to lose customers.
 
-**JeffGothelf:** We're going to churn and we're going to have to really figure that out. So we put together a team and we said, your job is to increase job-seeker response rate from 14% to 75. Okay. Why 75%, because it's way more than 14, really. And a hundred percent is impossible,
+**JeffGothelf:** We're going to churn and we're going to have to really figure that out. So we put together a team and we said, your job is to increase job-seeker response rate from 14% to 75. Okay. Why 75%, because it's way more than 14, really. And a hundred percent is impossible, 
 
-**BillRaymond:** also I'm thinking that's what the customers expect.
+**BillRaymond:** also I'm thinking that's what the customers expect. 
 
 **JeffGothelf:** well. Exactly. Three out of four times, I want to hear something. And that was the mission. Like the objective was create the most successful communication system between job seekers and employers. And we had just one job seeker response rate from 14% to 75%. That's where it needs to go.
 
-**JeffGothelf:** And that's it. So the team began hypothesizing, how might we do this? One idea that we came up with was literally two on a monthly basis or a weekly basis to pull the data from the system for all the job seekers who got notes from employers and didn't respond and to have our call center calls. That was a hypothesis, to your point earlier. And that, would have worked right? Except it wasn't scalable.
+**JeffGothelf:** And that's it. So the team began hypothesizing, how might we do this? One idea that we came up with was literally two on a monthly basis or a weekly basis to pull the data from the system for all the job seekers who got notes from employers and didn't respond and to have our call center calls. That was a hypothesis, to your point earlier. And that, would have worked right? Except it wasn't scalable. 
 
 **JeffGothelf:** It was a solution. It just wasn't cost efficient. It was something that we could do. We could get that data on a regular basis, but that the task, the call center was making those calls on a regular basis would have murdered their own.
 
@@ -231,7 +238,7 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** Correct, because remember we were not on the hook for notifications or message reminders or calls from the customer service center, were on the hook for job seeker response rate. Our job was simply to get this population to talk to this population more consistently, right?
 
-**JeffGothelf:** That's what we were on the hook for. not any particular feature set.
+**JeffGothelf:** That's what we were on the hook for. not any particular feature set. 
 
 **BillRaymond:** Yeah that's a great example. I really appreciate that. That kind of brings it all home for what we're talking about now, I am curious, and you and I had a little side conversation on this prior to this podcast and our first conversation, one of the questions I asked was can you use OKR is for performance reviews, and I think you have some thoughts on that.
 
@@ -243,13 +250,13 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** In this case, we're just going to under promise and hit them. Because if my, if my bonus or my promotion or my review score is contingent upon me hitting a specific metric, I'm going to make sure I set a metric for myself. I know I can hit. And what happens there is creativity. Doesn't get pushed.
 
-**JeffGothelf:** Innovation gets stifled. People take the safe road. They take a path that guarantees. Success. And at that point again you're losing one of the major benefits of shifting to OKR, which is that creativity, which is that innovation is that hypothesizing that experimentation in that learning people simply are not going to take any risks. If they know that their bonus hangs in the balance.
+**JeffGothelf:** Innovation gets stifled. People take the safe road. They take a path that guarantees. Success. And at that point again you're losing one of the major benefits of shifting to OKR, which is that creativity, which is that innovation is that hypothesizing that experimentation in that learning people simply are not going to take any risks. If they know that their bonus hangs in the balance. 
 
-**BillRaymond:** that makes sense. much rather over deliver and then seem a bigger bonus.
+**BillRaymond:** that makes sense. much rather over deliver and then seem a bigger bonus. 
 
-**JeffGothelf:** Absolutely.
+**JeffGothelf:** Absolutely. 
 
-**audioBillRaymond21395309060:** I'm actually learning a lot just through this conversation because okay. Ours are fairly new to me. I'm still reading up on them and learning about them.
+**audioBillRaymond21395309060:** I'm actually learning a lot just through this conversation because okay. Ours are fairly new to me. I'm still reading up on them and learning about them. 
 
 **audioBillRaymond21395309060:** So i'm still taking in how an okr should remain aspirational keeping it rates and ratios not tacking on those extra tasks to the end
 
@@ -265,13 +272,13 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** If you don't talk to them, they're going to expect you to deliver all 10 things that you committed to, even though you call them hypotheses. But if you're consistently communicating back out to the stakeholders, here's what we're doing. Here's what we're learning. Here's what we're changing based on that learning, at the very least there's there is that clear line of communication and they have an opportunity to raise their hand and say, okay let's talk about that because I'm not sure you're interpreting that data correctly, or that's really strategically important. How might we figure out a way to do that?
 
-**JeffGothelf:** Maybe that's not the way, but something else. So there's a, there's an extra level of effort here that you have to put in to make this work.
+**JeffGothelf:** Maybe that's not the way, but something else. So there's a, there's an extra level of effort here that you have to put in to make this work. 
 
-**BillRaymond:** Yeah, that's good insight. Thank you. And then I am curious frequently might you change the OKR is because I have to imagine, after you hit the. 50% onboarding that, reducing the number of password resets by 90%. There's there we move on and we work on the next
+**BillRaymond:** Yeah, that's good insight. Thank you. And then I am curious frequently might you change the OKR is because I have to imagine, after you hit the. 50% onboarding that, reducing the number of password resets by 90%. There's there we move on and we work on the next 
 
-**JeffGothelf:** Yeah.
+**JeffGothelf:** Yeah. 
 
-**BillRaymond:** is how frequently do we update or create new
+**BillRaymond:** is how frequently do we update or create new 
 
 **BillRaymond:** okay. Ours.
 
@@ -287,11 +294,11 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **JeffGothelf:** With stakeholders expecting a 90% decrease in password resets and saying, I got 3%. That shouldn't be a surprise to anybody. So we're not those aren't backwards looking meetings. They're forward looking needs. We've got all this evidence. What do you think we should do for the next quarter?
 
-**JeffGothelf:** Now I want to answer the question that inevitably comes up when we talk about cycle times and check-ins, and that type of things we talk about years, we talk about quarters. It's how most organizations work and typically that's enough time, but it's not true for every industry. Pharmaceuticals government digital health aerospace, right cycle times are longer in, in other industries. Industrial manufacturing, things like that. Okay. Totally get that. So your check-in on your OKR is, should be. A shorter timeframe than you're using today. Right. Like, Whatever it is, cut it in half.
+**JeffGothelf:** Now I want to answer the question that inevitably comes up when we talk about cycle times and check-ins, and that type of things we talk about years, we talk about quarters. It's how most organizations work and typically that's enough time, but it's not true for every industry. Pharmaceuticals government digital health aerospace, right cycle times are longer in, in other industries. Industrial manufacturing, things like that. Okay. Totally get that. So your check-in on your OKR is, should be. A shorter timeframe than you're using today. Right. Like, Whatever it is, cut it in half. 
 
 **JeffGothelf:** So if if your planning cycle is a two year cycle, I would expect you to be checking in every six months on your okay. Ours. Try that. And again, like everything agile. We don't have to live with this stuff forever. If we do a six month check-in and realistically speaking, we cannot collect enough data because of the product that we make, the number of the type of customers that we have, whatever it is to make a solid decision about our own carriers.
 
-**JeffGothelf:** Okay. We lived with that for one cycle. We're going to extend our check-in cycle to 12 months or nine months, whatever it is. So you find that balance through experimentation with the process itself, whatever you're doing now, Just cut it in half and then start there.
+**JeffGothelf:** Okay. We lived with that for one cycle. We're going to extend our check-in cycle to 12 months or nine months, whatever it is. So you find that balance through experimentation with the process itself, whatever you're doing now, Just cut it in half and then start there. 
 
 **BillRaymond:** That's excellent advice. I like that. Start trying to live in that world and then see how it works and your culture, the business you're in, it could all be different than you could have a different way of approaching it. But you're keeping some of those basic concepts that you outlined in place where you're defining.
 
@@ -299,16 +306,17 @@ Hi, this is Bill Raymond. Today is Tuesday, December 20th, 2022. I'm really exci
 
 **BillRaymond:** And if there are concerns and you're not meeting them, it's not like this is things can change. It's okay. And that's, I think all about what we're talking about. When we talk about agility, I've really loved this conversation today thank you for your time, Jeff.
 
-**JeffGothelf:** It's been my pleasure bill. This is really fun. Thanks for having me.
+**JeffGothelf:** It's been my pleasure bill. This is really fun. Thanks for having me. 
 
-**BillRaymond:** Yeah. Yeah. And before we go, is it okay if anyone reaches out.
+**BillRaymond:** Yeah. Yeah. And before we go, is it okay if anyone reaches out. 
 
-**JeffGothelf:** I would look forward to it.
+**JeffGothelf:** I would look forward to it. 
 
 **BillRaymond:** How might people want.
 
-**JeffGothelf:** Super easy. Jeff gothelf.com is a great way to find me, to reach me, to sign up for my newsletter or read the blog posts or just reach out and then connect with me on LinkedIn. I'd love to see you there as well.
+**JeffGothelf:** Super easy. Jeff gothelf.com is a great way to find me, to reach me, to sign up for my newsletter or read the blog posts or just reach out and then connect with me on LinkedIn. I'd love to see you there as well. 
 
-**audioBillRaymond21395309060:** Wonderful. We'll provide the link to your books, your website, and your LinkedIn profile on the agile and action.com website. Just look up this podcast with Jeff gut health on. Okay, ours. Ours. Of course if you're listening to this in a podcast app right now just go ahead and scroll down to the show notes the description and you will see the links there as well Thank you very much for your time today jeff
+**audioBillRaymond21395309060:** Wonderful. We'll provide the link to your books, your website, and your LinkedIn profile on the agile and action.com website. Just look up this podcast with Jeff gut health on. Okay, ours. Ours. Of course if you're listening to this in a podcast app right now just go ahead and scroll down to the show notes the description and you will see the links there as well Thank you very much for your time today jeff 
 
-**JeffGothelf:** My pleasure bill.
+**JeffGothelf:** My pleasure bill. 
+
