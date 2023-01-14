@@ -1,22 +1,22 @@
-on:
-  push:
-    branches:
-      - main # trigger on push on branch 'main'
-  schedule:
-    - cron:  '30 7 * * *' # trigger every day at 00:30
-  workflow_dispatch: # trigger workflow manually
-name: publish on push and schedule
+# on:
+#   push:
+#     branches:
+#       - main # trigger on push on branch 'main'
+#   schedule:
+#     - cron:  '30 7 * * *' # trigger every day at 00:30
+#   workflow_dispatch: # trigger workflow manually
+# name: publish on push and schedule
 
-jobs:
+# jobs:
 
-  build:
-    name: generate and push
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3 # pull the code
-        with:
-          ref: main
-      - uses: ./ # runs Dockerfile, which calls entrypoint.sh
-        env:
-          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-podcast-website # target repository to push the created site
-          GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }} # personal access token of the source repository
+#   build:
+#     name: generate and push
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3 # pull the code
+#         with:
+#           ref: main
+#       - uses: ./ # runs Dockerfile, which calls entrypoint.sh
+#         env:
+#           USER_SITE_REPOSITORY: BillRaymond/agile-in-action-podcast-website # target repository to push the created site
+#           GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }} # personal access token of the source repository
